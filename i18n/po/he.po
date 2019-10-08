@@ -258,7 +258,7 @@ msgid "Do it later"
 msgstr "בצע לאחר מכן"
 
 #: www/views/tab-settings.html:142
-msgid "Donate to Canoe"
+msgid "Donate to Bitcoin Black"
 msgstr "תרום/תרמי ל Canoe "
 
 #: www/views/tab-export-file.html:28 www/views/tab-home.html:36
@@ -1789,7 +1789,7 @@ msgid "delete"
 msgstr ""
 
 #: www/views/changeBackend.html:15
-msgid "getcanoe.io"
+msgid "bitcoin.black"
 msgstr ""
 
 #: www/views/onboarding/tour.html:100

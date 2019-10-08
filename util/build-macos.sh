@@ -18,9 +18,9 @@ fi
 # set up your app name, architecture, and background image file name
 APP_NAME="BCB Wallet"
 rm dmg-background.tiff
-ln -s ../resources/canoe/mac/dmg-background.tiff dmg-background.tiff
+ln -s ../resources/bcb/mac/dmg-background.tiff dmg-background.tiff
 rm volume-icon.icns
-ln -s ../resources/canoe/mac/volume-icon.icns volume-icon.icns
+ln -s ../resources/bcb/mac/volume-icon.icns volume-icon.icns
 DMG_VOLUME_ICON="volume-icon.icns"
 DMG_BACKGROUND_IMG="dmg-background.tiff"
 

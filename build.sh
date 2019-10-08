@@ -1,13 +1,13 @@
 # Builds and uploads Canoe
 
-DESTINATION=website@getcanoe.io:/var/www/files/
+DESTINATION=website@bitcoin.black:/var/www/files/
 
 
 # Find version
 VER=$(node -p -e "require('./package.json').version")
 
 # Put it into various places
-sed -i -E "s/(X-Canoe-BuildId=)[.0-9]*(.*)/\1$VER\2/" resources/canoe/linux/canoe.desktop
+sed -i -E "s/(X-Canoe-BuildId=)[.0-9]*(.*)/\1$VER\2/" resources/bcb/linux/bcb.desktop
 
 # Defaults
 RELEASE=
@@ -59,11 +59,11 @@ then
   then
     # This builds Android and signs and everything to a proper apk.
     npm run final:android
-    cp ../platforms/android/app/build/outputs/apk/release/app-release-signed-aligned.apk $VER/canoe-android-$VER.apk
+    cp ../platforms/android/app/build/outputs/apk/release/app-release-signed-aligned.apk $VER/bcb-android-$VER.apk
   else
     # Debug build without proper signing
     npm run debug:android
-    cp ../platforms/android/app/build/outputs/apk/debug/app-debug.apk $VER/canoe-android-$VER-debug.apk
+    cp ../platforms/android/app/build/outputs/apk/debug/app-debug.apk $VER/bcb-android-$VER-debug.apk
   fi
 fi
 
@@ -76,11 +76,11 @@ then
 fi
 
 # Move files into $VER
-mv -f canoe-*-$VER*.* $VER/
+mv -f bcb-*-$VER*.* $VER/
 
 # Make sha256sum checksums
 cd $VER
-sha256sum canoe-*-$VER*.* > checksums.txt
+sha256sum bcb-*-$VER*.* > checksums.txt
 cd ..
 
 # Upload all built files, signatures and checksums

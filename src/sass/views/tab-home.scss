@@ -17,6 +17,10 @@
       animation: showhidespin 4s linear infinite;
     }
   }
+  
+  ion-content {
+    background-color: black;
+  }
 
   @keyframes showhide {
     0% { opacity: 1 }
@@ -140,7 +144,7 @@
   }
   .tab-home {
     &__logo {
-      height: 30px;
+      height: 40px;
       position: relative;
       top: 6px;
     }

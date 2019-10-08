@@ -12,7 +12,7 @@ $v-bitcoin-orange:                                   #ff9900 !default;
 $v-dark-gray:                                        #445 !default;
 $v-mid-gray:                                         #667 !default;
 $v-light-gray:                                       #9b9bab !default;
-$v-subtle-gray:                                      darken(#ffffff, 5%) !default;
+$v-subtle-gray:                                      darken(#ffffff, 0%) !default;
 
 $v-primary-color:                                  #000000 !default;
 $v-secondary-color:                                    #0ACA52 !default;
@@ -23,7 +23,7 @@ $canoe-light-blue: #20bffb;
 $canoe-green: #19d69c;
 $canoe-dark: #565c5e;
 
-$v-text-primary-color:                               #123238 !default;
+$v-text-primary-color:                               #000000 !default;
 $v-text-secondary-color:                             rgba(0,0,0,.56) !default;
 $v-text-accent-color:                                #647ce8 !default;
 
@@ -40,7 +40,7 @@ $v-wallet-color-map: (
    5: (color: #29bb9c, name: 'Shamrock'),
    6: (color: #019477, name: 'Observatory'),
    7: (color: #77dada, name: 'Turquoise Blue'),
-   8: (color: #123238, name: 'Cornflower Blue'),
+   8: (color: #000000, name: 'Cornflower Blue'),
    9: (color: #484ed3, name: 'Free Speech Blue'),
   10: (color: #9b59b6, name: 'Deep Lilac'),
   11: (color: #e856ef, name: 'Free Speech Magenta'),

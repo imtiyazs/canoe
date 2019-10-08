@@ -110,12 +110,14 @@
         padding-bottom: .65rem;
       }
       &.item-divider {
-        color: $v-mid-gray;
+        background-color: black;
+        color: white;
+        // color: $v-mid-gray;
         padding-bottom: .5rem;
         font-size: .9rem;
       }
       .icon {
-        color: $v-light-gray;
+        color: black;
       }
       &.disabled{
         color: $v-light-gray;

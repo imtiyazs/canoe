@@ -260,7 +260,7 @@ msgid "Do it later"
 msgstr "Fallo dopo"
 
 #: www/views/tab-settings.html:142
-msgid "Donate to Canoe"
+msgid "Donate to Bitcoin Black"
 msgstr "Donazione a Canoe"
 
 #: www/views/tab-export-file.html:28 www/views/tab-home.html:36
@@ -1805,8 +1805,8 @@ msgid "delete"
 msgstr "cancella"
 
 #: www/views/changeBackend.html:15
-msgid "getcanoe.io"
-msgstr "getcanoe.io"
+msgid "bitcoin.black"
+msgstr "bitcoin.black"
 
 #: www/views/onboarding/tour.html:100
 msgid "Confirm Password"

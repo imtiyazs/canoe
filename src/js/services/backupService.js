@@ -66,7 +66,7 @@ angular.module('canoeApp.services')
     root.walletDownload = function (password, opts, cb) {
       var ew = root.walletExport(password, opts)
       if (!ew) return cb('Could not create backup')
-      var filename = 'canoe-exported-wallet.json'
+      var filename = 'bcb-exported-wallet.json'
       _download(ew, filename, cb)
     }
     return root

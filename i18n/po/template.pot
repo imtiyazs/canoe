@@ -470,7 +470,7 @@ msgid "Don't see your language? Sign up on POEditor! We'd love to support your l
 msgstr ""
 
 #: www/views/tab-settings.html:142
-msgid "Donate to Canoe"
+msgid "Donate to Bitcoin Black"
 msgstr ""
 
 #: www/views/tab-export-file.html:28
@@ -1996,7 +1996,7 @@ msgid "delete"
 msgstr ""
 
 #: www/views/changeBackend.html:15
-msgid "getcanoe.io"
+msgid "bitcoin.black"
 msgstr ""
 
 #: www/views/addressbook.add.html:33
