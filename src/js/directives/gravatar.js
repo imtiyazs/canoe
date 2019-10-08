@@ -16,6 +16,6 @@ angular.module('canoeApp.directives')
           scope.emailHash = md5.createHash(scope.email.toLowerCase() || '');
         }
       },
-      template: '<img class="gravatar" alt="{{ name }}" height="{{ height }}"  width="{{ width }}" src="img/bcb_logo.png">'
+      template: '<img class="gravatar" alt="{{ name }}" height="{{ height }}"  width="{{ width }}" src="img/app/icon.png">'
     };
   });

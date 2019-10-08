@@ -10,10 +10,10 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     exec: {
       splashicon: {
-        command: 'cordova-splash && cordova-icon && rm -rf resources/canoe/android/splash && mv platforms/android/res resources/canoe/android/splash'
+        command: 'cordova-splash && cordova-icon && rm -rf resources/bcb/android/splash && mv platforms/android/res resources/bcb/android/splash'
       },
       desktopLinux: {
-        command: 'sed s/VERSION/<%= pkg.version %>/g < resources/canoe/linux/canoe.desktop > build/canoe/canoe.desktop'
+        command: 'sed s/VERSION/<%= pkg.version %>/g < resources/bcb/linux/canoe.desktop > build/canoe/canoe.desktop'
       },
       appConfig: {
         command: 'node ./util/buildAppConfig.js'
@@ -79,7 +79,7 @@ module.exports = function (grunt) {
         cmd: 'cd build/canoe && mv win32 canoe-win32-<%= pkg.version %> && rm -f ../canoe-win32-<%= pkg.version %>.zip && zip -r --symlinks ../canoe-win32-<%= pkg.version %>.zip canoe-win32-<%= pkg.version %>/'
       },
       appimage: {
-        cmd: 'cd build/canoe && cp -a ../../resources/canoe/linux/AppRun canoe-linux64-<%= pkg.version %>/ && ARCH=x86_64 appimagetool canoe-linux64-<%= pkg.version %> && mv Canoe-x86_64.AppImage ../canoe-linux64-<%= pkg.version %>.AppImage'
+        cmd: 'cd build/canoe && cp -a ../../resources/bcb/linux/AppRun canoe-linux64-<%= pkg.version %>/ && ARCH=x86_64 appimagetool canoe-linux64-<%= pkg.version %> && mv Canoe-x86_64.AppImage ../canoe-linux64-<%= pkg.version %>.AppImage'
       },
       desktopsign: {
         cmd: 'gpg -u E7ADC266 --output build/canoe-linux64-<%= pkg.version %>.zip.sig --detach-sig build/canoe-linux64-<%= pkg.version %>.zip ; gpg -u E7ADC266 --output build/canoe-linux64-<%= pkg.version %>.AppImage.sig --detach-sig build/canoe-linux64-<%= pkg.version %>.AppImage ;gpg -u E7ADC266 --output build/canoe-win64-<%= pkg.version %>.zip.sig --detach-sig build/canoe-win64-<%= pkg.version %>.zip ; gpg -u E7ADC266 --output build/canoe-win32-<%= pkg.version %>.zip.sig --detach-sig build/canoe-win32-<%= pkg.version %>.zip ; gpg -u E7ADC266 --output build/canoe-osx64-<%= pkg.version %>.zip.sig --detach-sig build/canoe-osx64-<%= pkg.version %>.zip'
@@ -240,7 +240,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: 'build/',
-          src: ['../resources/canoe/linux/canoe.desktop', '../www/img/bcb.ico', '../resources/canoe/linux/canoe.png'],
+          src: ['../resources/bcb/linux/canoe.desktop', '../www/img/bcb.ico', '../resources/bcb/linux/canoe.png'],
           dest: 'build/canoe/linux64/',
           flatten: true,
           filter: 'isFile'
@@ -293,8 +293,8 @@ module.exports = function (grunt) {
       options: {
         basepath: '.',
         title: '<%= pkg.version %>',
-        icon: 'resources/canoe/mac/volume-icon.icns',
-        background: 'resources/canoe/mac/dmg-background.tiff', // png?
+        icon: 'resources/bcb/mac/volume-icon.icns',
+        background: 'resources/bcb/mac/dmg-background.tiff', // png?
         contents: [
           { x: 378, y: 154, type: 'link', path: '/Applications' },
           { x: 122, y: 154, type: 'file', path: 'build/canoe/canoe-osx64-<%= pkg.version %>/canoe.app' }

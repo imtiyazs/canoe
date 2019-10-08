@@ -13,12 +13,12 @@
     <div class="row text-center top-tabs">
       <div class="col" ng-click="phrase = true; file = hardware = false" ng-style="phrase &&
         {'border-bottom-style': 'solid'}">
-        <span translate>Wallet Seed</span>
+        <span translate>Import using Wallet Seed</span>
       </div>
-      <div class="col" ng-click="file = true; phrase = hardware = false" ng-style="file &&
+      <!-- <div class="col" ng-click="file = true; phrase = hardware = false" ng-style="file &&
         {'border-bottom-style': 'solid'}">
         <span translate>Wallet File</span>
-      </div>
+      </div> -->
     </div>
 
     <div ng-include="'views/tab-import-phrase.html'" ng-if="phrase"></div>

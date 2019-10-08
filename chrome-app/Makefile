@@ -1,6 +1,6 @@
 # Configs
 BUILDDIR=build
-ZIPFILE=canoe-chrome-extension.zip
+ZIPFILE=bcb-chrome-extension.zip
 
 INCLUDE=$(shell cat ./include)
 INITIAL=./initial.js
@@ -23,4 +23,4 @@ $(ZIPFILE): dir files
 	cd $(BUILDDIR)
 	rm -f $(ZIPFILE)
 	zip -qr $(ZIPFILE) "`basename $(BUILDDIR)`"
-	@echo "** The Chrome Extension is ready at canoe-chrome-extension.zip"
+	@echo "** The Chrome Extension is ready at bcb-chrome-extension.zip"
