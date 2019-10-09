@@ -4425,8 +4425,8 @@ a.subdued {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   border-color: #b2b2b2;
-  background-color: #f8f8f8;
-  background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
+  background-color: #fff;
+/*  background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%); */
   color: #444;
   position: absolute;
   bottom: 0;
