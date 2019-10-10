@@ -7,7 +7,7 @@ angular.module('canoeApp.services')
     // This config is controlled over retained MQTT
     root.sharedconfig = {
       defaultRepresentative: null,
-      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://bitcoin.black' }
+      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://mobile.bitcoinblack.info' }
       stateblocks: {
         enable: true
       }
@@ -26,9 +26,8 @@ angular.module('canoeApp.services')
     root.wallet = null
 
     // Default server
-    // var host = 'https://bitcoin.black/rpc'
-    var host = 'http://134.209.31.161:35000/'
-    var mqttHost = 'bitcoin.black'
+    var host = 'https://mobile.bitcoinblack.info/rpc'
+    var mqttHost = 'mobile.bitcoinblack.info'
 
     var rai = null
 
@@ -87,7 +86,7 @@ angular.module('canoeApp.services')
       root.connectNetwork(function () {
         popupService.showAlert(gettextCatalog.getString('Information'), gettextCatalog.getString('Successfully connected to backend'))
         // Now we save it also in config
-        configService.set({backend: url}, function (err) {
+        configService.set({ backend: url }, function (err) {
           if (err) $log.debug(err)
         })
         $ionicHistory.removeBackView()
@@ -126,7 +125,7 @@ angular.module('canoeApp.services')
             if (work && root.wallet) {
               root.wallet.addWorkToPrecalc(accAndHash.account, accAndHash.hash, work)
               $rootScope.$emit('work', root.wallet.getPoW())
-              root.saveWallet(root.wallet, function () {})
+              root.saveWallet(root.wallet, function () { })
             }
             setTimeout(generatePoW, 1000)
           })
@@ -140,7 +139,7 @@ angular.module('canoeApp.services')
           if (work && root.wallet) {
             root.wallet.addWorkToPendingBlock(hash, work)
             $rootScope.$emit('work', root.wallet.getPoW())
-            root.saveWallet(root.wallet, function () {})
+            root.saveWallet(root.wallet, function () { })
           }
           setTimeout(generatePoW, 1000)
         })
@@ -233,7 +232,7 @@ angular.module('canoeApp.services')
         }
       })
       if (dirty) {
-        root.saveWallet(root.wallet, function () {})
+        root.saveWallet(root.wallet, function () { })
       }
     }
 
@@ -295,7 +294,7 @@ angular.module('canoeApp.services')
         root.wallet.clearReadyBlocks()
         root.wallet.enableBroadcast(true) // Turn back on
         root.fetchPendingBlocks()
-        root.saveWallet(root.wallet, function () {})
+        root.saveWallet(root.wallet, function () { })
       }
     }
 
@@ -324,7 +323,7 @@ angular.module('canoeApp.services')
         var lastBlock = currentBlocks[currentBlocks.length - 1]
         // Are the last hashes the same
         if (lastHash && lastBlock)
-        var ourLastHash = currentBlocks.pop().hash
+          var ourLastHash = currentBlocks.pop().hash
         if (lastHash === ourLastHash) {
           return
         }
@@ -393,7 +392,7 @@ angular.module('canoeApp.services')
 
       wallet.enableBroadcast(true) // Turn back on
       root.fetchPendingBlocks()
-      root.saveWallet(wallet, function () {})
+      root.saveWallet(wallet, function () { })
     }
 
     function resetChain (wallet, account) {
@@ -401,7 +400,7 @@ angular.module('canoeApp.services')
       resetChainInternal(wallet, account)
       wallet.enableBroadcast(true) // Turn back on
       root.fetchPendingBlocks()
-      root.saveWallet(wallet, function () {})
+      root.saveWallet(wallet, function () { })
     }
 
     function resetChainInternal (wallet, account) {
@@ -477,7 +476,7 @@ angular.module('canoeApp.services')
 
     function clearPrecalc () {
       root.wallet.clearPrecalc()
-      root.saveWallet(root.wallet, function () {})
+      root.saveWallet(root.wallet, function () { })
     }
 
     window.fetchPendingBlocks = root.fetchPendingBlocks
@@ -494,7 +493,7 @@ angular.module('canoeApp.services')
         lodash.each(accountsAndHashes, function (hashes, account) {
           if (account.startsWith('xrb')) {
             account = account.substring(3)
-            account = 'bcb'.concat(account)
+            account = 'nano'.concat(account)
           }
           var blocks = rai.blocks_info(hashes)
           lodash.each(blocks, function (blk, hash) {
@@ -522,18 +521,18 @@ angular.module('canoeApp.services')
     root.parseQRCode = function (data, cb) {
       // <protocol>:<encoded address>[?][amount=<raw amount>][&][label=<label>][&][message=<message>]
       var code = {}
-      var protocols = ['xrb', 'bcb', 'raiblocks', 'xrbseed', 'nanoseed', 'xrbkey', 'nanokey', 'xrbblock', 'nanoblock', 'manta']
+      var protocols = ['xrb', 'nano', 'raiblocks', 'xrbseed', 'nanoseed', 'xrbkey', 'nanokey', 'xrbblock', 'nanoblock', 'manta']
       try {
         var parts = data.match(/^([a-z]+):(.*)/) // Match protocol:whatever
         if (!parts) {
           // No match,  perhaps a bare account, alias, seed? TODO bare key
           if (root.isValidAccount(data)) {
             // A bare account
-            code.protocol = 'bcb'
+            code.protocol = 'nano'
             parts = data
           } else if (data.startsWith('@')) {
             // A bare alias
-            code.protocol = 'bcb'
+            code.protocol = 'nano'
             parts = data
           } else if (root.isValidSeed(data)) {
             // A bare seed
@@ -626,7 +625,7 @@ angular.module('canoeApp.services')
     root.fetchServerStatus = function (cb) {
       var xhr = new XMLHttpRequest()
       xhr.open('GET', host, true)
-      xhr.send(JSON.stringify({'action': 'canoe_server_status'}))
+      xhr.send(JSON.stringify({ 'action': 'canoe_server_status' }))
       xhr.onreadystatechange = processRequest
       function processRequest (e) {
         if (xhr.readyState === 4 && xhr.status === 200) {
@@ -649,11 +648,11 @@ angular.module('canoeApp.services')
       }
       var sep = '  '
       return [g.slice(0, 4).join(sep), g.slice(4, 8).join(sep),
-        g.slice(8, 12).join(sep), g.slice(12, 16).join(sep)]
+      g.slice(8, 12).join(sep), g.slice(12, 16).join(sep)]
     }
 
     root.isValidAccount = function (addr) {
-      if (addr.startsWith('xrb_') || addr.startsWith('bcb_')) {
+      if (addr.startsWith('xrb_') || addr.startsWith('nano_')) {
         return rai.account_validate(addr)
       }
       return false
@@ -742,7 +741,7 @@ angular.module('canoeApp.services')
       do {
         var accountName = gettextCatalog.getString('Account') + ' ' + accountNum
         accountNum++
-        var account = wallet.createAccount({label: accountName})
+        var account = wallet.createAccount({ label: accountName })
         // We load existing blocks
         resetChainInternal(wallet, account.id)
         if (wallet.getAccountBlockCount(account.id) === 0) {
@@ -758,7 +757,7 @@ angular.module('canoeApp.services')
       }
       wallet.enableBroadcast(true)
       root.setWallet(wallet, cb)
-      root.saveWallet(root.wallet, function () {})
+      root.saveWallet(root.wallet, function () { })
       // aliasService.lookupAddress(account.id, function (err, ans) {
       //   if (err) {
       //     $log.debug(err)
@@ -816,7 +815,7 @@ angular.module('canoeApp.services')
     // Create a new account in the wallet
     root.createAccount = function (wallet, accountName) {
       $log.debug('Creating account named ' + accountName)
-      var account = wallet.createAccount({label: accountName})
+      var account = wallet.createAccount({ label: accountName })
       resetChain(wallet, account.id) // It may be an already existing account so we want existing blocks
       $log.debug('Created account ' + account.id)
       root.updateServerMap(wallet)
@@ -834,8 +833,8 @@ angular.module('canoeApp.services')
     // Tell server which accounts this wallet has. The server has a map of wallet id -> accounts
     // This needs to be called when a new account is created or one is removed.
     // We also call it whenever we load a wallet from data.
-    // BCB wallet up to 0.3.5 sends only wallet id.
-    // BCB wallet from 0.3.6 sends more information in a JSON object.
+    // Canoe up to 0.3.5 sends only wallet id.
+    // Canoe from 0.3.6 sends more information in a JSON object.
     root.updateServerMap = function (wallet) {
       var ids = wallet.getAccountIds()
       var register = {
@@ -879,7 +878,7 @@ angular.module('canoeApp.services')
     /* ******************************* MQTT ********************************/
 
     root.publishBlock = function (block) {
-      var msg = {account: block.getAccount(), block: block}
+      var msg = { account: block.getAccount(), block: block }
       root.publish('broadcast/' + block.getAccount(), JSON.stringify(msg), 2, false)
     }
 
@@ -901,7 +900,7 @@ angular.module('canoeApp.services')
           cb(true)
         }
       }, function (c, code, msg) {
-        $log.error('Failed connecting to MQTT: ', {context: c, code: code, msg: msg})
+        $log.error('Failed connecting to MQTT: ', { context: c, code: code, msg: msg })
         root.disconnect()
         if (cb) {
           cb(false)
@@ -948,7 +947,7 @@ angular.module('canoeApp.services')
         if (root.wallet.addPendingReceiveBlock(hash, account, from, amount)) {
           if (doLog) $log.info('Added pending receive block')
           soundService.play('receive')
-          root.saveWallet(root.wallet, function () {})
+          root.saveWallet(root.wallet, function () { })
         }
       }
     }

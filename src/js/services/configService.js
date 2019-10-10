@@ -9,16 +9,16 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
   var defaultConfig = {
     download: {
       canoe: {
-        url: 'http://bitcoin.black'
+        url: 'https://mobile.bitcoinblack.info'
       }
     },
 
-    backend: 'getcanoe.io',
+    backend: 'mobile.bitcoinblack.info',
 
     rateApp: {
       canoe: {
-        ios: 'https://itunes.apple.com/us/app/canoe-bcb-wallet/id1365127213?mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.bcbcanoe.bitcoinblack',
+        ios: 'https://itunes.apple.com/us/app/canoe-nano-wallet/id1365127213?mt=8',
+        android: 'https://play.google.com/store/apps/details?id=io.getcanoe.canoe',
         wp: ''
       }
     },
@@ -31,13 +31,13 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
       serverSidePoW: (!platformInfo.isLinux), // On NW Linux we now have good client side PoW
       playSounds: true,
       settings: {
-        unitName: 'BCB',
+        unitName: 'NANO',
         unitToRaw: Math.pow(10, 30),
         unitDecimals: 2,
-        unitCode: 'BCB',
+        unitCode: 'NANO',
         alternativeName: 'US Dollar',
         alternativeIsoCode: undefined,
-        amountInputDefaultCurrency: 'BCB'
+        amountInputDefaultCurrency: 'NANO'
       }
     },
 
@@ -68,7 +68,8 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
   var configCache = null
 
   // Contry code to curency map, hacked from https://github.com/michaelrhodes/currency-code-map
-  var country_code_to_currency = {'AF': ['AFN', 'Afghan Afghani'],
+  var country_code_to_currency = {
+    'AF': ['AFN', 'Afghan Afghani'],
     'AX': ['EUR', 'Eurozone Euro'],
     'AL': ['ALL', 'Albanian Lek'],
     'DZ': ['DZD', 'Algerian Dinar'],
@@ -315,7 +316,8 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
     'EH': ['MAD', 'Moroccan Dirham'],
     'YE': ['YER', 'Yemeni Rial'],
     'ZM': ['ZMW', 'Zambian Kwacha'],
-    'ZW': ['USD', 'US Dollar']}
+    'ZW': ['USD', 'US Dollar']
+  }
 
   root.getSync = function () {
     if (!configCache) { throw new Error('configService#getSync called when cache is not initialized') }
