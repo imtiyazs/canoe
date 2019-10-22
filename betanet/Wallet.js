@@ -19,8 +19,8 @@ var Iso10126 = {
   pad: function (dataBytes, nBytesPerBlock) {
     var nPaddingBytes = nBytesPerBlock - dataBytes.length % nBytesPerBlock
     var paddingBytes = crypto.randomBytes(nPaddingBytes - 1)
-    var endByte = Buffer.from([ nPaddingBytes ])
-    return Buffer.concat([ dataBytes, paddingBytes, endByte ])
+    var endByte = Buffer.from([nPaddingBytes])
+    return Buffer.concat([dataBytes, paddingBytes, endByte])
   },
 
   unpad: function (dataBytes) {
@@ -50,7 +50,7 @@ var AES = {
     cipher.setAutoPadding(!options.padding)
 
     if (options.padding) dataBytes = options.padding.pad(dataBytes, BLOCK_BIT_LEN / 8)
-    var encryptedBytes = Buffer.concat([ cipher.update(dataBytes), cipher.final() ])
+    var encryptedBytes = Buffer.concat([cipher.update(dataBytes), cipher.final()])
 
     return encryptedBytes
   },
@@ -64,14 +64,14 @@ var AES = {
     var decipher = crypto.createDecipheriv(options.mode || AES.CBC, key, salt || '')
     decipher.setAutoPadding(!options.padding)
 
-    var decryptedBytes = Buffer.concat([ decipher.update(dataBytes), decipher.final() ])
+    var decryptedBytes = Buffer.concat([decipher.update(dataBytes), decipher.final()])
     if (options.padding) decryptedBytes = options.padding.unpad(decryptedBytes)
 
     return decryptedBytes
   }
 }
 
-function hexRandom (bytes) {
+function hexRandom(bytes) {
   return uint8_hex(nacl.randomBytes(bytes))
 }
 
@@ -123,7 +123,7 @@ module.exports = function (password) {
 
   var logger = new Logger()
 
-  function newBlock (state) {
+  function newBlock(state) {
     // Explicitly or implicitly by wallet setting
     var stateBlock = state || enableStateBlocks
     return new Block(stateBlock) // State blocks
@@ -971,14 +971,14 @@ module.exports = function (password) {
       if (!pows[acc]) {
         // No precalculated for this account, let's make one
         var hash = api.getNextWorkBlockHash(acc)
-        return {account: acc, hash: hash}
+        return { account: acc, hash: hash }
       }
     }
     return null
   }
 
   api.addWorkToPrecalc = function (acc, hash, work) {
-    pows[acc] = {hash: hash, work: work}
+    pows[acc] = { hash: hash, work: work }
   }
 
   api.getNextPendingBlockToWork = function () {
@@ -1270,7 +1270,7 @@ module.exports = function (password) {
    *
    * @returns {String}
    */
-  function arrToString (uint8array) {
+  function arrToString(uint8array) {
     return new TextDecoder('utf-8').decode(uint8array)
   }
 
@@ -1279,14 +1279,14 @@ module.exports = function (password) {
   *
   * @returns {Uint8Array}
   */
-  function stringToArr (myString) {
+  function stringToArr(myString) {
     return new TextEncoder('utf-8').encode(myString)
   }
 
   /**
    * Convert an xrb_account to a nano_account, replacing prefix.
    */
-  function xrb2nano (acc) {
+  function xrb2nano(acc) {
     if (acc.startsWith('xrb_')) {
       return 'bcb' + acc.slice(3)
     }

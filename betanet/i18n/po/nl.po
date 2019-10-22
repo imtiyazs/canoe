@@ -1644,12 +1644,12 @@ msgid "Valid Alias & Email"
 msgstr "Geldige Alias & E-mail"
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
-msgstr "Bekijk block op Nanode"
+msgid "View Block on BCB Block Explorer"
+msgstr "Bekijk block op BCB Block Explorer"
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
-msgstr "Bekijk op Nanode"
+msgid "View on BCB Block Explorer"
+msgstr "Bekijk op BCB Block Explorer"
 
 #: www/views/preferencesAlias.html:11
 msgid "What alias would you like to reserve?"

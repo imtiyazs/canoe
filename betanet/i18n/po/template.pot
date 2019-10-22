@@ -1822,7 +1822,7 @@ msgid "View"
 msgstr ""
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
+msgid "View Block on BCB Block Explorer"
 msgstr ""
 
 #: src/js/controllers/onboarding/terms.js:20
@@ -1834,7 +1834,7 @@ msgid "View Update"
 msgstr ""
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
+msgid "View on BCB Block Explorer"
 msgstr ""
 
 #: www/views/tab-settings.html:104

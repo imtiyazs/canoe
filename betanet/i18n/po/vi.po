@@ -1639,12 +1639,12 @@ msgid "Valid Alias & Email"
 msgstr "Tên hợp lệ & Email"
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
-msgstr "Xem Khối trên Nanode"
+msgid "View Block on BCB Block Explorer"
+msgstr "Xem Khối trên BCB Block Explorer"
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
-msgstr "Xem trên Nanode"
+msgid "View on BCB Block Explorer"
+msgstr "Xem trên BCB Block Explorer"
 
 #: www/views/preferencesAlias.html:11
 msgid "What alias would you like to reserve?"

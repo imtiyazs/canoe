@@ -1639,12 +1639,12 @@ msgid "Valid Alias & Email"
 msgstr "Верный псевдоним и Email"
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
-msgstr "Посмотреть Block на Nanode"
+msgid "View Block on BCB Block Explorer"
+msgstr "Посмотреть Block на BCB Block Explorer"
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
-msgstr "Посмотреть на Nanode"
+msgid "View on BCB Block Explorer"
+msgstr "Посмотреть на BCB Block Explorer"
 
 #: www/views/preferencesAlias.html:11
 msgid "What alias would you like to reserve?"

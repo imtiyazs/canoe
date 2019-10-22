@@ -65,10 +65,10 @@ angular.module('canoeApp.controllers').controller('txDetailsController', functio
 
   $scope.viewOnNanode = function () {
     var ntx = $scope.ntx
-    var url = 'https://nanode.co/block/' + ntx.hash
+    var url = 'https://beta.explore.black/#/explorer/block/' + ntx.hash
     var optIn = true
     var title = null
-    var message = gettextCatalog.getString('View Block on Nanode')
+    var message = gettextCatalog.getString('View Block on BCB Block Explorer')
     var okText = gettextCatalog.getString('Open')
     var cancelText = gettextCatalog.getString('Go Back')
     externalLinkService.open(url, optIn, title, message, okText, cancelText)

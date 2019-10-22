@@ -1639,12 +1639,12 @@ msgid "Valid Alias & Email"
 msgstr "Platný alias & email"
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
-msgstr "Prohlídnout blok na Nanode"
+msgid "View Block on BCB Block Explorer"
+msgstr "Prohlídnout blok na BCB Block Explorer"
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
-msgstr "Prohlídnout na Nanode"
+msgid "View on BCB Block Explorer"
+msgstr "Prohlídnout na BCB Block Explorer"
 
 #: www/views/preferencesAlias.html:11
 msgid "What alias would you like to reserve?"

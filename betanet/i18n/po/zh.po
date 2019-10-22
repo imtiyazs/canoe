@@ -1642,11 +1642,11 @@ msgid "Valid Alias & Email"
 msgstr "验证别名和邮件地址"
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
+msgid "View Block on BCB Block Explorer"
 msgstr "在Nanode上查看该区块"
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
+msgid "View on BCB Block Explorer"
 msgstr "在Nanode上查看"
 
 #: www/views/preferencesAlias.html:11

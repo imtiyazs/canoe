@@ -1641,11 +1641,11 @@ msgid "Valid Alias & Email"
 msgstr ""
 
 #: src/js/controllers/tx-details.js:71
-msgid "View Block on Nanode"
+msgid "View Block on BCB Block Explorer"
 msgstr ""
 
 #: www/views/tx-details.html:111
-msgid "View on Nanode"
+msgid "View on BCB Block Explorer"
 msgstr ""
 
 #: www/views/preferencesAlias.html:11
