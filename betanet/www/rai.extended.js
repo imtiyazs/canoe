@@ -29,12 +29,12 @@ Rai.prototype.ext_account_history = function (account, count) {
       if (account_history[key].hash !== value) {
         let block = rpc_request.block(value)
         if (block.type == 'change') {
-          let insert = {account: block.representative, amount: 0, hash: value, type: block.type}
+          let insert = { account: block.representative, amount: 0, hash: value, type: block.type }
           account_history.splice(key, 0, insert)
         }
       }
     })
-  }	else {
+  } else {
     console.log('Empty account ' + account)
   }
 
@@ -54,9 +54,9 @@ Rai.prototype.load_info = function () {
 // Extended function, jQuery is required
 Rai.prototype.wallet_accounts_info = function (wallet, count) {
   var rpc_request = this
-	
+
   if (typeof RaiBlocks.frontiers === 'undefined') this.initialize() // if not initialized
-	
+
   var accounts_list = rpc_request.account_list(wallet)
 
   var wallet_accounts_info = [] // Accounts Array + balances
@@ -65,9 +65,9 @@ Rai.prototype.wallet_accounts_info = function (wallet, count) {
     let balance = account_balance.balance
     let pending = account_balance.pending
     let history = rai.ext_account_history(this, count)
-    wallet_accounts_info.push({key: this, raw_balance: balance, balance: rai.unit(balance, 'raw', 'rai'), raw_pending: pending, pending: rai.unit(pending, 'raw', 'rai'), history: history})
+    wallet_accounts_info.push({ key: this, raw_balance: balance, balance: rai.unit(balance, 'raw', 'rai'), raw_pending: pending, pending: rai.unit(pending, 'raw', 'rai'), history: history })
   })
-	
+
   return wallet_accounts_info
 }
 
@@ -151,8 +151,8 @@ uint4_uint5 = function (uint4) {
     let z = n + ((i - m) / 4)
     let right = uint4[z] << m
     let left
-    if (((length - i) % 4) == 0)	left = uint4[z - 1] << 4
-    else	left = uint4[z + 1] >> (4 - m)
+    if (((length - i) % 4) == 0) left = uint4[z - 1] << 4
+    else left = uint4[z + 1] >> (4 - m)
     uint5[n] = (left + right) % 32
   }
   return uint5
@@ -210,15 +210,15 @@ int_uint8 = function (integer, length) {
   var uint8 = new Uint8Array(length)
   for (var index = 0; index < length; index++) {
     var byte = integer & 0xff
-    uint8[ index ] = byte
-    integer = (integer - byte) / 256 
+    uint8[index] = byte
+    integer = (integer - byte) / 256
   }
   return uint8
 };
 
 equal_arrays = function (array1, array2) {
   for (let i = 0; i < array1.length; i++) {
-    if (array1[i] != array2[i])	return false
+    if (array1[i] != array2[i]) return false
   }
   return true
 }
@@ -247,7 +247,7 @@ XRB.account_get = function (key) {
     var hash_bytes = uint4_uint5(uint8_uint4(blake_hash))
     var account = 'bcb_' + uint5_string(bytes) + uint5_string(hash_bytes)
     return account
-  }	else {
+  } else {
     XRB.error('Invalid public key')
     return false
   }
@@ -258,8 +258,7 @@ Rai.prototype.ext_account_get = function (key) {
 
 // String output
 XRB.account_key = function (account) {
-  if (((account.startsWith('xrb_1') || account.startsWith('xrb_3')) && (account.length === 64)) ||
-  ((account.startsWith('nano_1') || account.startsWith('nano_3')) && (account.length === 65))) {
+  if ((account.startsWith('bcb_1') || account.startsWith('bcb_3') || account.startsWith('bcb')) && (account.length === 64)) {
     var account_crop = account.substring(account.length - 60)
     var isValid = /^[13456789abcdefghijkmnopqrstuwxyz]+$/.test(account_crop)
     if (isValid) {
@@ -270,15 +269,15 @@ XRB.account_key = function (account) {
       if (equal_arrays(hash_uint4, uint8_uint4(blake_hash))) {
         var key = uint4_hex(key_uint4)
         return key
-      }			else {
+      } else {
         XRB.error('Invalid account')
         return false
       }
-    }		else {
+    } else {
       XRB.error('Invalid symbols')
       return false
     }
-  }	else {
+  } else {
     XRB.error('Invalid account')
     return false
   }
@@ -298,9 +297,9 @@ Rai.prototype.account_validate = function (account) {
   return XRB.account_validate(account)
 }
 
-function pow_threshold (Uint8Array) {
-  if ((Uint8Array[0] == 255) && (Uint8Array[1] == 255) && (Uint8Array[2] == 255) && (Uint8Array[3] >= 192))	return true
-  else	return false
+function pow_threshold(Uint8Array) {
+  if ((Uint8Array[0] == 255) && (Uint8Array[1] == 255) && (Uint8Array[2] == 255) && (Uint8Array[3] >= 192)) return true
+  else return false
 }
 
 XRB.pow_initiate = function (threads, worker_path = '') {
@@ -322,7 +321,7 @@ XRB.pow_start = function (workers, hash) {
     for (let i = 0; i < threads; i++) {
       workers[i].postMessage(hash)
     }
-  }	else	XRB.error('Invalid hash array')
+  } else XRB.error('Invalid hash array')
 }
 Rai.prototype.pow_start = function (workers, hash) {
   return XRB.pow_start(workers, hash)
@@ -347,12 +346,12 @@ XRB.pow_callback = function (workers, hash, callback) {
         result = e.data
         if (result) {
           XRB.pow_terminate(workers)
-          callback(result) 
-        }				else workers[i].postMessage(hash)
+          callback(result)
+        } else workers[i].postMessage(hash)
       }
     }
-  }	else if (typeof callback !== 'function')	XRB.error('Invalid callback function')
-  else	XRB.error('Invalid hash array')
+  } else if (typeof callback !== 'function') XRB.error('Invalid callback function')
+  else XRB.error('Invalid hash array')
 }
 Rai.prototype.pow_callback = function (workers, hash, callback) {
   return XRB.pow_callback(workers, hash, callback)
@@ -366,7 +365,7 @@ XRB.pow = function (hash_hex, threads, callback, worker_path) {
     var workers = XRB.pow_initiate(threads, worker_path)
     XRB.pow_start(workers, hash)
     XRB.pow_callback(workers, hash, callback)
-  }	else	XRB.error('Invalid hash')
+  } else XRB.error('Invalid hash')
 }
 Rai.prototype.pow = function (hash_hex, threads, callback, worker_path) {
   return XRB.pow(hash_hex, threads, callback, worker_path)
@@ -384,13 +383,13 @@ XRB.pow_validate = function (pow_hex, hash_hex) {
       blake2bUpdate(context, pow.reverse())
       blake2bUpdate(context, hash)
       var check = blake2bFinal(context).reverse()
-      if (pow_threshold(check))	return true
-      else	return false
-    }		else {
+      if (pow_threshold(check)) return true
+      else return false
+    } else {
       XRB.error('Invalid work')
       return false
     }
-  }	else {
+  } else {
     XRB.error('Invalid hash')
     return false
   }
@@ -411,11 +410,11 @@ XRB.seed_key = function (seed_hex, index = 0) {
       blake2bUpdate(context, uint8.reverse())
       var key = uint8_hex(blake2bFinal(context))
       return key
-    }		else {
+    } else {
       XRB.error('Invalid index')
       return false
     }
-  }	else {
+  } else {
     XRB.error('Invalid seed')
     return false
   }
@@ -439,11 +438,11 @@ XRB.seed_keys = function (seed_hex, count = 1) {
         keys.push(uint8_hex(blake2bFinal(context)))
       }
       return keys
-    }		else {
+    } else {
       XRB.error('Invalid count')
       return false
     }
-  }	else {
+  } else {
     XRB.error('Invalid seed')
     return false
   }
@@ -491,7 +490,7 @@ XRB.checkSignature = function (hexMessage, hexSignature, publicKeyOrXRBAccount) 
   if (/[0-9A-F]{64}/i.test(publicKeyOrXRBAccount)) {
     // it's a 32 byte hex encoded key
     return nacl.sign.detached.verify(hex_uint8(hexMessage), hex_uint8(hexSignature), hex_uint8(publicKeyOrXRBAccount))
-  }	else	{
+  } else {
     var pubKey = XRB.account_key(publicKeyOrXRBAccount)
     if (pubKey) {
       // it's a XRB account
@@ -516,42 +515,42 @@ Rai.prototype.checkSignature = function (hexMessage, hexSignature, publicKeyOrXR
  *								{source:   "", representative: "", account: "" } (open)
  * @returns {string} The block hash
  */
-XRB.computeBlockHash = function (blockType, parameters){
-  if ((typeof parameters.destination !== 'undefined') && (parameters.destination.startsWith('xrb_')))	parameters.destination = XRB.account_key(parameters.destination)
-  if ((typeof parameters.representative !== 'undefined') && (parameters.representative.startsWith('xrb_')))	parameters.representative = XRB.account_key(parameters.representative)
-  if ((typeof parameters.account !== 'undefined') && (parameters.account.startsWith('xrb_')))	parameters.account = XRB.account_key(parameters.account)
-  if ((typeof parameters.type !== 'undefined') && (blockType == null))	blockType = parameters.type
+XRB.computeBlockHash = function (blockType, parameters) {
+  if ((typeof parameters.destination !== 'undefined') && (parameters.destination.startsWith('bcb_'))) parameters.destination = XRB.account_key(parameters.destination)
+  if ((typeof parameters.representative !== 'undefined') && (parameters.representative.startsWith('bcb_'))) parameters.representative = XRB.account_key(parameters.representative)
+  if ((typeof parameters.account !== 'undefined') && (parameters.account.startsWith('bcb_'))) parameters.account = XRB.account_key(parameters.account)
+  if ((typeof parameters.type !== 'undefined') && (blockType == null)) blockType = parameters.type
 
   if (
-    blockType == 'send' &&	(
+    blockType == 'send' && (
       !/[0-9A-F]{64}/i.test(parameters.previous) ||
-									!/[0-9A-F]{64}/i.test(parameters.destination) ||
-									!/[0-9A-F]{32}/i.test(parameters.balance)
-								  ) ||
+      !/[0-9A-F]{64}/i.test(parameters.destination) ||
+      !/[0-9A-F]{32}/i.test(parameters.balance)
+    ) ||
 
-		blockType == 'receive' && (
+    blockType == 'receive' && (
       !/[0-9A-F]{64}/i.test(parameters.previous) ||
-									!/[0-9A-F]{64}/i.test(parameters.source)
-								  ) ||
+      !/[0-9A-F]{64}/i.test(parameters.source)
+    ) ||
 
-		blockType == 'open' &&	(
+    blockType == 'open' && (
       !/[0-9A-F]{64}/i.test(parameters.source) ||
-									!/[0-9A-F]{64}/i.test(parameters.representative) ||
-									!/[0-9A-F]{64}/i.test(parameters.account)
-								  ) ||
+      !/[0-9A-F]{64}/i.test(parameters.representative) ||
+      !/[0-9A-F]{64}/i.test(parameters.account)
+    ) ||
 
-		blockType == 'change' && (
+    blockType == 'change' && (
       !/[0-9A-F]{64}/i.test(parameters.previous) ||
-									!/[0-9A-F]{64}/i.test(parameters.representative)
-								  )
-  )	{
+      !/[0-9A-F]{64}/i.test(parameters.representative)
+    )
+  ) {
     XRB.error = 'Invalid parameters.';
     return false
   }
 
   var hash
-	
-  switch (blockType)	{
+
+  switch (blockType) {
     case 'send':
       var context = blake2bInit(32, null)
       blake2bUpdate(context, hex_uint8(parameters.previous))

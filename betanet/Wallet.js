@@ -6,7 +6,8 @@ var assert = require('assert')
 var Block = require('./Block')
 var Buffer = require('buffer').Buffer
 
-var MAIN_NET_WORK_THRESHOLD = 'ffffffc000000000'
+var MAIN_NET_WORK_THRESHOLD = 'ff00000000000000'
+// var MAIN_NET_WORK_THRESHOLD = 'ffffffc000000000'
 var BLOCK_BIT_LEN = 128
 
 var Iso10126 = {

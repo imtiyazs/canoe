@@ -3628,7 +3628,7 @@ ion-infinite-scroll {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: white;
   overflow: hidden; }
 
 .view-container {
@@ -3957,7 +3957,7 @@ a.subdued {
   border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid white;
   background-color: white;
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */
@@ -3965,7 +3965,7 @@ a.subdued {
   @media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .bar {
       border: none;
-      background-image: linear-gradient(0deg, #f2f2f2, #f2f2f2 50%, transparent 50%);
+      background-image: linear-gradient(0deg, white, white 50%, transparent 50%);
       background-position: bottom;
       background-size: 100% 1px;
       background-repeat: no-repeat; } }
@@ -4425,8 +4425,8 @@ a.subdued {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   border-color: #b2b2b2;
-  background-color: #fff;
-/*  background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%); */
+  background-color: #f8f8f8;
+  background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
   color: #444;
   position: absolute;
   bottom: 0;
@@ -5765,7 +5765,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
  * --------------------------------------------------
  */
 .item {
-  border-color: #f2f2f2;
+  border-color: white;
   background-color: #ffffff;
   color: #445;
   position: relative;
@@ -5866,16 +5866,16 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
 .item-complex.activated .item-content,
 .item .item-content.active,
 .item .item-content.activated {
-  border-color: #e0e0e0;
-  background-color: #f2f2f2; }
+  border-color: #ededed;
+  background-color: white; }
   .item.active.item-complex > .item-content,
   .item.activated.item-complex > .item-content,
   .item-complex.active .item-content.item-complex > .item-content,
   .item-complex.activated .item-content.item-complex > .item-content,
   .item .item-content.active.item-complex > .item-content,
   .item .item-content.activated.item-complex > .item-content {
-    border-color: #e0e0e0;
-    background-color: #f2f2f2; }
+    border-color: #ededed;
+    background-color: white; }
   .item.active.item-light,
   .item.activated.item-light,
   .item-complex.active .item-content.item-light,
@@ -6472,7 +6472,7 @@ button.item.item-button-right {
   padding-top: 8px;
   padding-bottom: 8px;
   min-height: 30px;
-  background-color: #f2f2f2;
+  background-color: white;
   color: #222;
   font-weight: 500; }
 
@@ -10102,14 +10102,14 @@ ion-nav-bar.hide {
 
 .button.button-secondary {
   border-color: transparent;
-  background-color: #f2f2f2;
+  background-color: white;
   color: #445; }
   .button.button-secondary:hover {
     color: #445;
     text-decoration: none; }
   .button.button-secondary.active, .button.button-secondary.activated {
     border-color: transparent;
-    background-color: #f2f2f2; }
+    background-color: white; }
   .button.button-secondary.button-clear {
     border-color: transparent;
     background: none;
@@ -10141,30 +10141,32 @@ ion-nav-bar.hide {
   top: 50%;
   left: 50%; }
 
-.tabs .tab-item .icon {
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 6px 0 2px; }
-  .tabs .tab-item .icon.ico-home {
-    background-image: url("../img/tab-icons/ico-home.svg"); }
-  .tabs .tab-item .icon.ico-home-selected {
-    background-image: url("../img/tab-icons/ico-home-selected.svg"); }
-  .tabs .tab-item .icon.ico-receive {
-    background-image: url("../img/tab-icons/ico-receive.svg"); }
-  .tabs .tab-item .icon.ico-receive-selected {
-    background-image: url("../img/tab-icons/ico-receive-selected.svg"); }
-  .tabs .tab-item .icon.ico-settings {
-    background-image: url("../img/tab-icons/ico-settings.svg"); }
-  .tabs .tab-item .icon.ico-settings-selected {
-    background-image: url("../img/tab-icons/ico-settings-selected.svg"); }
-  .tabs .tab-item .icon.ico-scan {
-    background-image: url("../img/tab-icons/ico-scan.svg"); }
-  .tabs .tab-item .icon.ico-scan-selected {
-    background-image: url("../img/tab-icons/ico-scan-selected.svg"); }
-  .tabs .tab-item .icon.ico-send {
-    background-image: url("../img/tab-icons/ico-send.svg"); }
-  .tabs .tab-item .icon.ico-send-selected {
-    background-image: url("../img/tab-icons/ico-send-selected.svg"); }
+.tabs .tab-item {
+  background-color: white; }
+  .tabs .tab-item .icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 6px 0 2px; }
+    .tabs .tab-item .icon.ico-home {
+      background-image: url("../img/tab-icons/ico-home.svg"); }
+    .tabs .tab-item .icon.ico-home-selected {
+      background-image: url("../img/tab-icons/ico-home-selected.svg"); }
+    .tabs .tab-item .icon.ico-receive {
+      background-image: url("../img/tab-icons/ico-receive.svg"); }
+    .tabs .tab-item .icon.ico-receive-selected {
+      background-image: url("../img/tab-icons/ico-receive-selected.svg"); }
+    .tabs .tab-item .icon.ico-settings {
+      background-image: url("../img/tab-icons/ico-settings.svg"); }
+    .tabs .tab-item .icon.ico-settings-selected {
+      background-image: url("../img/tab-icons/ico-settings-selected.svg"); }
+    .tabs .tab-item .icon.ico-scan {
+      background-image: url("../img/tab-icons/ico-scan.svg"); }
+    .tabs .tab-item .icon.ico-scan-selected {
+      background-image: url("../img/tab-icons/ico-scan-selected.svg"); }
+    .tabs .tab-item .icon.ico-send {
+      background-image: url("../img/tab-icons/ico-send.svg"); }
+    .tabs .tab-item .icon.ico-send-selected {
+      background-image: url("../img/tab-icons/ico-send-selected.svg"); }
 
 #tab-home .card > .item-heading, #tab-home .list > .item-heading, #tab-send .card > .item-heading, #tab-send .list > .item-heading {
   font-weight: 700; }
@@ -10324,7 +10326,7 @@ ion-nav-bar.hide {
   font-size: 1.2em;
   width: auto;
   margin: 0.8em auto;
-  border: 1px solid #f2f2f2;
+  border: 1px solid white;
   color: #445;
   border-radius: 3px;
   padding: 0 10px;
@@ -10350,7 +10352,7 @@ ion-nav-bar.hide {
   color: #445; }
 
 #view-amount .amount__currency-toggle {
-  border: 1px solid #f2f2f2;
+  border: 1px solid white;
   color: #445;
   border-radius: 3px;
   padding: 0 10px;
@@ -10407,7 +10409,7 @@ ion-nav-bar.hide {
   #view-amount .keypad .col {
     line-height: 45px; }
   #view-amount .keypad .operator {
-    background-color: #f2f2f2;
+    background-color: white;
     font-weight: normal;
     cursor: pointer; }
     #view-amount .keypad .operator:active {
@@ -10422,10 +10424,10 @@ ion-nav-bar.hide {
       background-color: #eaeaea; }
   #view-amount .keypad .digit {
     cursor: pointer;
-    border-top: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2; }
+    border-top: 1px solid white;
+    border-left: 1px solid white; }
     #view-amount .keypad .digit:active {
-      background-color: #f2f2f2; }
+      background-color: white; }
   @media (max-height: 480px) {
     #view-amount .keypad {
       font-size: 12px; } }
@@ -10497,6 +10499,9 @@ ion-nav-bar.hide {
     animation-delay: 0s; }
   #tab-home .hourglass-spin > .fa-hourglass-end.spin {
     animation: showhidespin 4s linear infinite; }
+
+#tab-home ion-content {
+  background-color: black; }
 
 @keyframes showhide {
   0% {
@@ -10608,7 +10613,7 @@ ion-nav-bar.hide {
   font-size: 38px; }
 
 #tab-home .tab-home__logo {
-  height: 30px;
+  height: 40px;
   position: relative;
   top: 6px; }
 
@@ -10747,6 +10752,8 @@ ion-nav-bar.hide {
   color: #fff;
   text-align: center;
   background: transparent none; }
+  #tab-scan ion-content {
+    background-color: black; }
   #tab-scan .bar-header {
     opacity: .9; }
   #tab-scan svg#QR-scanner-guides path.st1 {
@@ -10801,6 +10808,9 @@ ion-nav-bar.hide {
 
 #cordova-plugin-qrscanner-still, #cordova-plugin-qrscanner-video-preview {
   background-color: #000000 !important; }
+
+#tab-send ion-content {
+  background-color: black; }
 
 #tab-send .input input {
   width: 100%;
@@ -11068,11 +11078,12 @@ ion-nav-bar.hide {
     padding-top: .65rem;
     padding-bottom: .65rem; }
   .settings .settings-list .item.item-divider {
-    color: #667;
+    background-color: black;
+    color: white;
     padding-bottom: .5rem;
     font-size: .9rem; }
   .settings .settings-list .item .icon {
-    color: #9b9bab; }
+    color: black; }
   .settings .settings-list .item.disabled {
     color: #9b9bab;
     background-color: rgba(221, 221, 221, 0.3); }
@@ -11225,10 +11236,10 @@ ion-nav-bar.hide {
 
 /* background-color and color defaults should be the same */
 .wallet-background-color-default {
-  background-color: #123238; }
+  background-color: #000000; }
 
 .wallet-color-default {
-  color: #123238; }
+  color: #000000; }
 
 /* generate classes for all colors */
 .wallet-color-0 {
@@ -11288,7 +11299,7 @@ ion-nav-bar.hide {
   margin-left: 2.4rem; }
 
 .wallet-color-8 {
-  background: #123238; }
+  background: #000000; }
 
 .wallet-color-8:before {
   content: "Cornflower Blue";
@@ -11938,7 +11949,7 @@ a.item {
   #wallet-backup-seed .password-required {
     padding: 1rem; }
   #wallet-backup-seed .password-prompt {
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 2rem; }
     #wallet-backup-seed .password-prompt .explanation {
       padding: 0 1rem;
@@ -11954,9 +11965,9 @@ a.item {
   #wallet-backup-seed .bar.bar-royal .title {
     font-size: 1rem; }
   #wallet-backup-seed .backup-seed {
-    background: #f2f2f2;
+    background: white;
     margin: auto;
-    border: 2px dashed #d9d9d9;
+    border: 2px dashed #e6e5e5;
     border-radius: 3px;
     color: #445;
     text-align: center;
@@ -12009,7 +12020,7 @@ a.item {
         #wallet-backup-seed-step-2 .confirmation-prompt {
           padding: 1rem; } }
     #wallet-backup-seed-step-2 #select-phrase {
-      background: #f2f2f2; }
+      background: white; }
       #wallet-backup-seed-step-2 #select-phrase .select-word.button[disabled] {
         background: transparent !important;
         box-shadow: none !important;
@@ -12409,7 +12420,7 @@ a.item {
   padding-bottom: 12vh; }
 
 #onboarding-backup-request #warning {
-  padding-top: 15%;
+  padding-top: 10%;
   display: block;
   flex-direction: column;
   height: calc(100vh - 320px);
@@ -12685,8 +12696,8 @@ a.item {
     font-weight: 300;
     color: #445; }
   #send-feedback .user-feedback {
-    border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 20px;
     width: 100%;
     margin-bottom: 20px;
@@ -12753,7 +12764,7 @@ a.item {
     height: 50px; }
   #complete .share-buttons {
     padding: 50px 10px 30px;
-    background-color: #f2f2f2;
+    background-color: white;
     text-align: center;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
@@ -12810,7 +12821,7 @@ a.item {
     bottom: 0;
     width: 100%;
     position: absolute;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 30px 0 15px; }
 
 action-sheet .bp-action-sheet__sheet {
@@ -14271,7 +14282,7 @@ log-options #check-bar .checkbox-icon {
     color: #fff; }
   .box-notification.notice {
     border-color: #b2b2b2;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     color: #444; }
   .box-notification.warning {
     border-color: #e6b500;
@@ -14381,7 +14392,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   position: absolute;
   font-size: 20px;
   right: 10px;
-  background-color: #f2f2f2;
+  background-color: white;
   color: #445;
   border-radius: 4px;
   padding: 2px 10px;

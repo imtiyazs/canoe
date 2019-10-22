@@ -9,11 +9,11 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
   var defaultConfig = {
     download: {
       canoe: {
-        url: 'https://mobile.bitcoinblack.info'
+        url: 'https://betawallet.bitcoinblack.info'
       }
     },
 
-    backend: 'mobile.bitcoinblack.info',
+    backend: 'betawallet.bitcoinblack.info',
 
     rateApp: {
       canoe: {

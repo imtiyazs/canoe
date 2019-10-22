@@ -59,7 +59,7 @@ angular.module('canoeApp.services').factory('openURLService', function ($rootSco
       // This event is sent to an existent instance of BCB wallet (only for standalone apps)
       gui.App.on('open', function (pathData) {
         // All URL protocols plus bare accounts
-        if (pathData.match(/^(xrb:|bcb:|xrb_|bcb_)/) !== null) {
+        if (pathData.match(/^(bcb:|bcb_)/) !== null) {
           $log.debug('BCB wallet URL found')
           handleOpenURL({
             url: pathData

@@ -7,7 +7,7 @@ angular.module('canoeApp.services')
     // This config is controlled over retained MQTT
     root.sharedconfig = {
       defaultRepresentative: null,
-      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://mobile.bitcoinblack.info' }
+      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://betawallet.bitcoinblack.info' }
       stateblocks: {
         enable: true
       }
@@ -26,8 +26,8 @@ angular.module('canoeApp.services')
     root.wallet = null
 
     // Default server
-    var host = 'https://mobile.bitcoinblack.info/rpc'
-    var mqttHost = 'mobile.bitcoinblack.info'
+    var host = 'https://betawallet.bitcoinblack.info/rpc'
+    var mqttHost = 'betawallet.bitcoinblack.info'
 
     var rai = null
 
@@ -107,7 +107,7 @@ angular.module('canoeApp.services')
 
     // This function calls itself every sec and scans
     // for pending blocks or precalcs in need of work.
-    function generatePoW () {
+    function generatePoW() {
       $rootScope.$emit('work', null)
       // No wallet, no dice
       if (root.wallet === null) {
@@ -148,7 +148,7 @@ angular.module('canoeApp.services')
 
     // Perform PoW calculation using different techniques based on platform
     // and the server or client side setting.
-    function doWork (hash, callback) {
+    function doWork(hash, callback) {
       var start = Date.now()
       // Server or client side?
       if (configService.getSync().wallet.serverSidePoW) {
@@ -204,7 +204,7 @@ angular.module('canoeApp.services')
     }
 
     // Retry broadcasts every 5 seconds, does nothing if empty.
-    function regularBroadcast () {
+    function regularBroadcast() {
       if (root.wallet) {
         root.broadcastCallback(root.wallet.getReadyBlocks())
       }
@@ -282,7 +282,7 @@ angular.module('canoeApp.services')
     }
 
     // Import all chains for the whole wallet from scratch throwing away local forks we have.
-    function resetChains () {
+    function resetChains() {
       if (root.wallet) {
         root.wallet.enableBroadcast(false)
         var accountIds = root.wallet.getAccountIds()
@@ -305,7 +305,7 @@ angular.module('canoeApp.services')
     // 2. Our chain is good, but there are more blocks on the network. We need to process them.
     // 3. We have extra blocks not on the network, we throw them away.
     // 4. A combination of 2 and 3, a fork. We throw ours away and process those on the network.
-    function syncChain (wallet, account) {
+    function syncChain(wallet, account) {
       root.wallet.enableBroadcast(false)
       // Get our full chain, this is a fast operation.
       var currentBlocks = wallet.getLastNBlocks(account, 99999)
@@ -395,7 +395,7 @@ angular.module('canoeApp.services')
       root.saveWallet(wallet, function () { })
     }
 
-    function resetChain (wallet, account) {
+    function resetChain(wallet, account) {
       wallet.enableBroadcast(false)
       resetChainInternal(wallet, account)
       wallet.enableBroadcast(true) // Turn back on
@@ -403,7 +403,7 @@ angular.module('canoeApp.services')
       root.saveWallet(wallet, function () { })
     }
 
-    function resetChainInternal (wallet, account) {
+    function resetChainInternal(wallet, account) {
       // Better safe than sorry, we always remove them.
       wallet.removePendingBlocks(account)
       // var currentBlocks = wallet.getLastNBlocks(account, 99999)
@@ -474,7 +474,7 @@ angular.module('canoeApp.services')
       }
     }
 
-    function clearPrecalc () {
+    function clearPrecalc() {
       root.wallet.clearPrecalc()
       root.saveWallet(root.wallet, function () { })
     }
@@ -521,7 +521,8 @@ angular.module('canoeApp.services')
     root.parseQRCode = function (data, cb) {
       // <protocol>:<encoded address>[?][amount=<raw amount>][&][label=<label>][&][message=<message>]
       var code = {}
-      var protocols = ['xrb', 'nano', 'raiblocks', 'xrbseed', 'nanoseed', 'xrbkey', 'nanokey', 'xrbblock', 'nanoblock', 'manta']
+      // var protocols = ['xrb', 'nano', 'raiblocks', 'xrbseed', 'nanoseed', 'xrbkey', 'nanokey', 'xrbblock', 'nanoblock', 'manta']
+      var protocols = ['bcb', 'manta']
       try {
         var parts = data.match(/^([a-z]+):(.*)/) // Match protocol:whatever
         if (!parts) {
@@ -627,7 +628,7 @@ angular.module('canoeApp.services')
       xhr.open('GET', host, true)
       xhr.send(JSON.stringify({ 'action': 'canoe_server_status' }))
       xhr.onreadystatechange = processRequest
-      function processRequest (e) {
+      function processRequest(e) {
         if (xhr.readyState === 4 && xhr.status === 200) {
           var response = JSON.parse(xhr.responseText)
           cb(null, response)
@@ -652,7 +653,7 @@ angular.module('canoeApp.services')
     }
 
     root.isValidAccount = function (addr) {
-      if (addr.startsWith('xrb_') || addr.startsWith('nano_')) {
+      if (addr.startsWith('bcb_')) {
         return rai.account_validate(addr)
       }
       return false
