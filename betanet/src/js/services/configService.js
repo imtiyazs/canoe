@@ -32,7 +32,7 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
       playSounds: true,
       settings: {
         unitName: 'NANO',
-        unitToRaw: Math.pow(10, 30),
+        unitToRaw: Math.pow(10, 28),
         unitDecimals: 2,
         unitCode: 'NANO',
         alternativeName: 'US Dollar',

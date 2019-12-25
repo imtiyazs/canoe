@@ -2834,7 +2834,7 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
       playSounds: true,
       settings: {
         unitName: 'NANO',
-        unitToRaw: Math.pow(10, 30),
+        unitToRaw: Math.pow(10, 28),
         unitDecimals: 2,
         unitCode: 'NANO',
         alternativeName: 'US Dollar',
@@ -5679,7 +5679,7 @@ angular.module('canoeApp.services')
     BigNumber.config({ ERRORS: false })
 
     // 1 BCB = 1 Mnano = 10^30 raw
-    var rawPerNano = BigNumber('1000000000000000000000000000000')
+    var rawPerNano = BigNumber('10000000000000000000000000000')
 
     // This is where we hold profile, wallet and password to decrypt it
     var root = {}
@@ -8200,7 +8200,7 @@ angular.module('canoeApp.controllers').controller('amountController', function (
   var SMALL_FONT_SIZE_LIMIT = 10
   var LENGTH_EXPRESSION_LIMIT = 19
   var isNW = platformInfo.isNW
-  var rawPerNano = BigNumber('1000000000000000000000000000000')
+  var rawPerNano = BigNumber('10000000000000000000000000000')
 
   var unitIndex = 0
   var altUnitIndex = 0
@@ -12571,7 +12571,7 @@ angular.module('canoeApp').run(['gettextCatalog', function (gettextCatalog) {
 /* jshint +W100 */
 }]);
 window.version="1.0.2";
-window.commitHash="1f368c5";
+window.commitHash="436b7bb";
 window.appConfig={"packageName":"bcb-online-wallet","packageDescription":"Bitcoin Black Betanet Wallet","packageNameId":"com.bcb-online-wallet.bitcoinblack","statusBarColor":"#192c3a","userVisibleName":"Bitcoin Black Betanet Wallet","purposeLine":"Bitcoin Black Betanet Wallet","bundleName":"bcbonlinewallet","appUri":"bcb-online-wallet","name":"bcb-online-wallet","nameNoSpace":"bcb-online-wallet","nameCase":"Bitcoin Black Betanet Wallet","nameCaseNoSpace":"Bitcoin Black Betanet Wallet","gitHubRepoName":"bcb-online-wallet","gitHubRepoUrl":"","gitHubRepoBugs":"","disclaimerUrl":"http://bitcoin.black/disclaimer","url":"http://bitcoin.black","appDescription":"Bitcoin Black Betanet Wallet","winAppName":"Bitcoin Black Betanet Wallet","WindowsStoreIdentityName":"---","WindowsStoreDisplayName":"Secure Bitcoin Black Betanet Online Wallet","windowsAppId":"---","pushSenderId":"---","description":"A Secure Bitcoin Black Betanet Wallet","version":"0.0.1","androidVersion":"391000","_extraCSS":null,"_enabledExtensions":{}};
 'use strict'
 /* global angular cordova */

@@ -114,7 +114,7 @@
               if (verifySignature(APPIA_PEM,paymentRequest.message,paymentRequest.signature)) {
                 console.log("Valid Signature");
                 var big = new BigNumber(paymentRequestMessage.destinations[i].amount);
-                var amount = (big.times(Math.pow(10, 30))).toFixed(0)
+                var amount = (big.times(Math.pow(10, 28))).toFixed(0)
                 var paymentDetails = {
                   error: null,
                   account: paymentRequestMessage.destinations[i].destination_address,
