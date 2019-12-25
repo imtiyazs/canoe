@@ -220,8 +220,8 @@ module.exports = function (isState = true) {
    * @param {string} hex - The hex encoded 8 byte block hash PoW
    * @throws An exception if work is not enough
    */
-  api.setWork = function (hex) {
-    if (!api.checkWork(hex)) { throw new Error('Work not valid for block') }
+  api.setWork = function (hex, difficulty) {
+    if (!api.checkWork(hex, false, difficulty)) { throw new Error('Work not valid for block') }
     work = hex
     worked = true
   }
@@ -595,15 +595,22 @@ module.exports = function (isState = true) {
     api.build()
   }
 
-  api.checkWork = function (work, blockHash = false) {
+  api.checkWork = function (work, blockHash = false, difficulty) {
+
     if (blockHash === false) {
       blockHash = api.getPrevious()
     }
-    var t = hex_uint8(MAIN_NET_WORK_THRESHOLD)
+
+    if (difficulty == undefined) {
+      difficulty = MAIN_NET_WORK_THRESHOLD
+    }
+
+    var t = hex_uint8(difficulty)
     var context = blake2bInit(8, null)
     blake2bUpdate(context, hex_uint8(work).reverse())
     blake2bUpdate(context, hex_uint8(blockHash))
     var threshold = blake2bFinal(context).reverse()
+
     if (threshold[0] === t[0]) {
       if (threshold[1] === t[1]) {
         if (threshold[2] === t[2]) {

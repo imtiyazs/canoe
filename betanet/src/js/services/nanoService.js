@@ -120,7 +120,7 @@ angular.module('canoeApp.services')
         var accAndHash = root.wallet.getNextPrecalcToWork()
         if (accAndHash) {
           if (doLog) $log.info('Working on precalc for ' + accAndHash.account)
-          doWork(accAndHash.hash, function (work) {
+          doWork(accAndHash.hash, function (work, difficulty) {
             // Wallet may be purged from RAM, so need to check
             if (work && root.wallet) {
               root.wallet.addWorkToPrecalc(accAndHash.account, accAndHash.hash, work)
@@ -134,10 +134,10 @@ angular.module('canoeApp.services')
         }
       } else {
         if (doLog) $log.info('Working on pending block ' + hash)
-        doWork(hash, function (work) {
+        doWork(hash, function (work, difficulty) {
           // Wallet may be purged from RAM, so need to check
           if (work && root.wallet) {
-            root.wallet.addWorkToPendingBlock(hash, work)
+            root.wallet.addWorkToPendingBlock(hash, work, difficulty)
             $rootScope.$emit('work', root.wallet.getPoW())
             root.saveWallet(root.wallet, function () { })
           }
@@ -155,9 +155,9 @@ angular.module('canoeApp.services')
         // Server side
         if (doLog) $log.info('Working on server for ' + hash)
         rai.work_generate_async(hash, function (result) {
-          if (result.work) {
+          if (result.work && result.difficulty) {
             if (doLog) $log.info('Server side PoW found for ' + hash + ': ' + result.work + ' took: ' + (Date.now() - start) + ' ms')
-            callback(result.work)
+            callback(result.work, result.difficulty)
           } else {
             if (doLog) $log.warn('Error doing PoW: ' + result)
             callback(null)

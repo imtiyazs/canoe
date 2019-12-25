@@ -947,12 +947,13 @@ module.exports = function (password) {
     pows = {}
   }
 
-  api.checkWork = function (work, blockHash) {
-    var t = hex_uint8(MAIN_NET_WORK_THRESHOLD)
+  api.checkWork = function (work, blockHash, difficulty) {
+    var t = hex_uint8(difficulty)
     var context = blake2bInit(8, null)
     blake2bUpdate(context, hex_uint8(work).reverse())
     blake2bUpdate(context, hex_uint8(blockHash))
     var threshold = blake2bFinal(context).reverse()
+
     if (threshold[0] === t[0]) {
       if (threshold[1] === t[1]) {
         if (threshold[2] === t[2]) {
@@ -989,8 +990,13 @@ module.exports = function (password) {
   }
 
   // Called when work has been found for hash
-  api.addWorkToPendingBlock = function (hash, work) {
-    if (!api.checkWork(work, hash)) {
+  api.addWorkToPendingBlock = function (hash, work, difficulty) {
+
+    if (difficulty == undefined) {
+      difficulty = MAIN_NET_WORK_THRESHOLD
+    }
+
+    if (!api.checkWork(work, hash, difficulty)) {
       logger.warn('Invalid PoW received (' + work + ') (' + hash + ').')
       return false
     }
@@ -1001,7 +1007,7 @@ module.exports = function (password) {
         var pendingBlk = walletPendingBlocks[j]
         var pendingHash = pendingBlk.getHash(true)
         logger.log('Work received for block ' + pendingHash + ' previous: ' + hash)
-        pendingBlk.setWork(work)
+        pendingBlk.setWork(work, difficulty)
         // Now we can confirm the block and if that works it will end up in readyBlocks
         try {
           api.confirmBlock(pendingHash)
