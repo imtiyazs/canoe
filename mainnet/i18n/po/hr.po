@@ -1,0 +1,1893 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Canoe\n"
+"Language: hr\n"
+
+#: src/js/controllers/feedback/send.js:25 www/views/feedback/complete.html:21
+msgid "A member of the team will review your feedback as soon as possible."
+msgstr "Član tima pregledat će vaše povratne informacije što je prije moguće."
+
+#: src/js/controllers/preferencesAbout.js:5 www/views/tab-settings.html:151
+msgid "About"
+msgstr "Otprilike"
+
+#: www/views/preferencesAdvanced.html:13
+msgid "Account Information"
+msgstr "Informacije o računu"
+
+#: www/views/preferencesName.html:4
+msgid "Account Name"
+msgstr "Korisničko ime"
+
+#: www/views/preferences.html:4
+msgid "Account Settings"
+msgstr "Postavke računa"
+
+#: www/views/tab-create-account.html:12
+msgid "Account name"
+msgstr "Korisničko ime"
+
+#: www/views/tab-home.html:71 www/views/tab-home.html:85
+msgid "Accounts"
+msgstr "Računi"
+
+#: www/views/addressbook.add.html:4 www/views/addressbook.html:22
+msgid "Add Contact"
+msgstr "Dodajte kontakt"
+
+#: www/views/add.html:3
+msgid "Add account"
+msgstr "Dodajte račun"
+
+#: www/views/includes/incomingDataMenu.html:41
+msgid "Add as a contact"
+msgstr "Dodajte kao kontakt"
+
+#: src/js/controllers/confirm.js:234
+msgid "Add description"
+msgstr "Dodajte opis"
+
+#: www/views/addressbook.html:6 www/views/tab-settings.html:15
+msgid "Address Book"
+msgstr "Adresar"
+
+#: www/views/tab-settings.html:100
+msgid "Advanced"
+msgstr "Napredno"
+
+#: www/views/advancedSettings.html:3
+msgid "Advanced Settings"
+msgstr "Napredne postavke 💻"
+
+#: www/views/tab-scan.html:21
+msgid "Allow Camera Access"
+msgstr "Dopustite pristup kameri 📷"
+
+#: www/views/onboarding/notifications.html:7
+msgid "Allow notifications"
+msgstr "Dopustite obavijesti"
+
+#: www/views/onboarding/disclaimer.html:14
+msgid "Almost done! Let's review."
+msgstr "Skoro gotovo! Pogledajmo."
+
+#: www/views/preferencesAltCurrency.html:4 www/views/tab-settings.html:82
+msgid "Alternative Currency"
+msgstr "Alternativna valuta"
+
+#: www/views/amount.html:50 www/views/includes/output.html:7
+msgid "Amount"
+msgstr "Iznos"
+
+#: www/views/backupWarning.html:10
+msgid "Are you being watched?"
+msgstr "Jeli vas netko promatra? 👀"
+
+#: src/js/controllers/addressbookView.js:44
+msgid "Are you sure you want to delete this contact?"
+msgstr "Jeste li sigurni da želite izbrisati taj kontakt?"
+
+#: src/js/controllers/preferencesDelete.js:24
+msgid "Are you sure you want to delete this wallet?"
+msgstr "Jeste li sigurni da želite izbrisati taj novčanik?"
+
+#: src/js/controllers/onboarding/backupRequest.js:21
+msgid "Are you sure you want to skip it?"
+msgstr "Jeste li sigurni da želite preskočiti?"
+
+#: www/views/includes/backupNeededPopup.html:7
+msgid "Backup Needed"
+msgstr "Potrebna je sigurnosna kopija"
+
+#: www/views/includes/backupNeededPopup.html:9
+msgid "Backup now"
+msgstr "Napravi sigurnosnu kopiju"
+
+#: www/views/onboarding/backupRequest.html:11 www/views/tab-export-file.html:58
+msgid "Backup wallet"
+msgstr "Sigurnosni novčanik"
+
+#: www/views/includes/confirmBackupPopup.html:7
+msgid "Be sure to store your seed in a secure place. If this app is deleted, or your device stolen, the seed is the only way to recreate the wallet."
+msgstr "Svakako spremite svoje sjeme (seed) na sigurno mjesto. Ako je ova aplikacija izbrisana ili vaš uređaj ukraden, sjeme (seed) je jedini način za ponovno stvaranje novčanika."
+
+#: www/views/unsupported.html:6
+msgid "Browser unsupported"
+msgstr "Preglednik nije podržan"
+
+#: www/views/onboarding/tour.html:49
+msgid "But do not lose your seed!"
+msgstr "Ali nemojte izgubiti svoje sjeme (seed)!"
+
+#: www/views/includes/buyAndSellCard.html:3
+msgid "Buy &amp; Sell Bitcoin"
+msgstr "Kupite & amp; Prodaj Bitcoin"
+
+#: src/js/controllers/confirm.js:298 src/js/services/popupService.js:61
+#: src/js/services/popupService.js:72 www/views/addressbook.add.html:10
+#: www/views/addressbook.edit.html:10 www/views/feedback/send.html:5
+#: www/views/includes/incomingDataMenu.html:22
+#: www/views/includes/incomingDataMenu.html:54
+#: www/views/includes/incomingDataMenu.html:73
+#: www/views/includes/incomingDataMenu.html:97 www/views/includes/note.html:6
+#: www/views/modals/confirmation.html:13
+msgid "Cancel"
+msgstr "Otkazati"
+
+#: src/js/controllers/onboarding/tour.js:80
+msgid "Cannot Create Wallet"
+msgstr "Nije moguće stvoriti novčanik"
+
+#: www/views/tab-import-file.html:4
+msgid "Choose a backup file from your computer"
+msgstr "Odaberite datoteku sigurnosne kopije s računala"
+
+#: src/js/controllers/confirm.js:221
+msgid "Click to send"
+msgstr "Kliknite za slanje"
+
+#: www/views/modals/pin.html:3 www/views/modals/search.html:3
+msgid "Close"
+msgstr "Zatvoriti"
+
+#: www/views/includes/cash.html:2
+msgid "Coin"
+msgstr "Novčić"
+
+#: www/views/preferences.html:38
+msgid "Color"
+msgstr "Boja"
+
+#: www/views/preferencesAbout.html:21
+msgid "Commit hash"
+msgstr "Pričekajte hash"
+
+#: src/js/controllers/confirm.js:297 www/views/backup.html:46
+#: www/views/confirm.html:4
+msgid "Confirm"
+msgstr "Potvrdite"
+
+#: www/views/modals/terms.html:26 www/views/onboarding/disclaimer.html:44
+msgid "Confirm &amp; Finish"
+msgstr "Potvrdite &amp; Završi"
+
+#: www/views/tab-send.html:50
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: www/views/onboarding/notifications.html:9
+msgid "Continue"
+msgstr "Nastaviti"
+
+#: www/views/preferencesLanguage.html:26
+msgid "Contribute Translations"
+msgstr "Doprinos prijevodima"
+
+#: src/js/controllers/export.js:124 www/views/includes/copyToClipboard.html:4
+msgid "Copied to clipboard"
+msgstr "Kopirano je u međuspremnik"
+
+#: www/views/tab-export-file.html:63
+msgid "Copy this text as it is to a safe place (notepad or email)"
+msgstr "Kopirajte ovaj tekst kao na sigurno mjesto (notepad ili e-mail)"
+
+#: www/views/includes/incomingDataMenu.html:51
+#: www/views/includes/incomingDataMenu.html:70
+#: www/views/includes/incomingDataMenu.html:94
+#: www/views/includes/logOptions.html:9 www/views/tab-export-file.html:47
+msgid "Copy to clipboard"
+msgstr "Kopirati u međuspremnik"
+
+#: www/views/tab-import-phrase.html:2
+msgid "Could not access the wallet at the server. Please check:"
+msgstr "Nije moguće pristupiti novčaniku na poslužitelju. Provjerite:"
+
+#: www/views/tab-create-account.html:3 www/views/tab-home.html:77
+#: www/views/tab-send.html:41
+msgid "Create Account"
+msgstr "Stvorite račun"
+
+#: www/views/tab-create-account.html:25
+msgid "Create new account"
+msgstr "Stvorite novi račun"
+
+#: src/js/services/onGoingProcess.js:14
+msgid "Creating Wallet..."
+msgstr "Izrada novčanika ..."
+
+#: src/js/services/onGoingProcess.js:13
+msgid "Creating account..."
+msgstr "Izrada računa ..."
+
+#: src/js/services/onGoingProcess.js:12
+msgid "Creating transaction"
+msgstr "Stvaranje transakcije"
+
+#: www/views/tx-details.html:68
+msgid "Date"
+msgstr "Datum"
+
+#: src/js/services/profileService.js:277
+msgid "Default Account"
+msgstr "Zadani račun"
+
+#: www/views/preferencesDeleteWallet.html:21
+msgid "Delete"
+msgstr "Izbrisati"
+
+#: www/views/preferencesAdvanced.html:34
+msgid "Delete Account"
+msgstr "Izbrisati račun"
+
+#: www/views/preferencesDeleteWallet.html:3
+msgid "Delete Wallet"
+msgstr "Izbrisati Novčanik"
+
+#: src/js/services/onGoingProcess.js:17
+msgid "Deleting Wallet..."
+msgstr "Brisanje novčanika ..."
+
+#: www/views/includes/backupNeededPopup.html:10
+#: www/views/onboarding/alias.html:70
+#: www/views/onboarding/backupRequest.html:12
+msgid "Do it later"
+msgstr "Učinite to kasnije"
+
+#: www/views/tab-settings.html:142
+msgid "Donate to Bitcoin Black"
+msgstr "Donirajte Canoe-u"
+
+#: www/views/tab-export-file.html:28 www/views/tab-home.html:36
+msgid "Download"
+msgstr "Preuzimanje datoteka"
+
+#: www/views/addressbook.view.html:40
+msgid "Edit"
+msgstr "Uredi"
+
+#: www/views/addressbook.add.html:30 www/views/addressbook.edit.html:30
+#: www/views/addressbook.view.html:22 www/views/onboarding/alias.html:35
+#: www/views/preferencesAlias.html:35
+msgid "Email"
+msgstr "E-mail"
+
+#: www/views/preferencesNotifications.html:42
+msgid "Email Address"
+msgstr "Email adresa"
+
+#: www/views/tab-scan.html:19
+msgid "Enable camera access in your device settings to get started."
+msgstr "Da biste započeli, omogućite pristup fotoaparatu u postavkama uređaja."
+
+#: www/views/preferencesNotifications.html:29
+msgid "Enable email notifications"
+msgstr "Omogući obavijesti e-poštom"
+
+#: www/views/preferencesNotifications.html:12
+msgid "Enable push notifications"
+msgstr "Omogući push obavijesti"
+
+#: www/views/tab-scan.html:18
+msgid "Enable the camera to get started."
+msgstr "Omogućite pokretanje kamere."
+
+#: www/views/amount.html:4
+msgid "Enter amount"
+msgstr "Unesite iznos"
+
+#: www/views/tab-import-phrase.html:13
+msgid "Enter wallet seed"
+msgstr "Unesite sjeme (seed) novčanika"
+
+#: www/views/backup.html:36
+msgid "Enter your password"
+msgstr "Upišite svoju lozinku"
+
+#. Trying to import a malformed wallet export QR code
+#: src/js/controllers/addressbookAdd.js:20
+#: src/js/controllers/addressbookAdd.js:81
+#: src/js/controllers/addressbookEdit.js:21
+#: src/js/controllers/addressbookEdit.js:73
+#: src/js/controllers/addressbookView.js:49 src/js/controllers/create.js:19
+#: src/js/controllers/create.js:28 src/js/controllers/export.js:103
+#: src/js/controllers/export.js:35 src/js/controllers/export.js:57
+#: src/js/controllers/export.js:67 src/js/controllers/export.js:94
+#: src/js/controllers/feedback/send.js:21 src/js/controllers/import.js:108
+#: src/js/controllers/import.js:113 src/js/controllers/import.js:117
+#: src/js/controllers/import.js:122 src/js/controllers/import.js:125
+#: src/js/controllers/import.js:136 src/js/controllers/import.js:35
+#: src/js/controllers/import.js:45 src/js/controllers/import.js:58
+#: src/js/controllers/import.js:65 src/js/controllers/import.js:87
+#: src/js/controllers/import.js:95 src/js/controllers/modals/password.js:101
+#: src/js/controllers/paperWallet.js:21
+#: src/js/controllers/preferencesDelete.js:35
+#: src/js/controllers/preferencesName.js:13
+#: src/js/controllers/preferencesRepresentative.js:17
+#: src/js/controllers/tab-scan.js:106 src/js/controllers/tab-send.js:78
+#: src/js/controllers/tabsController.js:36
+#: src/js/controllers/tabsController.js:7
+msgid "Error"
+msgstr "Greška"
+
+#: src/js/controllers/confirm.js:273
+msgid "Error at confirm"
+msgstr "Pogreška pri potvrdi"
+
+#: src/js/controllers/paperWallet.js:15
+msgid "Error scanning funds:"
+msgstr "Pogreška pri skeniranju sredstava:"
+
+#: src/js/controllers/paperWallet.js:44
+msgid "Error sweeping wallet:"
+msgstr "Pogreška pri korištenju novčanika:"
+
+#: www/views/export.html:3 www/views/tab-settings.html:39
+msgid "Export wallet"
+msgstr "Izvoz novčanika"
+
+#: src/js/services/onGoingProcess.js:18
+msgid "Extracting Wallet information..."
+msgstr "Izdvajanje informacija o novčaniku ..."
+
+#: src/js/controllers/export.js:103 src/js/controllers/export.js:57
+#: src/js/controllers/export.js:67 src/js/controllers/export.js:94
+#: www/views/tab-export-file.html:4
+msgid "Failed to export"
+msgstr "Izvoz nije uspio"
+
+#: www/views/tab-create-account.html:14
+msgid "Family vacation funds"
+msgstr "Obiteljski odmor sredstava"
+
+#: src/js/controllers/feedback/send.js:21
+msgid "Feedback could not be submitted. Please try again later."
+msgstr "Nije bilo moguće slati povratne informacije. Molimo pokušajte ponovo kasnije."
+
+#: www/views/export.html:12
+msgid "File/Text"
+msgstr "Datoteka/Tekst"
+
+#: www/views/preferencesLogs.html:17
+msgid "Filter setting"
+msgstr "Postavka filtra"
+
+#: src/js/services/fingerprintService.js:39
+#: src/js/services/fingerprintService.js:44
+msgid "Finger Scan Failed"
+msgstr "Prst skeniranje nije uspjelo"
+
+#: src/js/controllers/feedback/send.js:32 www/views/feedback/complete.html:7
+msgid "Finish"
+msgstr "Završi"
+
+#: www/views/confirm.html:67 www/views/tx-details.html:50
+#: www/views/tx-details.html:58
+msgid "From"
+msgstr "Iz"
+
+#: www/views/paperWallet.html:16
+msgid "Funds found:"
+msgstr "Pronađena sredstva:"
+
+#: www/views/paperWallet.html:51
+msgid "Funds transferred"
+msgstr "Prijenos sredstava"
+
+#: www/views/paperWallet.html:22
+msgid "Funds will be transferred to"
+msgstr "Sredstva će biti prenesena u"
+
+#: www/views/onboarding/welcome.html:8
+msgctxt "button"
+msgid "Get started"
+msgstr "Započnite"
+
+#: www/views/addressbook.html:20
+msgid "Get started by adding your first one."
+msgstr "Započnite s dodavanjem prvog."
+
+#: src/js/controllers/onboarding/terms.js:23
+#: src/js/controllers/preferencesAbout.js:15
+#: src/js/controllers/preferencesLanguage.js:13
+#: src/js/controllers/tab-home.js:176 src/js/controllers/tab-home.js:28
+#: src/js/controllers/tab-settings.js:51 src/js/controllers/tab-settings.js:62
+#: src/js/controllers/tx-details.js:73
+msgid "Go Back"
+msgstr "Vratite se"
+
+#: src/js/controllers/onboarding/backupRequest.js:18
+#: src/js/controllers/onboarding/backupRequest.js:24
+msgid "Go back"
+msgstr "Vratite se"
+
+#: www/views/backupWarning.html:15 www/views/includes/confirmBackupPopup.html:8
+#: www/views/onboarding/tour.html:23
+msgid "Got it"
+msgstr "Dobio sam to"
+
+#: www/views/tab-settings.html:116
+msgid "Help & Support"
+msgstr "Pomoć i Podrška"
+
+#: src/js/controllers/tab-home.js:26 src/js/controllers/tab-settings.js:49
+msgid "Help and support information is available at the website."
+msgstr "Informacije o pomoći i podršci dostupne su na web stranici."
+
+#: www/views/preferences.html:43
+msgid "Hide Balance"
+msgstr "Sakriti saldo"
+
+#: www/views/tabs.html:3
+msgid "Home"
+msgstr "Na početak"
+
+#: src/js/controllers/feedback/send.js:60
+#: src/js/controllers/feedback/send.js:64
+#: src/js/controllers/feedback/send.js:68
+msgid "How could we improve your experience?"
+msgstr "Kako bismo mogli poboljšati vaše iskustvo?"
+
+#: src/js/controllers/feedback/rateCard.js:29
+msgid "I don't like it"
+msgstr "Ne sviđa mi se"
+
+#: www/views/modals/terms.html:22
+msgid "I have read, understood, and agree with the Terms of use."
+msgstr "Pročitao sam, razumio i slažem se s Uvjetima korištenja."
+
+#: src/js/controllers/feedback/rateCard.js:35
+msgid "I like the app"
+msgstr "Sviđa mi se aplikacija"
+
+#: src/js/controllers/feedback/rateCard.js:26
+msgid "I think this app is terrible."
+msgstr "Mislim da je ova aplikacija strašna."
+
+#: src/js/controllers/onboarding/backupRequest.js:17
+#: www/views/includes/screenshotWarningModal.html:9
+msgid "I understand"
+msgstr "Razumijem"
+
+#: www/views/onboarding/disclaimer.html:18
+msgid "I understand that my funds are held securely on this device, not by a company."
+msgstr "Razumijem da se moja sredstva sigurno drže na ovom uređaju, a ne od strane tvrtke."
+
+#: www/views/backup.html:28
+msgid "I've written it down"
+msgstr "Zapisao sam to"
+
+#: src/js/controllers/onboarding/backupRequest.js:16
+msgid "If this device is replaced or this app is deleted, your funds can not be recovered without a backup."
+msgstr "Ako je ovaj uređaj zamijenjen ili je ta aplikacija izbrisana, sredstva se ne mogu vratiti bez sigurnosne kopije."
+
+#: www/views/feedback/complete.html:23
+msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
+msgstr "Ako imate dodatnih povratnih informacija, obavijestite nas tako da dodirnete opciju \"Pošalji povratne informacije\" na kartici Postavke."
+
+#: www/views/includes/screenshotWarningModal.html:8
+msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
+msgstr "Ako snimite snimak zaslona, ​​druge aplikacije mogu pregledavati sigurnosnu kopiju. Možete napraviti sigurnu sigurnosnu kopiju s fizičkim papirom i olovkom."
+
+#: www/views/import.html:3
+msgid "Import Wallet"
+msgstr "Uvoz novčanika"
+
+#: www/views/tab-import-phrase.html:42
+msgid "Import seed"
+msgstr "Uvoz sjemena (seed)"
+
+#: www/views/add.html:21 www/views/tab-import-file.html:30
+#: www/views/tab-settings.html:31
+msgid "Import wallet"
+msgstr "Uvezite novčanik"
+
+#: src/js/services/onGoingProcess.js:20
+msgid "Importing Wallet..."
+msgstr "Uvoz novčanika ..."
+
+#: www/views/backup.html:39
+msgid "In order to verify your wallet backup, please type your password."
+msgstr "Da biste potvrdili sigurnosnu kopiju novčanika, unesite zaporku."
+
+#: www/views/includes/walletListSettings.html:9
+msgid "Incomplete"
+msgstr "Nepotpuno"
+
+#: src/js/controllers/confirm.js:98
+msgid "Insufficient funds"
+msgstr "Nedovoljno sredstva"
+
+#: www/views/includes/accountHistory.html:43
+msgid "Invalid"
+msgstr "Neispravno"
+
+#: src/js/controllers/feedback/send.js:78
+msgid "Is there anything we could do better?"
+msgstr "Postoji li nešto što bismo mogli učiniti bolje?"
+
+#: src/js/controllers/backup.js:34
+msgid "It's important that you write your wallet seed down correctly. If something happens to your wallet, you'll need this seed to reconstruct it. Please review your seed and try again."
+msgstr "Važno je da ispravno napišete sjeme (seed) novčanika. Ako se nešto dogodi vašem novčaniku, trebat će vam ovo sjeme (seed) za rekonstrukciju. Pregledajte vaše sjeme (seed) i pokušajte ponovo."
+
+#: www/views/preferencesLanguage.html:4 www/views/tab-settings.html:71
+msgid "Language"
+msgstr "Jezik"
+
+#: www/views/tab-home.html:24
+msgid "Learn more"
+msgstr "Saznajte više"
+
+#: src/js/services/onGoingProcess.js:30
+msgid "Loading transaction info..."
+msgstr "Učitavanje informacija o transakciji ..."
+
+#: www/views/includes/logOptions.html:3
+msgid "Log options"
+msgstr "Mogućnosti zapisnika"
+
+#: www/views/onboarding/tour.html:37
+msgid "Makes sense"
+msgstr "Ima smisla"
+
+#: src/js/controllers/modals/search.js:60
+msgid "Matches:"
+msgstr "Odgovara:"
+
+#: src/js/controllers/feedback/rateCard.js:32
+msgid "Meh - it's alright"
+msgstr "Meh - sve je u redu"
+
+#: www/views/tx-details.html:76
+msgid "Memo"
+msgstr "Memorandum"
+
+#: www/views/preferencesAdvanced.html:3
+msgid "More Options"
+msgstr "Više mogućnosti"
+
+#: www/views/addressbook.add.html:21 www/views/addressbook.edit.html:21
+#: www/views/addressbook.view.html:18 www/views/preferences.html:15
+#: www/views/preferencesName.html:17
+msgid "Name"
+msgstr "Ime"
+
+#: www/views/add.html:14
+msgid "New account"
+msgstr "Novi profil"
+
+#: www/views/tab-receive.html:16
+msgid "No Account available"
+msgstr "Nije dostupan račun"
+
+#: www/views/addressbook.html:19
+msgid "No contacts yet"
+msgstr "Još nema kontakata"
+
+#: www/views/preferencesLogs.html:16
+msgid "No entries for this log level"
+msgstr "Nema unosa za ovu razinu dnevnika"
+
+#: www/views/activity.html:25
+msgid "No recent transactions"
+msgstr "Nema nedavnih transakcija"
+
+#: www/views/accountDetails.html:103
+msgid "No transactions yet"
+msgstr "Još nema transakcija"
+
+#: src/js/controllers/preferencesDelete.js:14
+msgid "No wallet found"
+msgstr "Nije pronađen novčanik"
+
+#: src/js/controllers/preferencesDelete.js:7
+msgid "No wallet selected"
+msgstr "Nije odabran novčanik"
+
+#: www/views/paperWallet.html:45
+msgid "No wallets available to receive funds"
+msgstr "Nema novčanika na raspolaganju za primanje sredstava"
+
+#: src/js/controllers/paperWallet.js:21
+msgid "Not funds found"
+msgstr "Nisu pronađena sredstva"
+
+#: www/views/feedback/rateApp.html:3 www/views/onboarding/notifications.html:8
+msgid "Not now"
+msgstr "Ne sada"
+
+#: www/views/includes/output.html:15
+msgid "Note"
+msgstr "Bilješka"
+
+#: www/views/preferencesNotifications.html:3 www/views/tab-settings.html:63
+msgid "Notifications"
+msgstr "Obavijesti"
+
+#: www/views/preferencesNotifications.html:24
+msgid "Notify me when transactions are confirmed"
+msgstr "Obavijesti me kada su potvrđene transakcije"
+
+#: www/views/includes/backupNeededPopup.html:8
+msgid "Now is a good time to backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
+msgstr "Sada je dobro vrijeme za sigurnosno kopiranje novčanika. Ako je ovaj uređaj izgubljen, nemoguće je pristupiti svojim sredstvima bez sigurnosne kopije."
+
+#: www/views/backupWarning.html:11
+msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
+msgstr "Sada je savršeno vrijeme za procjenu vaše okoline. Prozori u blizini? Skrivene kamere? Špijuni iza vas? UDBA? "
+
+#: www/views/tab-import-phrase.html:15
+msgid "Numbers and letters like 904A2CE76..."
+msgstr "Brojevi i slova poput 904A2CE76 ..."
+
+#: src/js/services/popupService.js:15 src/js/services/popupService.js:51
+#: src/js/services/popupService.js:60 src/js/services/popupService.js:71
+msgid "OK"
+msgstr "U redu"
+
+#: www/views/modals/tx-status.html:12 www/views/modals/tx-status.html:24
+#: www/views/modals/tx-status.html:36 www/views/modals/tx-status.html:46
+msgid "OKAY"
+msgstr "U REDU"
+
+#: www/views/modals/terms.html:15
+msgid "Official English Disclaimer"
+msgstr "Odricanje od odgovornosti"
+
+#: src/js/controllers/feedback/send.js:63
+msgid "Oh no!"
+msgstr "O ne!"
+
+#: src/js/controllers/tab-home.js:27 src/js/controllers/tab-settings.js:50
+#: src/js/controllers/tab-settings.js:61 src/js/controllers/tx-details.js:72
+msgid "Open"
+msgstr "Otvoren"
+
+#: src/js/controllers/preferencesAbout.js:14
+msgid "Open GitHub"
+msgstr "Otvorite GitHub"
+
+#: src/js/controllers/preferencesAbout.js:12
+msgid "Open GitHub Project"
+msgstr "Otvori GitHub projekt"
+
+#: www/views/tab-scan.html:22
+msgid "Open Settings"
+msgstr "Otvorite Postavke"
+
+#: src/js/controllers/onboarding/terms.js:22
+msgid "Open Website"
+msgstr "Otvori web stranicu"
+
+#: www/views/includes/incomingDataMenu.html:19
+msgid "Open website"
+msgstr "Otvori web stranicu"
+
+#: www/views/tab-import-file.html:13
+msgid "Paste the backup plain text"
+msgstr "Zalijepite tekst običnog kopiranja"
+
+#: www/views/modals/tx-status.html:33
+msgid "Payment Accepted"
+msgstr "Prihvaćeno plaćanje"
+
+#: www/views/modals/tx-status.html:21
+msgid "Payment Proposal Created"
+msgstr "Izrađen prijedlog plaćanja"
+
+#: www/views/includes/walletActivity.html:11
+msgid "Payment Received"
+msgstr "Primljena uplata"
+
+#: www/views/modals/tx-status.html:43
+msgid "Payment Rejected"
+msgstr "Odbijeno plaćanje"
+
+#: www/views/confirm.html:116 www/views/includes/walletActivity.html:4
+msgid "Payment Sent"
+msgstr "Plaćanje je poslano"
+
+#: www/views/preferencesDeleteWallet.html:13
+msgid "Permanently delete this wallet."
+msgstr "Trajno izbrišite ovaj novčanik."
+
+#: www/views/backup.html:21
+msgid "Please carefully write down this 64 character seed. Click to copy to clipboard."
+msgstr "Pažljivo zapišite sjeme (seed) od 64 znaka. Kliknite da biste kopirali u međuspremnik."
+
+#: www/views/tab-scan.html:20
+msgid "Please connect a camera to get started."
+msgstr "Povežite fotoaparat kako biste započeli."
+
+#: src/js/controllers/import.js:113
+msgid "Please enter the seed"
+msgstr "Unesite sjeme (seed)"
+
+#: src/js/controllers/import.js:95
+msgid "Please, select your backup file"
+msgstr "Odaberite sigurnosnu kopiju datoteke"
+
+#: www/views/tab-settings.html:57
+msgid "Preferences"
+msgstr "Postavke"
+
+#: src/js/services/onGoingProcess.js:32
+msgid "Preparing addresses..."
+msgstr "Pripremanje adresa ..."
+
+#: src/js/controllers/export.js:129
+msgid "Preparing backup..."
+msgstr "Priprema sigurnosne kopije ..."
+
+#: src/js/routes.js:896
+msgid "Press again to exit"
+msgstr "Pritisnite ponovno za izlaz"
+
+#: www/views/includes/incomingDataMenu.html:80
+msgid "Private Key"
+msgstr "Privatni ključ"
+
+#: src/js/controllers/paperWallet.js:86
+msgid "Private key encrypted. Enter password"
+msgstr "Privatni ključ šifriran. Upišite lozinku"
+
+#: www/views/onboarding/notifications.html:3
+msgid "Push Notifications"
+msgstr "Push Obavijesti"
+
+#: www/views/export.html:15
+msgid "QR Code"
+msgstr "QR kod"
+
+#: www/views/onboarding/disclaimer.html:13
+msgid "Quick review!"
+msgstr "Brzi pregled!"
+
+#: www/views/feedback/rateApp.html:14
+msgid "Rate on the app store"
+msgstr "Ocijenite u trgovini aplikacija"
+
+#: www/views/tab-receive.html:3 www/views/tabs.html:7
+msgid "Receive"
+msgstr "Primi"
+
+#: www/views/tx-details.html:20
+msgid "Received"
+msgstr "Primljeno"
+
+#: www/views/includes/accountHistory.html:3
+msgid "Recent"
+msgstr "Nedavno"
+
+#: www/views/advancedSettings.html:30
+msgid "Recent Transaction Card"
+msgstr "Nedavna transakcijska kartica"
+
+#: www/views/activity.html:4
+msgid "Recent Transactions"
+msgstr "Nedavne transakcije"
+
+#: www/views/amount.html:13 www/views/tab-send.html:14
+msgid "Recipient"
+msgstr "Primaoc"
+
+#: www/views/preferencesAbout.html:9
+msgid "Release information"
+msgstr "Objavite informacije"
+
+#: www/views/addressbook.view.html:44
+msgid "Remove"
+msgstr "Ukloniti"
+
+#: www/views/onboarding/welcome.html:9
+msgid "Restore from backup"
+msgstr "Vraćanje iz sigurnosne kopije"
+
+#: src/js/controllers/onboarding/tour.js:86
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: www/views/tab-scan.html:23
+msgid "Retry Camera"
+msgstr "Pokušaj ponoviti kameru"
+
+#: www/views/addressbook.add.html:81 www/views/addressbook.edit.html:81
+#: www/views/changeLocks.html:70 www/views/includes/note.html:9
+#: www/views/preferencesAlias.html:50 www/views/preferencesName.html:21
+#: www/views/preferencesNotifications.html:46
+#: www/views/preferencesRepresentative.html:33
+msgid "Save"
+msgstr "Uštedjeti"
+
+#: www/views/tab-scan.html:3 www/views/tabs.html:11
+msgid "Scan"
+msgstr "Skenirati"
+
+#: www/views/tab-scan.html:15
+msgid "Scan QR Codes"
+msgstr "Skeniranje QR kodova"
+
+#: www/views/modals/fingerprintCheck.html:11
+msgid "Scan again"
+msgstr "Ponovno skeniranje"
+
+#: src/js/services/fingerprintService.js:51
+msgid "Scan your fingerprint please"
+msgstr "Skenirajte svoj otisak prsta"
+
+#: src/js/services/onGoingProcess.js:25
+msgid "Scanning Wallet funds..."
+msgstr "Skeniranje novčanih sredstava ..."
+
+#: www/views/includes/screenshotWarningModal.html:7
+msgid "Screenshots are not secure"
+msgstr "Snimke zaslona nisu sigurne"
+
+#: www/views/modals/search.html:6
+msgid "Search Transactions"
+msgstr "Pretraživanje transakcija"
+
+#: www/views/tab-send.html:18
+msgid "Search or enter account number"
+msgstr "Pretraživanje ili unos broja računa"
+
+#: www/views/modals/search.html:16
+msgid "Search transactions"
+msgstr "Pretraživanje transakcija"
+
+#: www/views/preferencesAltCurrency.html:14
+msgid "Search your currency"
+msgstr "Pretražite svoju valutu"
+
+#: www/views/tab-import-file.html:7
+msgid "Select a backup file"
+msgstr "Odaberite datoteku sigurnosne kopije"
+
+#: src/js/controllers/amount.js:40 src/js/controllers/amount.js:76
+#: src/js/controllers/tab-receive.js:79 src/js/controllers/tab-send.js:189
+#: src/js/controllers/tab-send.js:208
+msgid "Select an account"
+msgstr "Odaberite račun"
+
+#: www/views/feedback/send.html:13 www/views/feedback/send.html:43
+#: www/views/tab-send.html:3 www/views/tabs.html:15
+msgid "Send"
+msgstr "Pošalji"
+
+#: www/views/feedback/send.html:3 www/views/tab-settings.html:126
+msgid "Send Feedback"
+msgstr "Pošalji povratne informacije"
+
+#: www/views/includes/logOptions.html:17 www/views/tab-export-file.html:51
+msgid "Send by email"
+msgstr "Pošalji e-mailom"
+
+#: src/js/controllers/confirm.js:148
+msgid "Send from"
+msgstr "Pošalji od"
+
+#: www/views/includes/itemSelector.html:8
+msgid "Send max amount"
+msgstr "Pošalji maksimalni iznos"
+
+#: www/views/feedback/rateApp.html:17
+msgid "Send us feedback instead"
+msgstr "Pošaljite nam povratne informacije"
+
+#: www/views/confirm.html:15
+msgid "Sending"
+msgstr "Slanje"
+
+#: src/js/services/onGoingProcess.js:31
+msgid "Sending feedback..."
+msgstr "Slanje povratnih informacija ..."
+
+#: www/views/confirm.html:16
+msgid "Sending maximum amount"
+msgstr "Slanje maksimalnog iznosa"
+
+#: src/js/services/onGoingProcess.js:26
+msgid "Sending transaction"
+msgstr "Slanje transakcije"
+
+#: src/js/controllers/confirm.js:293
+msgid "Sending {{amountStr}} from your {{name}} account"
+msgstr "Slanje {{amountStr}} s računa {{name}}"
+
+#: www/views/modals/tx-status.html:9 www/views/tx-details.html:18
+msgid "Sent"
+msgstr "Poslano"
+
+#: www/views/includes/homeIntegrations.html:3
+msgid "Services"
+msgstr "Usluge"
+
+#: www/views/preferencesLogs.html:3
+msgid "Session Log"
+msgstr "Zapisnik sesije"
+
+#: www/views/preferencesAbout.html:40
+msgid "Session log"
+msgstr "Zapisnik sesije"
+
+#: www/views/tab-settings.html:3 www/views/tabs.html:19
+msgid "Settings"
+msgstr "Postavke"
+
+#: www/views/feedback/complete.html:17 www/views/feedback/complete.html:26
+msgid "Share the love by inviting your friends."
+msgstr "Podijelite ljubav pozivajući svoje prijatelje."
+
+#: www/views/tab-send.html:42
+msgid "Show Account"
+msgstr "Prikaži račun"
+
+#: www/views/tab-send.html:65
+msgid "Show more"
+msgstr "Prikaži više"
+
+#: src/js/services/onGoingProcess.js:27
+msgid "Signing transaction"
+msgstr "Potpisivanje transakcije"
+
+#: www/views/onboarding/backupRequest.html:6
+msgid "Since only you control your money, you’ll need to save your wallet seed in case this app is deleted."
+msgstr "Budući da samo vi kontrolirate svoj novac, trebat ćete spremiti sjeme (seed) novčanika u slučaju uklanjanja ove aplikacije."
+
+#: www/views/onboarding/tour.html:11
+msgid "Skip"
+msgstr "Preskočiti"
+
+#: src/js/controllers/confirm.js:219
+msgid "Slide to send"
+msgstr "Pomaknite za slanje"
+
+#: www/views/paperWallet.html:7
+msgid "Sweep"
+msgstr "Pomesti"
+
+#: www/views/includes/incomingDataMenu.html:89 www/views/paperWallet.html:3
+msgid "Sweep paper wallet"
+msgstr "Ispišite papirni novčanik"
+
+#: src/js/services/onGoingProcess.js:28
+msgid "Sweeping Wallet..."
+msgstr "Potporni novčanik ..."
+
+#: www/views/preferencesDeleteWallet.html:16
+msgid "THIS ACTION CANNOT BE REVERSED"
+msgstr "OVU AKCIJU NE MOŽE SE PREOKRENUTI"
+
+#: www/views/accountDetails.html:43
+msgid "Tap and hold to show"
+msgstr "Dodirnite i držite za prikaz"
+
+#: www/views/termsOfUse.html:3
+msgid "Terms Of Use"
+msgstr "Uvjeti korištenja"
+
+#: www/views/modals/terms.html:3 www/views/onboarding/disclaimer.html:29
+#: www/views/onboarding/disclaimer.html:43 www/views/preferencesAbout.html:30
+msgid "Terms of Use"
+msgstr "Uvjeti korištenja"
+
+#: www/views/includes/incomingDataMenu.html:61
+msgid "Text"
+msgstr "Tekst"
+
+#: src/js/controllers/feedback/send.js:25
+#: src/js/controllers/feedback/send.js:75 www/views/feedback/complete.html:20
+#: www/views/feedback/rateApp.html:4
+msgid "Thank you!"
+msgstr "Hvala vam!"
+
+#: src/js/controllers/feedback/send.js:71
+msgid "Thanks!"
+msgstr "Hvala!"
+
+#: src/js/controllers/feedback/send.js:72
+msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
+msgstr "To je uzbudljivo čuti. Voljeli bismo dobiti tu petu zvijezdu od vas - kako bismo mogli poboljšati vaše iskustvo?"
+
+#: www/views/tab-import-phrase.html:4
+msgid "The seed"
+msgstr "Sjeme (seed)"
+
+#: src/js/controllers/import.js:117
+msgid "The seed is invalid, it should be 64 characters of: 0-9, A-F"
+msgstr "Sjeme (seed) je nevažeće, trebalo bi biti 64 znaka: 0-9, A-F"
+
+#: www/views/tab-import-phrase.html:5
+msgid "The wallet server URL"
+msgstr "URL poslužitelja novčanika"
+
+#: src/js/controllers/import.js:108 src/js/controllers/import.js:87
+msgid "There is an error in the form"
+msgstr "Postoji pogreška u obrascu"
+
+#: src/js/controllers/feedback/send.js:60
+#: src/js/controllers/feedback/send.js:64
+msgid "There's obviously something we're doing wrong."
+msgstr "Očito je nešto što radimo pogrešno."
+
+#: src/js/controllers/feedback/rateCard.js:38
+msgid "This app is fantastic!"
+msgstr "Ova aplikacija je fantastična!"
+
+#: www/views/tx-details.html:86
+msgid "Timeline"
+msgstr "Vremenska Crta"
+
+#: www/views/confirm.html:26 www/views/includes/output.html:2
+#: www/views/tx-details.html:42 www/views/tx-details.html:59
+msgid "To"
+msgstr "Do"
+
+#: src/js/services/fingerprintService.js:58
+#: src/js/services/fingerprintService.js:63
+msgid "Touch ID Failed"
+msgstr "ID osjetljiv na dodir nije uspio"
+
+#: src/js/controllers/tx-details.js:10
+msgid "Transaction"
+msgstr "Transakcija"
+
+#: src/js/controllers/paperWallet.js:63
+msgid "Transfer to"
+msgstr "Prijelaz na"
+
+#: www/views/tab-send.html:73
+msgid "Transfer to Account"
+msgstr "Prijenos na račun"
+
+#: www/views/modals/password.html:24 www/views/modals/pin.html:13
+msgid "Try again in {{expires}}"
+msgstr "Pokušajte ponovo u {{expires}}"
+
+#: src/js/controllers/backup.js:33
+msgid "Uh oh..."
+msgstr "Uh oh..."
+
+#: src/js/controllers/tab-home.js:173
+msgid "Update Available"
+msgstr "Ažuriranje dostupno"
+
+#: www/views/activity.html:14
+msgid "Updating... Please stand by"
+msgstr "Ažuriranje ... Molim te pričekajte"
+
+#: www/views/modals/fingerprintCheck.html:4
+msgid "Verify your identity"
+msgstr "Potvrdite svoj identitet"
+
+#: www/views/preferencesAbout.html:14
+msgid "Version"
+msgstr "Verzija"
+
+#: www/views/tab-export-file.html:38
+msgid "View"
+msgstr "Pogled"
+
+#: src/js/controllers/onboarding/terms.js:20
+msgid "View Terms of Service"
+msgstr "Pogledajte Uvjete pružanja usluge"
+
+#: src/js/controllers/tab-home.js:175
+msgid "View Update"
+msgstr "Prikaži ažuriranje"
+
+#: www/views/tab-settings.html:104
+msgid "Wallet Accounts"
+msgstr "Računi za Novčanik"
+
+#: www/views/import.html:20
+msgid "Wallet File"
+msgstr "Datoteka novčanika"
+
+#: www/views/import.html:16
+msgid "Wallet Seed"
+msgstr "Sjeme (seed) novčanika"
+
+#: www/views/backup.html:10
+msgid "Wallet seed not available"
+msgstr "Sjeme (seed) novčanika nije dostupno"
+
+#: src/js/controllers/addressbookView.js:43
+#: src/js/controllers/advancedSettings.js:38 src/js/controllers/import.js:152
+#: src/js/controllers/modals/password.js:73
+#: src/js/controllers/preferencesDelete.js:23
+#: www/views/preferencesDeleteWallet.html:11
+msgid "Warning!"
+msgstr "Upozorenje!"
+
+#: src/js/controllers/onboarding/backupRequest.js:15
+msgid "Watch out!"
+msgstr "Pazi!"
+
+#: src/js/controllers/feedback/send.js:68
+msgid "We'd love to do better."
+msgstr "Voljeli bismo bolje."
+
+#: www/views/includes/incomingDataMenu.html:6
+msgid "Website"
+msgstr "Web stranica"
+
+#: www/views/preferencesName.html:11
+msgid "What do you call this account?"
+msgstr "Kako zovete ovaj račun?"
+
+#: www/views/onboarding/notifications.html:4
+msgid "Would you like to receive push notifications about payments?"
+msgstr "Želite li primati push obavijesti o plaćanjima?"
+
+#: www/views/modals/confirmation.html:7
+msgid "Yes"
+msgstr "Da"
+
+#: src/js/controllers/onboarding/backupRequest.js:23
+msgid "Yes, skip"
+msgstr "Da, preskočite"
+
+#: www/views/preferencesName.html:12
+msgid "You can change the name displayed on this device below."
+msgstr "U nastavku možete promijeniti naziv prikazan na ovom uređaju."
+
+#: src/js/controllers/onboarding/backupRequest.js:22
+msgid "You can create a backup later from your wallet settings."
+msgstr "Kasnije možete izraditi sigurnosnu kopiju iz postavki lisnice."
+
+#: src/js/controllers/preferencesAbout.js:13
+msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
+msgstr "Možete vidjeti najnovija dostignuća i pridonijeti ovoj open source aplikaciji posjetom našem projektu na GitHubu."
+
+#: www/views/backup.html:13
+msgid "You can still export it from Advanced &gt; Export."
+msgstr "I dalje ga možete izvesti iz naprednih & gt; Izvoz."
+
+#: www/views/preferencesNotifications.html:34
+msgid "You'll receive email notifications about payments sent and received from your wallets."
+msgstr "Primat ćete obavijesti e-poštom o plaćanjima koja su poslana i primljena od vaših novčanika."
+
+#: www/views/feedback/send.html:42
+msgid "Your ideas, feedback, or comments"
+msgstr "Vaše ideje, povratne informacije ili komentari"
+
+#: www/views/tab-export-file.html:12 www/views/tab-import-file.html:20
+#: www/views/tab-import-phrase.html:30
+msgid "Your password"
+msgstr "Vaša lozinka"
+
+#: www/views/onboarding/backupRequest.html:10
+msgid "Your wallet is never saved to cloud storage or standard device backups."
+msgstr "Vaš novčanik nikad nije spremljen u pohranu oblaka ili standardne sigurnosne kopije uređaja."
+
+#: www/views/accountDetails.html:42 www/views/amount.html:122
+#: www/views/includes/accountList.html:19
+#: www/views/includes/accountSelector.html:18 www/views/paperWallet.html:33
+#: www/views/tab-receive.html:41 www/views/tab-send.html:101
+msgid "[Balance Hidden]"
+msgstr "[Saldo Skriven]"
+
+#: www/views/onboarding/disclaimer.html:43
+msgid "I have read, understood, and agree to the <a ng-click=\"openTerms()\" href=\"javascript:void(0)\" translate=\"\">Terms of Use</a>."
+msgstr "Pročitao sam, razumio i prihvaćam <a ng-click=\"openTerms()\" href=\"javascript:void(0)\" translate=\"\"> Uvjete upotrebe usluge </a>."
+
+#: www/views/feedback/rateApp.html:7
+msgid "5-star ratings help us get Canoe into more hands, and more users means more resources can be committed to the app!"
+msgstr "Ocjene od 5 zvjezdica pomažu nam da se Canoe dovede u više ruku, a više korisnika znači da se više resursa može predati aplikaciji!"
+
+#: www/views/changePassword.html:31
+msgid "At least 8 Characters. Make it good!"
+msgstr "Najmanje 8 znakova. Neka bude dobra!"
+
+#: www/views/changePassword.html:3 www/views/changePassword.html:77
+#: www/views/preferencesSecurity.html:17
+msgid "Change Password"
+msgstr "Promjeni lozinku"
+
+#: www/views/changePassword.html:43
+msgid "Confirm New Password"
+msgstr "Potvrdi Novu Lozinku"
+
+#: www/views/feedback/rateCard.html:3
+msgid "How do you like Canoe?"
+msgstr "Kako Vam se sviđa Canoe?"
+
+#: www/views/onboarding/tour.html:50
+msgid "Let's Start"
+msgstr "Počnimo"
+
+#: www/views/changePassword.html:28
+msgid "New Password"
+msgstr "Nova Lozinka"
+
+#: www/views/changePassword.html:13
+msgid "Old Password"
+msgstr "Stara Lozinka"
+
+#: www/views/changePassword.html:46
+msgid "One more time."
+msgstr "Još jednom."
+
+#: www/views/changePassword.html:64
+msgid "Password too short"
+msgstr "Lozinka prekratka"
+
+#: www/views/changePassword.html:70
+msgid "Passwords don't match"
+msgstr "Lozinke se ne podudaraju"
+
+#: www/views/changePassword.html:60 www/views/onboarding/tour.html:106
+msgid "Passwords match"
+msgstr "Lozinke se podudaraju"
+
+#: www/views/preferencesNotifications.html:17
+msgid "Push notifications for Canoe are currently disabled. Enable them in the Settings app."
+msgstr "Push notifikacije su trenutno isključene. Uključite ih "
+
+#: src/js/controllers/feedback/complete.js:5 www/views/tab-settings.html:53
+msgid "Share Canoe"
+msgstr "Podijeli Canoe"
+
+#: src/js/controllers/tab-home.js:52
+msgid "There is a new version of Canoe available"
+msgstr "Dostupna je nova verzija Canoe"
+
+#: src/js/controllers/feedback/send.js:76
+msgid "We're always looking for ways to improve Canoe."
+msgstr "Uvijek tražimo način kako poboljšati Canoe"
+
+#: src/js/controllers/feedback/send.js:82
+msgid "We're always looking for ways to improve Canoe. How could we improve your experience?"
+msgstr "Uvijek tražimo načine kako poboljšati kanu. Kako bismo mogli poboljšati vaše iskustvo?"
+
+#: www/views/feedback/rateApp.html:10
+msgid "Would you be willing to rate Canoe in the app store?"
+msgstr "Biste li bili voljni ocijeniti Canoe u trgovini aplikacija?"
+
+#: www/views/preferencesAlias.html:4
+msgid "Account Alias"
+msgstr "Alias ​​računa"
+
+#: www/views/preferencesColor.html:4
+msgid "Account Color"
+msgstr "Boja Računa"
+
+#: www/views/addressbook.add.html:56 www/views/addressbook.edit.html:56
+#: www/views/addressbook.view.html:30 www/views/onboarding/alias.html:10
+#: www/views/preferences.html:22 www/views/preferencesAlias.html:19
+msgid "Alias"
+msgstr "pseudonim"
+
+#: www/views/backup.html:3 www/views/tab-settings.html:23
+msgid "Backup seed"
+msgstr "Sigurnosno sjeme"
+
+#: www/views/onboarding/tour.html:116
+msgid "Create Wallet"
+msgstr "Napravi Novčanik"
+
+#: www/views/preferencesLanguage.html:21
+msgid "Don't see your language? Sign up on POEditor! We'd love to support your language."
+msgstr "Ne vidite svoj jezik? Prijavite se na POEditor! Voljeli bismo podržati vaš jezik."
+
+#: www/views/addressbook.edit.html:4
+msgid "Edit Contact"
+msgstr "Uredi kontakt"
+
+#: www/views/tab-export-file.html:10
+msgid "Enter password"
+msgstr "Unesite lozinku"
+
+#: www/views/modals/password.html:23
+msgid "Incorrect password, try again."
+msgstr "Netočna lozinka, pokušajte ponovo."
+
+#: www/views/addressbook.add.html:24 www/views/addressbook.edit.html:24
+msgid "Joe Doe"
+msgstr "Joe Doe"
+
+#: www/views/onboarding/welcome.html:5
+msgid "Join the future of money,<br>get started with BCB."
+msgstr "Pridružite se budućnosti novca, <br> počnite s Nanoom."
+
+#: www/views/tab-settings.html:45
+msgid "Lock wallet"
+msgstr "Zaključaj Canoe"
+
+#: www/views/onboarding/disclaimer.html:15
+msgid "BCB is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "BCB je drugačiji & ndash; ne može se sigurno držati u banci ili web servisu."
+
+#: src/js/controllers/confirm.js:85
+msgid "No accounts available"
+msgstr "Nema dostupnih računa"
+
+#: www/views/onboarding/backupRequest.html:5
+msgid "No backup, no BCB."
+msgstr "Nema sigurnosne kopije, nema BCB."
+
+#: src/js/controllers/preferencesLanguage.js:12
+msgid "Open POEditor"
+msgstr "Otvorite POEditor"
+
+#: src/js/controllers/preferencesLanguage.js:10
+msgid "Open Translation Site"
+msgstr "Otvori prijevodnu stranicu"
+
+#: www/views/tab-import-file.html:18
+msgid "Password to decrypt"
+msgstr "Lozinka za dešifriranje"
+
+#: www/views/tab-import-phrase.html:28
+msgid "Password to encrypt"
+msgstr "Zaporka za šifriranje"
+
+#: src/js/controllers/import.js:122
+msgid "Please enter a password to use for the wallet"
+msgstr "Unesite zaporku za upotrebu novčanika"
+
+#: www/views/advancedSettings.html:40
+msgid "Repair"
+msgstr "Popravi"
+
+#: www/views/addressbook.view.html:35
+msgid "Send BCB"
+msgstr "Pošalji BCB"
+
+#: www/views/tab-send.html:33
+msgid "Start sending BCB"
+msgstr "Počni slati BCB"
+
+#: www/views/tab-send.html:37
+msgid "To get started, you need BCB. Share your account to receive BCB."
+msgstr "Da biste započeli, trebate BCB. Podijelite svoj račun kako biste primali BCB."
+
+#: www/views/tab-send.html:38
+msgid "To get started, you need an Account in your wallet to receive BCB."
+msgstr "Da biste započeli, potreban vam je račun u novčaniku za primanje BCB."
+
+#: www/views/preferencesAlias.html:12
+msgid "Type below to see if an alias is free to use."
+msgstr "U nastavku upišite da li je pseudonim slobodan za upotrebu."
+
+#: www/views/advancedSettings.html:12
+msgid "Use Server Side PoW"
+msgstr "Koristite PoW na strani poslužitelja"
+
+#: www/views/preferencesLanguage.html:16
+msgid "We’re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on POEditor."
+msgstr "Uvijek tražimo doprinose za prijevod! Možete izvršiti ispravke ili pomoć kako biste ovu aplikaciju učinili dostupnom na vašem materinskom jeziku tako što ćete se pridružiti našoj zajednici na POEditoru."
+
+#: src/js/controllers/preferencesLanguage.js:11
+msgid "You can make contributions by signing up on our POEditor community translation project. We’re looking forward to hearing from you!"
+msgstr "Možete uplatiti doprinose prijavom na naš POEditor projekt prevođenja zajednice. Radujemo se što ćemo vam čuti!"
+
+#: www/views/tab-scan.html:16
+msgid "You can scan BCB addresses, payment requests and more."
+msgstr "Možete skenirati BCB adrese, zahtjeve za plaćanje i još mnogo toga."
+
+#: www/views/tab-home.html:50
+msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgstr "Vaš BCB Novčanik je spreman!"
+
+#: www/views/includes/confirmBackupPopup.html:6
+msgid "Your BCB wallet seed is backed up!"
+msgstr "Sjeme vašeg BCB novčanika je poduprto!"
+
+#: src/js/services/nanoService.js:712 www/views/addressbook.add.html:39
+#: www/views/addressbook.edit.html:39 www/views/addressbook.view.html:26
+msgid "Account"
+msgstr "Račun"
+
+#: src/js/controllers/create.js:19 src/js/controllers/preferencesName.js:13
+msgid "An account already exists with that name"
+msgstr "Račun već postoji s tim imenom"
+
+#: www/views/modals/pin.html:10
+msgid "Confirm your PIN"
+msgstr "Potvrdite svoj PIN"
+
+#: www/views/preferencesName.html:18
+msgid "Enter a descriptive name"
+msgstr "Unesite opisno ime"
+
+#: src/js/controllers/export.js:35
+msgid "Failed to generate seed QR code"
+msgstr "Nije uspjelo generiranje QR koda sjemena"
+
+#: www/views/modals/pin.html:12
+msgid "Incorrect PIN, try again."
+msgstr "Neispravan PIN, pokušajte ponovo."
+
+#: src/js/controllers/import.js:35
+msgid "Incorrect code format for a seed:"
+msgstr "Netočan format koda za sjeme:"
+
+#: src/js/controllers/changeLocksController.js:24
+#: src/js/controllers/changePasswordController.js:13
+#: src/js/controllers/changePasswordController.js:16
+#: src/js/services/incomingData.js:118 src/js/services/incomingData.js:120
+#: src/js/services/nanoService.js:87
+msgid "Information"
+msgstr "Informacija"
+
+#: src/js/controllers/import.js:45
+msgid "Not a seed QR code:"
+msgstr "Nije sjeme QR kod:"
+
+#: www/views/modals/pin.html:9
+msgid "Please enter your PIN"
+msgstr "Molim unesite svoj PIN"
+
+#: www/views/tab-export-qrCode.html:7
+msgid "Scan this QR code to import seed into another application"
+msgstr "Skenirajte ovaj QR kôd za uvoz sjemena u drugu aplikaciju"
+
+#: www/views/preferencesSecurity.html:3 www/views/tab-settings.html:92
+msgid "Security Preferences"
+msgstr "Sigurnosne postavke"
+
+#: www/views/changePassword.html:16
+msgid "Your current password"
+msgstr "Vaša trenutna lozinka"
+
+#: src/js/controllers/changePasswordController.js:16
+msgid "Your password has been changed"
+msgstr "Vaša lozinka je promijenjena"
+
+#: www/views/onboarding/tour.html:46
+msgid "Canoe stores your BCB using cutting-edge security."
+msgstr "Canoe pohranjuje vaš BCB koristeći vrhunsku sigurnost."
+
+#: www/views/import.html:10
+msgid "Caution"
+msgstr "Oprez"
+
+#: src/js/services/onGoingProcess.js:34
+msgid "Decrypting wallet..."
+msgstr "Dekriptiranje novčanika..."
+
+#: src/js/controllers/modals/password.js:101
+msgid "Error after loading wallet:"
+msgstr "Pogreška prilikom učitavanja novčanika:"
+
+#: www/views/onboarding/disclaimer.html:21
+msgid "I understand that if this app is deleted, my wallet can only be recovered with the seed or a wallet file backup."
+msgstr "Razumijem da ako se ova aplikacija briše, moja novčanica može se vratiti samo s podizanjem datoteke sjemena ili lisnice."
+
+#: www/views/import.html:11
+msgid "Importing a wallet removes your current wallet and all its accounts. You may wish to first backup your current seed or make a file backup of the wallet."
+msgstr "Uvoz novčanika uklanja trenutni novčanik i sve svoje račune. Možda biste poželjeli prvo sigurnosno kopirati svoje trenutno sjeme ili napraviti sigurnosnu kopiju datoteke novčanika."
+
+#: src/js/controllers/addressbookAdd.js:20
+#: src/js/controllers/addressbookEdit.js:21
+#: src/js/controllers/preferencesRepresentative.js:17
+msgid "Incorrect code format for an account:"
+msgstr "Neispravan oblik koda za račun:"
+
+#: www/views/onboarding/tour.html:22
+msgid "Just scan and pay."
+msgstr "Samo skeniraj i plati."
+
+#: www/views/tab-settings.html:9
+msgid "Manage"
+msgstr "Upravljati"
+
+#: www/views/onboarding/tour.html:31
+msgid "BCB is Feeless"
+msgstr "BCB je besprijekoran"
+
+#: www/views/onboarding/tour.html:18
+msgid "BCB is Instant"
+msgstr "BCB je Instantan"
+
+#: www/views/onboarding/tour.html:45
+msgid "BCB is Secure"
+msgstr "BCB je Siguran"
+
+#: www/views/onboarding/tour.html:36
+msgid "Never pay transfer fees again!"
+msgstr "Nemojte nikada ponovno platiti transferne naknade!"
+
+#: www/views/tab-settings.html:110
+msgid "Support"
+msgstr "Podrška"
+
+#: www/views/onboarding/tour.html:32
+msgid "Trade BCB for other currencies like USD or Euros."
+msgstr "Trade BCB za druge valute kao što su USD ili Euro."
+
+#: www/views/onboarding/tour.html:19
+msgid "Transfer BCB instantly to anyone, anywhere."
+msgstr "Prijenos Nanoa odmah bilo kome, bilo gdje."
+
+#: www/views/preferencesRepresentative.html:4
+msgid "Account Representative"
+msgstr "Predstavnik računa"
+
+#: src/js/controllers/confirm.js:343
+msgid "Add to address book?"
+msgstr "Dodati u adresar?"
+
+#: www/views/addressbook.add.html:72 www/views/addressbook.edit.html:72
+msgid "Alias Found!"
+msgstr "Alias ​​pronađen!"
+
+#: www/views/onboarding/alias.html:12
+msgid "At least 3 Characters."
+msgstr "Najmanje 3 znaka."
+
+#: www/views/onboarding/alias.html:22 www/views/preferencesAlias.html:24
+msgid "Checking availablity"
+msgstr "Provjeravam dostupnost"
+
+#: www/views/onboarding/alias.html:62
+msgid "Create Alias"
+msgstr "Napravite Alias"
+
+#: src/js/services/onGoingProcess.js:15
+msgid "Creating Alias..."
+msgstr "Izrada alata ..."
+
+#: src/js/controllers/confirm.js:344
+msgid "Do you want to add this new address to your address book?"
+msgstr "Želite li dodati ovu novu adresu u adresar?"
+
+#: www/views/preferencesAlias.html:13
+msgid "Edit your alias."
+msgstr "Uredite svoj pseudonim."
+
+#: src/js/services/onGoingProcess.js:16
+msgid "Editing Alias..."
+msgstr "Uređivanje alata ..."
+
+#: www/views/onboarding/alias.html:37
+msgid "Email for recovering your alias"
+msgstr "E-pošta za oporavak vašeg pseudom"
+
+#: www/views/preferencesRepresentative.html:11
+msgid "Enter a representative account."
+msgstr "Unesite reprezentativni račun."
+
+#: src/js/controllers/import.js:64
+msgid "Error importing wallet:"
+msgstr "Pogreška prilikom uvoza novčanika:"
+
+#: www/views/tab-settings.html:134
+msgid "How to buy BCB"
+msgstr "Kako kupiti BCB"
+
+#: src/js/controllers/tab-settings.js:60
+msgid "How to buy and sell BCB is described at the website."
+msgstr "Kako kupiti i prodati BCB je opisano na web stranici."
+
+#: www/views/addressbook.add.html:76 www/views/addressbook.edit.html:76
+#: www/views/onboarding/alias.html:30 www/views/preferencesAlias.html:32
+msgid "Invalid Alias!"
+msgstr "Nevažeći Alias!"
+
+#: www/views/onboarding/alias.html:45 www/views/preferencesAlias.html:40
+msgid "Invalid Email!"
+msgstr "Nevažeći email!"
+
+#: www/views/onboarding/alias.html:5
+msgid "Let People Easily Find you With Aliases"
+msgstr "Neka vas ljudi lakše nađu s nadimcima"
+
+#: www/views/onboarding/alias.html:57
+msgid "Link my wallet to my phone number."
+msgstr "Povezivanje lisnice na moj telefonski broj."
+
+#: www/views/addressbook.add.html:68 www/views/addressbook.edit.html:68
+msgid "Looking up @{{addressbookEntry.alias}}"
+msgstr "Gledajući gore @ {{addressbookEntry.alias}}"
+
+#: www/views/onboarding/alias.html:54 www/views/preferencesAlias.html:47
+msgid "Make my alias private."
+msgstr "Napravite moj alias privatnim."
+
+#: www/views/tx-details.html:115
+msgid "Refund"
+msgstr "Povrat"
+
+#: src/js/controllers/advancedSettings.js:39
+msgid "Repairing your wallet could take some time. This will reload all blockchains associated with your wallet. Are you sure you want to repair?"
+msgstr "Popravak novčanika može potrajati neko vrijeme. To će ponovno učitati sve blokade povezane s novčanikom. Jeste li sigurni da želite popraviti?"
+
+#: www/views/preferences.html:30 www/views/preferencesRepresentative.html:17
+msgid "Representative"
+msgstr "Predstavnik"
+
+#: www/views/includes/accountHistory.html:40 www/views/tx-details.html:19
+msgid "Representative changed"
+msgstr "Predstavnik promijenjen"
+
+#: www/views/onboarding/alias.html:26 www/views/preferencesAlias.html:28
+msgid "That alias is taken!"
+msgstr "Taj pseudonim je preuzet!"
+
+#: src/js/controllers/onboarding/terms.js:21
+msgid "The official English Terms of Service are available on the Canoe website."
+msgstr "Službeni engleski Uvjeti pružanja usluge dostupni su na web stranici kanjona."
+
+#: www/views/onboarding/alias.html:49 www/views/preferencesAlias.html:44
+msgid "Valid Alias & Email"
+msgstr "Valjani Alias ​​& Email"
+
+#: src/js/controllers/tx-details.js:71
+msgid "View Block on BCB Block Explorer"
+msgstr "Prikaži Blok na BCB Block Explorer"
+
+#: www/views/tx-details.html:111
+msgid "View on BCB Block Explorer"
+msgstr "Pogled na BCB Block Explorer"
+
+#: www/views/preferencesAlias.html:11
+msgid "What alias would you like to reserve?"
+msgstr "Koji biste se zanimao rezervirati?"
+
+#: www/views/preferencesAlias.html:14
+msgid "You can change your alias, email, or privacy settings."
+msgstr "Možete promijeniti svoje pseudonim, e-poštu ili postavke privatnosti."
+
+#: src/js/controllers/changePasswordController.js:13
+msgid "Your old password was not entered correctly"
+msgstr "Vaša stara lozinka nije ispravno unesena"
+
+#: www/views/addressbook.add.html:33 www/views/addressbook.edit.html:33
+msgid "joe.doe@example.com"
+msgstr "joe.doe@example.com"
+
+#: www/views/addressbook.add.html:59 www/views/addressbook.edit.html:59
+msgid "joedoe"
+msgstr "joedoe"
+
+#: www/views/modals/password.html:6
+msgid "Wallet is Locked"
+msgstr "Canoe je Zaključan"
+
+#: www/views/modals/password.html:39
+msgid "Forgot Password?"
+msgstr "Zaboravili ste Lozinku?"
+
+#: www/views/changeLocks.html:30 www/views/changeLocks.html:61
+msgid "4-digit PIN"
+msgstr "4-znamenkasti PIN"
+
+#: www/views/backupWarning.html:14
+msgid "Anyone with your seed can access or spend your BCB."
+msgstr "Svatko s vašim sjemenom može pristupiti ili potrošiti vaš BCB."
+
+#: www/views/changeLocks.html:54
+msgid "Background Behaviour"
+msgstr "Ponašanje u pozadini"
+
+#: www/views/preferencesSecurity.html:22
+msgid "Change 4-digit PIN"
+msgstr "Promijenite 4-znamenkasti PIN"
+
+#: www/views/changeLocks.html:3 www/views/preferencesSecurity.html:12
+msgid "Change Lock Settings"
+msgstr "Promijeni postavke zaključavanja"
+
+#: www/views/changeLocks.html:31 www/views/changeLocks.html:62
+msgid "Fingerprint"
+msgstr "Otisak prsta"
+
+#: www/views/modals/password.html:40
+msgid "Go back to onboarding."
+msgstr "Vratite se na onboarding."
+
+#: www/views/changeLocks.html:38
+msgid "Hard Lock"
+msgstr "Hard Lock"
+
+#: www/views/changeLocks.html:42
+msgid "Hard Timeout"
+msgstr "Hard Timeout"
+
+#: www/views/advancedSettings.html:14
+msgid "If enabled, Proof Of Work is delegated to the Canoe server side. This option is disabled and always true on mobile Canoe for now."
+msgstr "Ako je omogućeno, Dokaz o radu delegiran je na strani kanala Canoe. Ova je opcija onemogućena i uvijek je na mobilnom Canoeu za sada."
+
+#: www/views/advancedSettings.html:32
+msgid "If enabled, a list of recent transactions across all wallets will appear in the Home tab. Currently false, not fully implemented."
+msgstr "Ako je omogućeno, na kartici Početna pojavit će se popis najnovijih transakcija na svim novčanicima. Trenutno lažna, nije u potpunosti implementirana."
+
+#: www/views/changeLocks.html:58
+msgid "Lock when going to background"
+msgstr "Zaključajte kad idete na pozadinu"
+
+#: www/views/changeLocks.html:29 www/views/changeLocks.html:60
+msgid "None"
+msgstr "nijedan"
+
+#: www/views/changeLocks.html:63 www/views/modals/password.html:12
+#: www/views/onboarding/tour.html:70
+msgid "Password"
+msgstr "Lozinka"
+
+#: src/js/controllers/changeLocksController.js:24
+msgid "Saved"
+msgstr "Spremljeno"
+
+#: www/views/changeLocks.html:14
+msgid "Soft Lock"
+msgstr "Soft Lock"
+
+#: www/views/changeLocks.html:27
+msgid "Soft Lock Type"
+msgstr "Vrsta mekog zaključavanja"
+
+#: www/views/changeLocks.html:18
+msgid "Soft Timeout"
+msgstr "Soft Timeout"
+
+#: www/views/changeLocks.html:20 www/views/changeLocks.html:44
+msgid "Timeout in seconds"
+msgstr "Vremensko ograničenje u sekundama"
+
+#: src/js/controllers/tab-scan.js:107 src/js/controllers/tabsController.js:7
+msgid "Unrecognized data"
+msgstr "Neprepoznati podaci"
+
+#: www/views/changeLocks.html:37
+msgid "<h5 class=\"toggle-label\" translate=\"\">Hard Lock</h5>\n"
+"          With Hard Lock, Canoe encrypts your wallet and completely remove it from memory. You can not disable Hard Lock, but you can set a very high timeout."
+msgstr "<h5 class = \"toggle-label\" translate = \"\"> Hard Lock </ h5>\n"
+"          Uz Hard Lock, kanu šifrira vaš novčanik i potpuno ga uklanja iz memorije. Ne možete onemogućiti Hard Lock, ali možete postaviti vrlo visoku timeout."
+
+#: src/js/controllers/tab-home.js:174
+msgid "A new version of this app is available. Please update to the latest version."
+msgstr "Dostupna je nova verzija ove aplikacije. Ažurirajte na najnoviju verziju."
+
+#: www/views/changeBackend.html:13
+msgid "Backend URL"
+msgstr "URL pozadine"
+
+#: www/views/advancedSettings.html:46 www/views/changeBackend.html:23
+msgid "Change Backend"
+msgstr "Promijeni pozadinu"
+
+#: www/views/changeBackend.html:3
+msgid "Change Backend Server"
+msgstr "Promjena poslužitelja backend poslužitelja"
+
+#: src/js/controllers/import.js:153
+msgid "Importing a wallet will remove your existing wallet and accounts! If you have funds in your current wallet, make sure you have a backup to restore from. Type \"delete\" to confirm you wish to delete your current wallet."
+msgstr "Uvoz novčanika uklonit će vaš postojeći novčanik i račune! Ako imate sredstva u vašem trenutnom novčaniku, provjerite imate li sigurnosnu kopiju za vraćanje iz. Upišite \"delete\" kako biste potvrdili da želite izbrisati trenutni novčanik."
+
+#: www/views/amount.html:53
+msgid "Max"
+msgstr "maksimum"
+
+#: src/js/controllers/import.js:155 src/js/controllers/modals/password.js:76
+msgid "delete"
+msgstr "izbrisati"
+
+#: www/views/changeBackend.html:15
+msgid "bitcoin.black"
+msgstr "bitcoin.black"
+
+#: www/views/onboarding/tour.html:100
+msgid "Confirm Password"
+msgstr "Potvrdi lozinku"
+
+#: src/js/controllers/modals/password.js:74
+msgid "Going back to onboarding will remove your existing wallet and accounts! If you have funds in your current wallet, make sure you have a backup to restore from. Type \"delete\" to confirm you wish to delete your current wallet."
+msgstr "Vraćanje na onboarding uklonit će vaš postojeći novčanik i račune! Ako imate sredstva u vašem trenutnom novčaniku, provjerite imate li sigurnosnu kopiju za vraćanje iz. Upišite \"delete\" kako biste potvrdili da želite izbrisati trenutni novčanik."
+
+#: src/js/controllers/import.js:125
+msgid "Please enter a password of at least 8 characters"
+msgstr "Unesite zaporku od najmanje 8 znakova"
+
+#: www/views/tab-home.html:53
+msgid "On this screen you can see all your accounts. Check our <a ng-click=\"openExternalLinkHelp()\">FAQs</a> before you start!"
+msgstr ""
+
+#: www/views/advancedSettings.html:21
+msgid "Play Sounds"
+msgstr ""
+
+#: www/views/changeLocks.html:53
+msgid "<h5 class=\"toggle-label\" translate=\"\">Background Behaviour</h5>\n"
+"            <p translate=\"\">Choose the lock type to use when Canoe goes to the background. To disable background locking select None.</p>"
+msgstr ""
+
+#: www/views/changeLocks.html:13
+msgid "<h5 class=\"toggle-label\" translate=\"\">Soft Lock</h5>\n"
+"          <p translate=\"\">With Soft Lock, Canoe is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints.</p>"
+msgstr ""
+
+#: www/views/changeLocks.html:55
+msgid "Choose the lock type to use when Canoe goes to the background. To disable background locking select None."
+msgstr ""
+
+#: www/views/onboarding/tour.html:58
+msgid "Encryption Time!"
+msgstr ""
+
+#: www/views/onboarding/tour.html:84
+msgid "Enter at least 8 characters to encrypt your wallet."
+msgstr ""
+
+#: www/views/onboarding/tour.html:87
+msgid "Password length ok"
+msgstr ""
+
+#: www/views/onboarding/tour.html:110
+msgid "Passwords do not match"
+msgstr ""
+
+#: www/views/modals/password.html:36
+msgid "Unlock"
+msgstr ""
+
+#: www/views/changeLocks.html:15
+msgid "With Soft Lock, Canoe is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints."
+msgstr ""
+
+#: www/views/attributions.html:3 www/views/preferencesAbout.html:35
+msgid "Attributions"
+msgstr ""
+
+#: src/js/services/incomingData.js:118
+msgid "Block was scanned and sent successfully"
+msgstr ""
+
+#: src/js/services/incomingData.js:120
+msgid "Block was scanned but failed to process:"
+msgstr ""
+
+#: src/js/services/nanoService.js:243 src/js/services/nanoService.js:253
+msgid "Failed connecting to backend"
+msgstr ""
+
+#: src/js/services/nanoService.js:42
+msgid "Failed connecting to backend, no network?"
+msgstr ""
+
+#: src/js/services/nanoService.js:87
+msgid "Successfully connected to backend"
+msgstr ""
+
+#: www/views/includes/incomingDataMenu.html:29
+msgid "BCB Account"
+msgstr ""
+
+#: www/views/includes/incomingDataMenu.html:46
+msgid "Send BCB to this address"
+msgstr ""
+
+#: www/views/tab-settings.html:143
+msgid "Please load BCB to donate"
+msgstr ""
+
+#: www/views/advancedSettings.html:23
+msgid "If enabled, sounds will be played whenever you send, receive, change representative, or unlock your wallet."
+msgstr ""
+

@@ -1,0 +1,121 @@
+<ion-view id="walletDetails" hide-tabs>
+
+  <ion-nav-bar ng-class="{'wallet-background-color-default': !account.meta.color}" ng-style="{'background-color': account.meta.color}">
+    <ion-nav-title>{{account.name}}</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-nav-buttons side="secondary">
+      <button class="button back-button" ng-click="startSearch(); openSearchModal()" ng-if="txHistory.length > 4">
+        <i class="icon ion-ios-search-strong tx-search"></i>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <div class="bp-content" ng-class="{'status-bar': isCordova}">
+
+  <div class="amount-wrapper" ng-show="true" ng-class="{'wallet-background-color-default': !account.meta.color}" ng-style="{'background-color':account.meta.color}">
+
+    <div
+      ng-style="{'background-color':account.meta.color, 'height': amountHeight}"
+      class="amount"
+      ng-class="{collapsible: amountIsCollapsible, 'wallet-background-color-default': !account.meta.color}">
+
+      <div
+        ng-click="updateAll()"
+        ng-show="!balanceHidden"
+        on-hold="hideToggle()"
+        ng-style="{'transform': amountScale}"
+        ng-class="{amount__balance: amountIsCollapsible}">
+        <strong class="size-36">{{account.balanceStr}}</strong>
+        <div
+          class="size-14 amount-alternative"
+          ng-if="account.alternativeBalanceStr"
+          ng-style="{opacity: altAmountOpacity}">
+          {{account.alternativeBalanceStr}}
+        </div>
+      </div>
+
+      <div ng-style="{'transform': amountScale}"
+        class="amount__balance"
+        ng-show="balanceHidden"
+        on-hold="hideToggle()">
+        <strong class="size-24" translate>[Balance Hidden]</strong>
+        <div ng-style="{opacity: altAmountOpacity}" class="size-14 amount-alternative" translate>
+          Tap and hold to show
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <ion-content ng-style="{'margin-top': contentMargin}" ng-class="{collapsible: amountIsCollapsible}">
+    <ion-refresher
+      ng-if="isAndroid"
+      pulling-icon="ion-ios-refresh"
+      spinner="ios-small"
+      on-refresh="onRefresh()">
+    </ion-refresher>
+
+    <!-- Start Balance view duplicate (for Android compatibility) -->
+    <div class="amount-wrapper" ng-show="account && !amountIsCollapsible" ng-class="{'wallet-background-color-default': !account.meta.color}" ng-style="{'background-color':account.meta.color}">
+
+    <div
+      ng-style="{'background-color':account.meta.color, 'height': amountHeight}"
+      class="amount"
+      ng-class="{collapsible: amountIsCollapsible, 'wallet-background-color-default': !account.meta.color}"
+    >
+
+      <div
+        ng-click='updateAll()'
+        ng-show="!balanceHidden"
+        on-hold="hideToggle()"
+        ng-style="{'transform': amountScale}"
+        ng-class="{amount__balance: amountIsCollapsible}">
+        <strong class="size-36">{{account.balanceStr}}</strong>
+        <div
+          class="size-14 amount-alternative"
+          ng-if="account.alternativeBalanceStr"
+          ng-style="{opacity: altAmountOpacity}">
+          {{account.alternativeBalanceStr}}
+        </div>
+      </div>
+
+<!--      <div ng-style="{'transform': amountScale}"
+      class="amount__balance"
+      ng-show="account.meta.balanceHidden"
+      on-hold="hideToggle()">
+        <strong class="size-24" translate>[Balance Hidden]</strong>
+        <div ng-style="{opacity: altAmountOpacity}" class="size-14 amount-alternative" translate>
+          Tap and hold to show
+        </div>
+      </div>
+-->
+
+    </div>
+
+    </div>
+    <!-- End Balance view duplicate (for Android compatibility) -->
+
+    <div ng-if="account">
+  
+      <!-- Transactions -->
+
+      <div class="wallet-details__no-transaction"
+        ng-show="showNoTransactionsYetMsg" translate>
+        No transactions yet
+      </div>
+
+      <div class="wallet-details__list" ng-show="txHistory[0]">
+        <div ng-repeat="btx in txHistory track by $index" ng-click="openTxModal(btx)">
+          <span ng-include="'views/includes/accountHistory.html'"></span>
+        </div>
+      </div>
+      <ion-infinite-scroll
+        ng-if="txHistory[0] && txHistoryShowMore"
+        on-infinite="showMore()"
+        distance="1%">
+      </ion-infinite-scroll>
+    </div>
+  </ion-content>
+</div>
+</ion-view>

@@ -1,0 +1,45 @@
+{
+  "_from": "cordova-ios-requires-fullscreen@0.0.2",
+  "_id": "cordova-ios-requires-fullscreen@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-LhObP5IKvtrdRrC8pwAslbYWKsU=",
+  "_location": "/cordova-ios-requires-fullscreen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-ios-requires-fullscreen@0.0.2",
+    "name": "cordova-ios-requires-fullscreen",
+    "escapedName": "cordova-ios-requires-fullscreen",
+    "rawSpec": "0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "0.0.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-ios-requires-fullscreen/-/cordova-ios-requires-fullscreen-0.0.2.tgz",
+  "_shasum": "2e139b3f920abedadd46b0bca7002c95b6162ac5",
+  "_spec": "cordova-ios-requires-fullscreen@0.0.2",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "bundleDependencies": false,
+  "cordova_name": "IOS UIRequiresFullScreen",
+  "deprecated": false,
+  "description": "IOS UIRequiresFullScreen Plugin",
+  "engines": [],
+  "englishdoc": "",
+  "keywords": [
+    "cordova",
+    "ios",
+    "uirequiresfullscreen",
+    "ios9"
+  ],
+  "license": "MIT",
+  "name": "cordova-ios-requires-fullscreen",
+  "platforms": [
+    "ios"
+  ],
+  "repo": "https://github.com/chancezeus/cordova-ios-requires-fullscreen.git",
+  "version": "0.0.2"
+}

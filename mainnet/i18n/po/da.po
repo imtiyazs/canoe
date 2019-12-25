@@ -1,0 +1,1913 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Canoe\n"
+"Language: da\n"
+
+#: src/js/controllers/feedback/send.js:25 www/views/feedback/complete.html:21
+msgid "A member of the team will review your feedback as soon as possible."
+msgstr "Et medlem af holdet vil gennemgå din feedback så hurtigt som muligt."
+
+#: src/js/controllers/preferencesAbout.js:5 www/views/tab-settings.html:151
+msgid "About"
+msgstr "Om"
+
+#: www/views/preferencesAdvanced.html:13
+msgid "Account Information"
+msgstr "Kontoinformation"
+
+#: www/views/preferencesName.html:4
+msgid "Account Name"
+msgstr "Kontonavn"
+
+#: www/views/preferences.html:4
+msgid "Account Settings"
+msgstr "Kontoindstillinger"
+
+#: www/views/tab-create-account.html:12
+msgid "Account name"
+msgstr "Kontonavn"
+
+#: www/views/tab-home.html:71 www/views/tab-home.html:85
+msgid "Accounts"
+msgstr "Konti"
+
+#: www/views/addressbook.add.html:4 www/views/addressbook.html:22
+msgid "Add Contact"
+msgstr "Tilføj kontakt"
+
+#: www/views/add.html:3
+msgid "Add account"
+msgstr "Tilføj konto"
+
+#: www/views/includes/incomingDataMenu.html:41
+msgid "Add as a contact"
+msgstr "Tilføj som kontakt"
+
+#: src/js/controllers/confirm.js:234
+msgid "Add description"
+msgstr "Tilføj beskrivelse"
+
+#: www/views/addressbook.html:6 www/views/tab-settings.html:15
+msgid "Address Book"
+msgstr "Adressebog"
+
+#: www/views/tab-settings.html:100
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: www/views/advancedSettings.html:3
+msgid "Advanced Settings"
+msgstr "Avancerede indstillinger"
+
+#: www/views/tab-scan.html:21
+msgid "Allow Camera Access"
+msgstr "Tillad brug af kamera"
+
+#: www/views/onboarding/notifications.html:7
+msgid "Allow notifications"
+msgstr "Tillad notifikationer"
+
+#: www/views/onboarding/disclaimer.html:14
+msgid "Almost done! Let's review."
+msgstr "Næsten færdig! Lad os gennemgå."
+
+#: www/views/preferencesAltCurrency.html:4 www/views/tab-settings.html:82
+msgid "Alternative Currency"
+msgstr "Alternativ valuta"
+
+#: www/views/amount.html:50 www/views/includes/output.html:7
+msgid "Amount"
+msgstr "Beløb"
+
+#: www/views/backupWarning.html:10
+msgid "Are you being watched?"
+msgstr "Er der nogen, der kigger med?"
+
+#: src/js/controllers/addressbookView.js:44
+msgid "Are you sure you want to delete this contact?"
+msgstr "Er du sikker på, at du vil slette denne kontakt?"
+
+#: src/js/controllers/preferencesDelete.js:24
+msgid "Are you sure you want to delete this wallet?"
+msgstr "Er du sikker på, at du vil slette denne tegnebog?"
+
+#: src/js/controllers/onboarding/backupRequest.js:21
+msgid "Are you sure you want to skip it?"
+msgstr "Er du sikker på, at du vil springe dette over?"
+
+#: www/views/includes/backupNeededPopup.html:7
+msgid "Backup Needed"
+msgstr "Backup Nødvendig"
+
+#: www/views/includes/backupNeededPopup.html:9
+msgid "Backup now"
+msgstr "Backup nu"
+
+#: www/views/onboarding/backupRequest.html:11 www/views/tab-export-file.html:58
+msgid "Backup wallet"
+msgstr "Backup tegnebog"
+
+#: www/views/includes/confirmBackupPopup.html:7
+msgid "Be sure to store your seed in a secure place. If this app is deleted, or your device stolen, the seed is the only way to recreate the wallet."
+msgstr "Sørg for at gemme dit seed på et sikkert sted. Hvis appen slettes, eller din mobil bliver stjålet, er seeden den eneste måde at genskabe tegnebogen på."
+
+#: www/views/unsupported.html:6
+msgid "Browser unsupported"
+msgstr "Browser ikke supporteret"
+
+#: www/views/onboarding/tour.html:49
+msgid "But do not lose your seed!"
+msgstr "Men mist ikke dit seed!"
+
+#: www/views/includes/buyAndSellCard.html:3
+#, fuzzy
+msgid "Buy &amp; Sell Bitcoin"
+msgstr "Køb &amp; sælg Bitcoin"
+
+#: src/js/controllers/confirm.js:298 src/js/services/popupService.js:61
+#: src/js/services/popupService.js:72 www/views/addressbook.add.html:10
+#: www/views/addressbook.edit.html:10 www/views/feedback/send.html:5
+#: www/views/includes/incomingDataMenu.html:22
+#: www/views/includes/incomingDataMenu.html:54
+#: www/views/includes/incomingDataMenu.html:73
+#: www/views/includes/incomingDataMenu.html:97 www/views/includes/note.html:6
+#: www/views/modals/confirmation.html:13
+msgid "Cancel"
+msgstr "Annuller"
+
+#: src/js/controllers/onboarding/tour.js:80
+msgid "Cannot Create Wallet"
+msgstr "Kan ikke oprette tegnebog"
+
+#: www/views/tab-import-file.html:4
+msgid "Choose a backup file from your computer"
+msgstr "Vælg en backupfil fra din computer"
+
+#: src/js/controllers/confirm.js:221
+msgid "Click to send"
+msgstr "Klik for at sende"
+
+#: www/views/modals/pin.html:3 www/views/modals/search.html:3
+msgid "Close"
+msgstr "Luk"
+
+#: www/views/includes/cash.html:2
+msgid "Coin"
+msgstr "Mønt"
+
+#: www/views/preferences.html:38
+msgid "Color"
+msgstr "Farve"
+
+#: www/views/preferencesAbout.html:21
+#, fuzzy
+msgid "Commit hash"
+msgstr "Udfør hash"
+
+#: src/js/controllers/confirm.js:297 www/views/backup.html:46
+#: www/views/confirm.html:4
+msgid "Confirm"
+msgstr "Godkend"
+
+#: www/views/modals/terms.html:26 www/views/onboarding/disclaimer.html:44
+#, fuzzy
+msgid "Confirm &amp; Finish"
+msgstr "Godkend &amp; færdiggør "
+
+#: www/views/tab-send.html:50
+msgid "Contacts"
+msgstr "Kontakter"
+
+#: www/views/onboarding/notifications.html:9
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: www/views/preferencesLanguage.html:26
+#, fuzzy
+msgid "Contribute Translations"
+msgstr "Bidrag til oversættelse"
+
+#: src/js/controllers/export.js:124 www/views/includes/copyToClipboard.html:4
+msgid "Copied to clipboard"
+msgstr "Kopieret til udklipsholder"
+
+#: www/views/tab-export-file.html:63
+msgid "Copy this text as it is to a safe place (notepad or email)"
+msgstr "Kopier denne tekst som den er til et sikkert sted (notesblok eller email)"
+
+#: www/views/includes/incomingDataMenu.html:51
+#: www/views/includes/incomingDataMenu.html:70
+#: www/views/includes/incomingDataMenu.html:94
+#: www/views/includes/logOptions.html:9 www/views/tab-export-file.html:47
+msgid "Copy to clipboard"
+msgstr "Kopier til udklipsholder"
+
+#: www/views/tab-import-phrase.html:2
+msgid "Could not access the wallet at the server. Please check:"
+msgstr "Kunne ikke få adgang til tegnebogen på serveren. Kontroller venligst:"
+
+#: www/views/tab-create-account.html:3 www/views/tab-home.html:77
+#: www/views/tab-send.html:41
+msgid "Create Account"
+msgstr "Opret konto"
+
+#: www/views/tab-create-account.html:25
+msgid "Create new account"
+msgstr "Opret ny konto\n"
+""
+
+#: src/js/services/onGoingProcess.js:14
+msgid "Creating Wallet..."
+msgstr "Opretter tegnebog…"
+
+#: src/js/services/onGoingProcess.js:13
+msgid "Creating account..."
+msgstr "Opretter konto…"
+
+#: src/js/services/onGoingProcess.js:12
+msgid "Creating transaction"
+msgstr "Opretter transaktion"
+
+#: www/views/tx-details.html:68
+msgid "Date"
+msgstr "Dato"
+
+#: src/js/services/profileService.js:277
+msgid "Default Account"
+msgstr "Standardkonto"
+
+#: www/views/preferencesDeleteWallet.html:21
+msgid "Delete"
+msgstr "Slet"
+
+#: www/views/preferencesAdvanced.html:34
+msgid "Delete Account"
+msgstr "Slet konto"
+
+#: www/views/preferencesDeleteWallet.html:3
+msgid "Delete Wallet"
+msgstr "Slet tegnebog"
+
+#: src/js/services/onGoingProcess.js:17
+msgid "Deleting Wallet..."
+msgstr "Sletter tegnebog…"
+
+#: www/views/includes/backupNeededPopup.html:10
+#: www/views/onboarding/alias.html:70
+#: www/views/onboarding/backupRequest.html:12
+msgid "Do it later"
+msgstr "Gør det senere"
+
+#: www/views/tab-settings.html:142
+msgid "Donate to Bitcoin Black"
+msgstr "Donér til Canoe"
+
+#: www/views/tab-export-file.html:28 www/views/tab-home.html:36
+msgid "Download"
+msgstr "Download"
+
+#: www/views/addressbook.view.html:40
+msgid "Edit"
+msgstr "Rediger"
+
+#: www/views/addressbook.add.html:30 www/views/addressbook.edit.html:30
+#: www/views/addressbook.view.html:22 www/views/onboarding/alias.html:35
+#: www/views/preferencesAlias.html:35
+msgid "Email"
+msgstr "Email"
+
+#: www/views/preferencesNotifications.html:42
+msgid "Email Address"
+msgstr "Emailadresse"
+
+#: www/views/tab-scan.html:19
+msgid "Enable camera access in your device settings to get started."
+msgstr "Tillad kameraadgang i enhedens indstillinger for at komme i gang"
+
+#: www/views/preferencesNotifications.html:29
+msgid "Enable email notifications"
+msgstr "Tillad emailmeddelelser"
+
+#: www/views/preferencesNotifications.html:12
+msgid "Enable push notifications"
+msgstr "Tillad pushmeddelelser"
+
+#: www/views/tab-scan.html:18
+msgid "Enable the camera to get started."
+msgstr "Tillad kamera for at komme i gang"
+
+#: www/views/amount.html:4
+msgid "Enter amount"
+msgstr "Indsæt beløb"
+
+#: www/views/tab-import-phrase.html:13
+msgid "Enter wallet seed"
+msgstr "Indtast tegnebogs-seed"
+
+#: www/views/backup.html:36
+msgid "Enter your password"
+msgstr "Indtast dit kodeord"
+
+#. Trying to import a malformed wallet export QR code
+#: src/js/controllers/addressbookAdd.js:20
+#: src/js/controllers/addressbookAdd.js:81
+#: src/js/controllers/addressbookEdit.js:21
+#: src/js/controllers/addressbookEdit.js:73
+#: src/js/controllers/addressbookView.js:49 src/js/controllers/create.js:19
+#: src/js/controllers/create.js:28 src/js/controllers/export.js:103
+#: src/js/controllers/export.js:35 src/js/controllers/export.js:57
+#: src/js/controllers/export.js:67 src/js/controllers/export.js:94
+#: src/js/controllers/feedback/send.js:21 src/js/controllers/import.js:108
+#: src/js/controllers/import.js:113 src/js/controllers/import.js:117
+#: src/js/controllers/import.js:122 src/js/controllers/import.js:125
+#: src/js/controllers/import.js:136 src/js/controllers/import.js:35
+#: src/js/controllers/import.js:45 src/js/controllers/import.js:58
+#: src/js/controllers/import.js:65 src/js/controllers/import.js:87
+#: src/js/controllers/import.js:95 src/js/controllers/modals/password.js:101
+#: src/js/controllers/paperWallet.js:21
+#: src/js/controllers/preferencesDelete.js:35
+#: src/js/controllers/preferencesName.js:13
+#: src/js/controllers/preferencesRepresentative.js:17
+#: src/js/controllers/tab-scan.js:106 src/js/controllers/tab-send.js:78
+#: src/js/controllers/tabsController.js:36
+#: src/js/controllers/tabsController.js:7
+msgid "Error"
+msgstr "Fejl"
+
+#: src/js/controllers/confirm.js:273
+msgid "Error at confirm"
+msgstr "Fejl ved bekræftelse"
+
+#: src/js/controllers/paperWallet.js:15
+msgid "Error scanning funds:"
+msgstr "Fejl ved scanning af midler"
+
+#: src/js/controllers/paperWallet.js:44
+#, fuzzy
+msgid "Error sweeping wallet:"
+msgstr "Fejl ved sweeping af tegnebog"
+
+#: www/views/export.html:3 www/views/tab-settings.html:39
+msgid "Export wallet"
+msgstr "Eksporter tegnebog"
+
+#: src/js/services/onGoingProcess.js:18
+msgid "Extracting Wallet information..."
+msgstr "Anskaffer information om tegnebog"
+
+#: src/js/controllers/export.js:103 src/js/controllers/export.js:57
+#: src/js/controllers/export.js:67 src/js/controllers/export.js:94
+#: www/views/tab-export-file.html:4
+msgid "Failed to export"
+msgstr "Fejl i eksportering"
+
+#: www/views/tab-create-account.html:14
+msgid "Family vacation funds"
+msgstr "Familie ferieopsparing"
+
+#: src/js/controllers/feedback/send.js:21
+msgid "Feedback could not be submitted. Please try again later."
+msgstr "Feedback kunne ikke sendes. Prøv venligst igen senere."
+
+#: www/views/export.html:12
+msgid "File/Text"
+msgstr "Fil/Tekst"
+
+#: www/views/preferencesLogs.html:17
+msgid "Filter setting"
+msgstr "Filterindstilling"
+
+#: src/js/services/fingerprintService.js:39
+#: src/js/services/fingerprintService.js:44
+msgid "Finger Scan Failed"
+msgstr "Fejl ved scanning af finger"
+
+#: src/js/controllers/feedback/send.js:32 www/views/feedback/complete.html:7
+msgid "Finish"
+msgstr "Afslut"
+
+#: www/views/confirm.html:67 www/views/tx-details.html:50
+#: www/views/tx-details.html:58
+msgid "From"
+msgstr "Fra"
+
+#: www/views/paperWallet.html:16
+msgid "Funds found:"
+msgstr "Midler fundet:"
+
+#: www/views/paperWallet.html:51
+msgid "Funds transferred"
+msgstr "Midler overført"
+
+#: www/views/paperWallet.html:22
+msgid "Funds will be transferred to"
+msgstr "Midler vil blive overført til"
+
+#: www/views/onboarding/welcome.html:8
+msgctxt "button"
+msgid "Get started"
+msgstr "Kom i gang"
+
+#: www/views/addressbook.html:20
+msgid "Get started by adding your first one."
+msgstr "Kom i gang ved at tilføje din første."
+
+#: src/js/controllers/onboarding/terms.js:23
+#: src/js/controllers/preferencesAbout.js:15
+#: src/js/controllers/preferencesLanguage.js:13
+#: src/js/controllers/tab-home.js:176 src/js/controllers/tab-home.js:28
+#: src/js/controllers/tab-settings.js:51 src/js/controllers/tab-settings.js:62
+#: src/js/controllers/tx-details.js:73
+msgid "Go Back"
+msgstr "Gå tilbage"
+
+#: src/js/controllers/onboarding/backupRequest.js:18
+#: src/js/controllers/onboarding/backupRequest.js:24
+msgid "Go back"
+msgstr "Gå tilbage"
+
+#: www/views/backupWarning.html:15 www/views/includes/confirmBackupPopup.html:8
+#: www/views/onboarding/tour.html:23
+msgid "Got it"
+msgstr "Forstået"
+
+#: www/views/tab-settings.html:116
+msgid "Help & Support"
+msgstr "Hjælp & Support"
+
+#: src/js/controllers/tab-home.js:26 src/js/controllers/tab-settings.js:49
+msgid "Help and support information is available at the website."
+msgstr "Hjælp og supportinformation er tilgængelig på hjemmesiden."
+
+#: www/views/preferences.html:43
+msgid "Hide Balance"
+msgstr "Skjul Balance"
+
+#: www/views/tabs.html:3
+msgid "Home"
+msgstr "Hjem"
+
+#: src/js/controllers/feedback/send.js:60
+#: src/js/controllers/feedback/send.js:64
+#: src/js/controllers/feedback/send.js:68
+msgid "How could we improve your experience?"
+msgstr "Hvordan kan vi gøre din oplevelse bedre?"
+
+#: src/js/controllers/feedback/rateCard.js:29
+msgid "I don't like it"
+msgstr "Jeg kan ikke lide det"
+
+#: www/views/modals/terms.html:22
+#, fuzzy
+msgid "I have read, understood, and agree with the Terms of use."
+msgstr "Jeg har læst, forstået, og accepterer Vilkår for brug"
+
+#: src/js/controllers/feedback/rateCard.js:35
+msgid "I like the app"
+msgstr "Jeg kan godt lide appen"
+
+#: src/js/controllers/feedback/rateCard.js:26
+msgid "I think this app is terrible."
+msgstr "Jeg synes denne app er forfærdelig"
+
+#: src/js/controllers/onboarding/backupRequest.js:17
+#: www/views/includes/screenshotWarningModal.html:9
+msgid "I understand"
+msgstr "Jeg forstår"
+
+#: www/views/onboarding/disclaimer.html:18
+msgid "I understand that my funds are held securely on this device, not by a company."
+msgstr "Jeg forstår at mine midler er holdt sikkert på denne enhed, ikke af en virksomhed."
+
+#: www/views/backup.html:28
+msgid "I've written it down"
+msgstr "Jeg har skrevet det ned"
+
+#: src/js/controllers/onboarding/backupRequest.js:16
+msgid "If this device is replaced or this app is deleted, your funds can not be recovered without a backup."
+msgstr "Hvis denne enhed bliver udskiftet eller denne app bliver slettet, kan dine midler ikke gendannes uden en backup."
+
+#: www/views/feedback/complete.html:23
+#, fuzzy
+msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
+msgstr "Hvis du har yderligere feedback, kan du kontakte os ved at trykke på \"Send feedback\" på fanen Indstillinger."
+
+#: www/views/includes/screenshotWarningModal.html:8
+msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
+msgstr "Hvis du tager et skærmbillede, kan din backup ses af andre apps. Du kan foretage en sikker backup med fysisk papir og en kuglepen."
+
+#: www/views/import.html:3
+msgid "Import Wallet"
+msgstr "Importer Tegnebog"
+
+#: www/views/tab-import-phrase.html:42
+msgid "Import seed"
+msgstr "Importer seed"
+
+#: www/views/add.html:21 www/views/tab-import-file.html:30
+#: www/views/tab-settings.html:31
+msgid "Import wallet"
+msgstr "Importer tegnebog"
+
+#: src/js/services/onGoingProcess.js:20
+msgid "Importing Wallet..."
+msgstr "Importerer Tegnebog..."
+
+#: www/views/backup.html:39
+msgid "In order to verify your wallet backup, please type your password."
+msgstr "For at bekræfte din tegnebogs-backup, skal du skrive din adgangskode."
+
+#: www/views/includes/walletListSettings.html:9
+msgid "Incomplete"
+msgstr "Ufuldstændig"
+
+#: src/js/controllers/confirm.js:98
+#, fuzzy
+msgid "Insufficient funds"
+msgstr "Ikke nok midler"
+
+#: www/views/includes/accountHistory.html:43
+msgid "Invalid"
+msgstr "Ugyldig"
+
+#: src/js/controllers/feedback/send.js:78
+msgid "Is there anything we could do better?"
+msgstr "Er der noget, vi kan gøre bedre?"
+
+#: src/js/controllers/backup.js:34
+msgid "It's important that you write your wallet seed down correctly. If something happens to your wallet, you'll need this seed to reconstruct it. Please review your seed and try again."
+msgstr "Det er vigtigt, at du skriver dit tegnebogs-seed korrekt ned. Hvis der sker noget med din tegnebog, skal du bruge dette seed for at rekonstruere den. Gennemgå dit seed og prøv igen."
+
+#: www/views/preferencesLanguage.html:4 www/views/tab-settings.html:71
+msgid "Language"
+msgstr "Sprog"
+
+#: www/views/tab-home.html:24
+msgid "Learn more"
+msgstr "Læs mere"
+
+#: src/js/services/onGoingProcess.js:30
+msgid "Loading transaction info..."
+msgstr "Henter transaktionsinfo…"
+
+#: www/views/includes/logOptions.html:3
+msgid "Log options"
+msgstr "Log muligheder"
+
+#: www/views/onboarding/tour.html:37
+msgid "Makes sense"
+msgstr "Giver mening"
+
+#: src/js/controllers/modals/search.js:60
+msgid "Matches:"
+msgstr "Matcher:"
+
+#: src/js/controllers/feedback/rateCard.js:32
+msgid "Meh - it's alright"
+msgstr "Meh - det er ok"
+
+#: www/views/tx-details.html:76
+msgid "Memo"
+msgstr "Memo"
+
+#: www/views/preferencesAdvanced.html:3
+msgid "More Options"
+msgstr "Flere indstillinger"
+
+#: www/views/addressbook.add.html:21 www/views/addressbook.edit.html:21
+#: www/views/addressbook.view.html:18 www/views/preferences.html:15
+#: www/views/preferencesName.html:17
+msgid "Name"
+msgstr "Navn"
+
+#: www/views/add.html:14
+msgid "New account"
+msgstr "Ny konto"
+
+#: www/views/tab-receive.html:16
+msgid "No Account available"
+msgstr "Ingen konto tilgængelig"
+
+#: www/views/addressbook.html:19
+msgid "No contacts yet"
+msgstr "Ingen kontakter endnu"
+
+#: www/views/preferencesLogs.html:16
+msgid "No entries for this log level"
+msgstr "Ingen poster for dette logniveau"
+
+#: www/views/activity.html:25
+msgid "No recent transactions"
+msgstr "Ingen nylige transaktioner"
+
+#: www/views/accountDetails.html:103
+msgid "No transactions yet"
+msgstr "Ingen transaktioner endnu"
+
+#: src/js/controllers/preferencesDelete.js:14
+msgid "No wallet found"
+msgstr "Ingen tegnebog fundet"
+
+#: src/js/controllers/preferencesDelete.js:7
+msgid "No wallet selected"
+msgstr "Ingen tegnebog valgt"
+
+#: www/views/paperWallet.html:45
+msgid "No wallets available to receive funds"
+msgstr "Ingen tegnebøger til rådighed for at modtage midler"
+
+#: src/js/controllers/paperWallet.js:21
+msgid "Not funds found"
+msgstr "Ingen midler fundet"
+
+#: www/views/feedback/rateApp.html:3 www/views/onboarding/notifications.html:8
+msgid "Not now"
+msgstr "Ikke nu"
+
+#: www/views/includes/output.html:15
+msgid "Note"
+msgstr "Note"
+
+#: www/views/preferencesNotifications.html:3 www/views/tab-settings.html:63
+msgid "Notifications"
+msgstr "Notifikationer"
+
+#: www/views/preferencesNotifications.html:24
+msgid "Notify me when transactions are confirmed"
+msgstr "Giv mig besked når transaktioner er bekræftet"
+
+#: www/views/includes/backupNeededPopup.html:8
+msgid "Now is a good time to backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
+msgstr "Nu er et godt tidspunkt at sikkerhedskopiere din tegnebog. Hvis denne enhed går tabt, er det umuligt at få adgang til dine midler uden en backup."
+
+#: www/views/backupWarning.html:11
+msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
+msgstr "Nu er et perfekt tidspunkt til at vurdere dine omgivelser. Vinduer tæt på? Skjulte kameraer? Skulder-kiggere?"
+
+#: www/views/tab-import-phrase.html:15
+msgid "Numbers and letters like 904A2CE76..."
+msgstr "Tal og bogstaver som f.eks. 904A2CE76…"
+
+#: src/js/services/popupService.js:15 src/js/services/popupService.js:51
+#: src/js/services/popupService.js:60 src/js/services/popupService.js:71
+msgid "OK"
+msgstr "OK"
+
+#: www/views/modals/tx-status.html:12 www/views/modals/tx-status.html:24
+#: www/views/modals/tx-status.html:36 www/views/modals/tx-status.html:46
+msgid "OKAY"
+msgstr "OKAY"
+
+#: www/views/modals/terms.html:15
+msgid "Official English Disclaimer"
+msgstr "Officiel engelsk ansvarsfraskrivelse"
+
+#: src/js/controllers/feedback/send.js:63
+msgid "Oh no!"
+msgstr "Åh nej!"
+
+#: src/js/controllers/tab-home.js:27 src/js/controllers/tab-settings.js:50
+#: src/js/controllers/tab-settings.js:61 src/js/controllers/tx-details.js:72
+msgid "Open"
+msgstr "Åbn"
+
+#: src/js/controllers/preferencesAbout.js:14
+msgid "Open GitHub"
+msgstr "Åbn GitHub"
+
+#: src/js/controllers/preferencesAbout.js:12
+msgid "Open GitHub Project"
+msgstr "Åbn GitHub Projekt"
+
+#: www/views/tab-scan.html:22
+msgid "Open Settings"
+msgstr "Åbn Indstillinger"
+
+#: src/js/controllers/onboarding/terms.js:22
+msgid "Open Website"
+msgstr "Åbn Hjemmeside"
+
+#: www/views/includes/incomingDataMenu.html:19
+msgid "Open website"
+msgstr "Åbn hjemmeside"
+
+#: www/views/tab-import-file.html:13
+msgid "Paste the backup plain text"
+msgstr "Indsæt backup almindelig tekst"
+
+#: www/views/modals/tx-status.html:33
+msgid "Payment Accepted"
+msgstr "Betaling accepteret"
+
+#: www/views/modals/tx-status.html:21
+msgid "Payment Proposal Created"
+msgstr "Betalingsanmodning oprettet"
+
+#: www/views/includes/walletActivity.html:11
+msgid "Payment Received"
+msgstr "Betaling modtaget"
+
+#: www/views/modals/tx-status.html:43
+msgid "Payment Rejected"
+msgstr "Betaling afvist"
+
+#: www/views/confirm.html:116 www/views/includes/walletActivity.html:4
+msgid "Payment Sent"
+msgstr "Betaling sendt"
+
+#: www/views/preferencesDeleteWallet.html:13
+msgid "Permanently delete this wallet."
+msgstr "Slet denne tegnebog permanent."
+
+#: www/views/backup.html:21
+msgid "Please carefully write down this 64 character seed. Click to copy to clipboard."
+msgstr "Skriv omhyggeligt dette 64 karakter seed ned. Klik for at kopiere til udklipsholder."
+
+#: www/views/tab-scan.html:20
+msgid "Please connect a camera to get started."
+msgstr "Tilslut venligst et kamera for at komme i gang."
+
+#: src/js/controllers/import.js:113
+msgid "Please enter the seed"
+msgstr "Indtast seed"
+
+#: src/js/controllers/import.js:95
+msgid "Please, select your backup file"
+msgstr "Vælg din backupfil"
+
+#: www/views/tab-settings.html:57
+msgid "Preferences"
+msgstr "Præferencer"
+
+#: src/js/services/onGoingProcess.js:32
+msgid "Preparing addresses..."
+msgstr "Forbereder addresser…"
+
+#: src/js/controllers/export.js:129
+msgid "Preparing backup..."
+msgstr "Forbereder backup…"
+
+#: src/js/routes.js:896
+msgid "Press again to exit"
+msgstr "Tryk igen for at afslutte"
+
+#: www/views/includes/incomingDataMenu.html:80
+msgid "Private Key"
+msgstr "Privat nøgle"
+
+#: src/js/controllers/paperWallet.js:86
+msgid "Private key encrypted. Enter password"
+msgstr "Privat nøgle krypteret. Indtast adgangskode"
+
+#: www/views/onboarding/notifications.html:3
+msgid "Push Notifications"
+msgstr "Pushmeddelelser"
+
+#: www/views/export.html:15
+msgid "QR Code"
+msgstr "QR-kode"
+
+#: www/views/onboarding/disclaimer.html:13
+msgid "Quick review!"
+msgstr "Hurtig gennemgang!"
+
+#: www/views/feedback/rateApp.html:14
+msgid "Rate on the app store"
+msgstr "Bedøm på App Store"
+
+#: www/views/tab-receive.html:3 www/views/tabs.html:7
+msgid "Receive"
+msgstr "Modtag"
+
+#: www/views/tx-details.html:20
+msgid "Received"
+msgstr "Modtaget"
+
+#: www/views/includes/accountHistory.html:3
+msgid "Recent"
+msgstr "Seneste"
+
+#: www/views/advancedSettings.html:30
+msgid "Recent Transaction Card"
+msgstr "Seneste transaktion kort"
+
+#: www/views/activity.html:4
+msgid "Recent Transactions"
+msgstr "Seneste transaktioner"
+
+#: www/views/amount.html:13 www/views/tab-send.html:14
+msgid "Recipient"
+msgstr "Modtager"
+
+#: www/views/preferencesAbout.html:9
+#, fuzzy
+msgid "Release information"
+msgstr "Release information"
+
+#: www/views/addressbook.view.html:44
+msgid "Remove"
+msgstr "Fjern"
+
+#: www/views/onboarding/welcome.html:9
+msgid "Restore from backup"
+msgstr "Gendan fra backup"
+
+#: src/js/controllers/onboarding/tour.js:86
+msgid "Retry"
+msgstr "Prøv igen"
+
+#: www/views/tab-scan.html:23
+msgid "Retry Camera"
+msgstr "Prøv kamera igen"
+
+#: www/views/addressbook.add.html:81 www/views/addressbook.edit.html:81
+#: www/views/changeLocks.html:70 www/views/includes/note.html:9
+#: www/views/preferencesAlias.html:50 www/views/preferencesName.html:21
+#: www/views/preferencesNotifications.html:46
+#: www/views/preferencesRepresentative.html:33
+msgid "Save"
+msgstr "Gem"
+
+#: www/views/tab-scan.html:3 www/views/tabs.html:11
+msgid "Scan"
+msgstr "Scan"
+
+#: www/views/tab-scan.html:15
+msgid "Scan QR Codes"
+msgstr "Scan QR koder"
+
+#: www/views/modals/fingerprintCheck.html:11
+msgid "Scan again"
+msgstr "Scan igen"
+
+#: src/js/services/fingerprintService.js:51
+msgid "Scan your fingerprint please"
+msgstr "Venligst scan dit fingeraftryk"
+
+#: src/js/services/onGoingProcess.js:25
+msgid "Scanning Wallet funds..."
+msgstr "Scanner tegnebogsmidler"
+
+#: www/views/includes/screenshotWarningModal.html:7
+msgid "Screenshots are not secure"
+msgstr "Skærmbilleder er ikke sikre"
+
+#: www/views/modals/search.html:6
+msgid "Search Transactions"
+msgstr "Søg transaktioner"
+
+#: www/views/tab-send.html:18
+msgid "Search or enter account number"
+msgstr "Søg eller indtast kontonummer"
+
+#: www/views/modals/search.html:16
+msgid "Search transactions"
+msgstr "Søg transaktioner"
+
+#: www/views/preferencesAltCurrency.html:14
+msgid "Search your currency"
+msgstr "Søg din valuta"
+
+#: www/views/tab-import-file.html:7
+msgid "Select a backup file"
+msgstr "Vælg en backupfil"
+
+#: src/js/controllers/amount.js:40 src/js/controllers/amount.js:76
+#: src/js/controllers/tab-receive.js:79 src/js/controllers/tab-send.js:189
+#: src/js/controllers/tab-send.js:208
+msgid "Select an account"
+msgstr "Vælg en konto"
+
+#: www/views/feedback/send.html:13 www/views/feedback/send.html:43
+#: www/views/tab-send.html:3 www/views/tabs.html:15
+msgid "Send"
+msgstr "Send"
+
+#: www/views/feedback/send.html:3 www/views/tab-settings.html:126
+msgid "Send Feedback"
+msgstr "Send feedback"
+
+#: www/views/includes/logOptions.html:17 www/views/tab-export-file.html:51
+msgid "Send by email"
+msgstr "Send via email"
+
+#: src/js/controllers/confirm.js:148
+msgid "Send from"
+msgstr "Send fra"
+
+#: www/views/includes/itemSelector.html:8
+msgid "Send max amount"
+msgstr "Send max beløb"
+
+#: www/views/feedback/rateApp.html:17
+msgid "Send us feedback instead"
+msgstr "Send feedback til os i stedet"
+
+#: www/views/confirm.html:15
+msgid "Sending"
+msgstr "Sender"
+
+#: src/js/services/onGoingProcess.js:31
+msgid "Sending feedback..."
+msgstr "Sender feedback…"
+
+#: www/views/confirm.html:16
+msgid "Sending maximum amount"
+msgstr "Sender maksimum beløb"
+
+#: src/js/services/onGoingProcess.js:26
+msgid "Sending transaction"
+msgstr "Sender transaktion"
+
+#: src/js/controllers/confirm.js:293
+msgid "Sending {{amountStr}} from your {{name}} account"
+msgstr "Sender {{amountStr}} fra din konto ved navn {{name}}"
+
+#: www/views/modals/tx-status.html:9 www/views/tx-details.html:18
+msgid "Sent"
+msgstr "Sendt"
+
+#: www/views/includes/homeIntegrations.html:3
+msgid "Services"
+msgstr "Services"
+
+#: www/views/preferencesLogs.html:3
+msgid "Session Log"
+msgstr "Session log"
+
+#: www/views/preferencesAbout.html:40
+msgid "Session log"
+msgstr "Session log"
+
+#: www/views/tab-settings.html:3 www/views/tabs.html:19
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: www/views/feedback/complete.html:17 www/views/feedback/complete.html:26
+msgid "Share the love by inviting your friends."
+msgstr "Del kærligheden ved at invitere dine venner."
+
+#: www/views/tab-send.html:42
+msgid "Show Account"
+msgstr "Vis konto"
+
+#: www/views/tab-send.html:65
+msgid "Show more"
+msgstr "Vis mere"
+
+#: src/js/services/onGoingProcess.js:27
+#, fuzzy
+msgid "Signing transaction"
+msgstr "Signerer transaktion"
+
+#: www/views/onboarding/backupRequest.html:6
+msgid "Since only you control your money, you’ll need to save your wallet seed in case this app is deleted."
+msgstr "Da kun du kontrollerer dine midler, skal du gemme dit tegnebogs-seed, hvis denne app bliver slettet."
+
+#: www/views/onboarding/tour.html:11
+msgid "Skip"
+msgstr "Spring over"
+
+#: src/js/controllers/confirm.js:219
+msgid "Slide to send"
+msgstr "Slide for at sende"
+
+#: www/views/paperWallet.html:7
+msgid "Sweep"
+msgstr "Sweep"
+
+#: www/views/includes/incomingDataMenu.html:89 www/views/paperWallet.html:3
+#, fuzzy
+msgid "Sweep paper wallet"
+msgstr "Sweep papirs-tegnebog"
+
+#: src/js/services/onGoingProcess.js:28
+#, fuzzy
+msgid "Sweeping Wallet..."
+msgstr "Sweeper tegnebog…"
+
+#: www/views/preferencesDeleteWallet.html:16
+msgid "THIS ACTION CANNOT BE REVERSED"
+msgstr "DENNE HANDLING KAN IKKE FORTRYDES"
+
+#: www/views/accountDetails.html:43
+msgid "Tap and hold to show"
+msgstr "Tap og hold for at vise"
+
+#: www/views/termsOfUse.html:3
+msgid "Terms Of Use"
+msgstr "Vilkår for brug"
+
+#: www/views/modals/terms.html:3 www/views/onboarding/disclaimer.html:29
+#: www/views/onboarding/disclaimer.html:43 www/views/preferencesAbout.html:30
+msgid "Terms of Use"
+msgstr "Vilkår for brug"
+
+#: www/views/includes/incomingDataMenu.html:61
+msgid "Text"
+msgstr "Tekst"
+
+#: src/js/controllers/feedback/send.js:25
+#: src/js/controllers/feedback/send.js:75 www/views/feedback/complete.html:20
+#: www/views/feedback/rateApp.html:4
+msgid "Thank you!"
+msgstr "Tak!"
+
+#: src/js/controllers/feedback/send.js:71
+msgid "Thanks!"
+msgstr "Tak!"
+
+#: src/js/controllers/feedback/send.js:72
+msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
+msgstr "Det er spændende at høre. Vi ville elske at gøre os fortjent til den femte stjerne fra dig – hvordan kan vi forbedre din oplevelse?"
+
+#: www/views/tab-import-phrase.html:4
+msgid "The seed"
+msgstr "Seed"
+
+#: src/js/controllers/import.js:117
+msgid "The seed is invalid, it should be 64 characters of: 0-9, A-F"
+msgstr "Seedet er ugyldigt. Det skal være 64 tegn bestående af: 0-9, A-F"
+
+#: www/views/tab-import-phrase.html:5
+msgid "The wallet server URL"
+msgstr "Tegnebogs-server URL"
+
+#: src/js/controllers/import.js:108 src/js/controllers/import.js:87
+msgid "There is an error in the form"
+msgstr "Der er en fejl i formularen"
+
+#: src/js/controllers/feedback/send.js:60
+#: src/js/controllers/feedback/send.js:64
+msgid "There's obviously something we're doing wrong."
+msgstr "Der er tydeligvis et eller andet vi gør galt."
+
+#: src/js/controllers/feedback/rateCard.js:38
+msgid "This app is fantastic!"
+msgstr "Denne app er fantastisk!"
+
+#: www/views/tx-details.html:86
+msgid "Timeline"
+msgstr "Tidslinje"
+
+#: www/views/confirm.html:26 www/views/includes/output.html:2
+#: www/views/tx-details.html:42 www/views/tx-details.html:59
+msgid "To"
+msgstr "Til"
+
+#: src/js/services/fingerprintService.js:58
+#: src/js/services/fingerprintService.js:63
+msgid "Touch ID Failed"
+msgstr "Touch ID fejlede"
+
+#: src/js/controllers/tx-details.js:10
+msgid "Transaction"
+msgstr "Transaktion"
+
+#: src/js/controllers/paperWallet.js:63
+msgid "Transfer to"
+msgstr "Overfør til"
+
+#: www/views/tab-send.html:73
+msgid "Transfer to Account"
+msgstr "Overfør til Konto"
+
+#: www/views/modals/password.html:24 www/views/modals/pin.html:13
+msgid "Try again in {{expires}}"
+msgstr "Prøv igen om {{expires}}"
+
+#: src/js/controllers/backup.js:33
+msgid "Uh oh..."
+msgstr "Uh oh…"
+
+#: src/js/controllers/tab-home.js:173
+msgid "Update Available"
+msgstr "Opdatering tilgængelig"
+
+#: www/views/activity.html:14
+msgid "Updating... Please stand by"
+msgstr "Opdaterer… vent venligst"
+
+#: www/views/modals/fingerprintCheck.html:4
+msgid "Verify your identity"
+msgstr "Bekræft din identitet"
+
+#: www/views/preferencesAbout.html:14
+msgid "Version"
+msgstr "Version"
+
+#: www/views/tab-export-file.html:38
+msgid "View"
+msgstr "Se"
+
+#: src/js/controllers/onboarding/terms.js:20
+msgid "View Terms of Service"
+msgstr "Se Vilkår for brug"
+
+#: src/js/controllers/tab-home.js:175
+msgid "View Update"
+msgstr "Se opdatering"
+
+#: www/views/tab-settings.html:104
+msgid "Wallet Accounts"
+msgstr "Tegnebogskonti"
+
+#: www/views/import.html:20
+msgid "Wallet File"
+msgstr "Tegnebogsfil"
+
+#: www/views/import.html:16
+msgid "Wallet Seed"
+msgstr "Tegnebogs-seed"
+
+#: www/views/backup.html:10
+msgid "Wallet seed not available"
+msgstr "Tegnebogs-seed ikke tilgængeligt"
+
+#: src/js/controllers/addressbookView.js:43
+#: src/js/controllers/advancedSettings.js:38 src/js/controllers/import.js:152
+#: src/js/controllers/modals/password.js:73
+#: src/js/controllers/preferencesDelete.js:23
+#: www/views/preferencesDeleteWallet.html:11
+msgid "Warning!"
+msgstr "Advarsel!"
+
+#: src/js/controllers/onboarding/backupRequest.js:15
+msgid "Watch out!"
+msgstr "Pas på!"
+
+#: src/js/controllers/feedback/send.js:68
+msgid "We'd love to do better."
+msgstr "Vi ville elske at gøre det bedre."
+
+#: www/views/includes/incomingDataMenu.html:6
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: www/views/preferencesName.html:11
+msgid "What do you call this account?"
+msgstr "Hvad kalder du denne konto?"
+
+#: www/views/onboarding/notifications.html:4
+msgid "Would you like to receive push notifications about payments?"
+msgstr "Vil du modtage pushmeddelelser om betalinger?"
+
+#: www/views/modals/confirmation.html:7
+msgid "Yes"
+msgstr "Ja"
+
+#: src/js/controllers/onboarding/backupRequest.js:23
+msgid "Yes, skip"
+msgstr "Ja, spring over"
+
+#: www/views/preferencesName.html:12
+msgid "You can change the name displayed on this device below."
+msgstr "Du kan ændre navnet, der vises på denne enhed, nedenfor."
+
+#: src/js/controllers/onboarding/backupRequest.js:22
+msgid "You can create a backup later from your wallet settings."
+msgstr "Du kan oprette en backup senere fra dine tegnebogsindstillinger."
+
+#: src/js/controllers/preferencesAbout.js:13
+msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
+msgstr "Du kan se de seneste udviklinger og bidrage til denne open source app ved at besøge vores projekt på GitHub."
+
+#: www/views/backup.html:13
+msgid "You can still export it from Advanced &gt; Export."
+msgstr "Du kan stadig eksportere det fra Avanceret &gt; Eksport"
+
+#: www/views/preferencesNotifications.html:34
+msgid "You'll receive email notifications about payments sent and received from your wallets."
+msgstr "Du modtager email-meddelelser om betalinger, der sendes og modtages fra dine tegnebøger."
+
+#: www/views/feedback/send.html:42
+msgid "Your ideas, feedback, or comments"
+msgstr "Dine ideer, feedback eller kommentarer"
+
+#: www/views/tab-export-file.html:12 www/views/tab-import-file.html:20
+#: www/views/tab-import-phrase.html:30
+msgid "Your password"
+msgstr "Din adgangskode"
+
+#: www/views/onboarding/backupRequest.html:10
+msgid "Your wallet is never saved to cloud storage or standard device backups."
+msgstr "Din tegnebog lagres aldrig i skyen eller i dine enheds-backups."
+
+#: www/views/accountDetails.html:42 www/views/amount.html:122
+#: www/views/includes/accountList.html:19
+#: www/views/includes/accountSelector.html:18 www/views/paperWallet.html:33
+#: www/views/tab-receive.html:41 www/views/tab-send.html:101
+msgid "[Balance Hidden]"
+msgstr "[Balance skjult]"
+
+#: www/views/onboarding/disclaimer.html:43
+msgid "I have read, understood, and agree to the <a ng-click=\"openTerms()\" href=\"javascript:void(0)\" translate=\"\">Terms of Use</a>."
+msgstr "Jeg har læst, forstået og accepterer <a ng-click=\"openTerms()\" href=\"javascript:void(0)\" translate=\"\">Vilkår for brug</a>."
+
+#: www/views/feedback/rateApp.html:7
+msgid "5-star ratings help us get Canoe into more hands, and more users means more resources can be committed to the app!"
+msgstr "5-stjernede ratings hjælper os med at få Canoe i flere hænder, og flere brugere betyder at flere ressourcer kan tildeles til appen!"
+
+#: www/views/changePassword.html:31
+msgid "At least 8 Characters. Make it good!"
+msgstr "Mindst 8 karakterer. Lav et godt ét!"
+
+#: www/views/changePassword.html:3 www/views/changePassword.html:77
+#: www/views/preferencesSecurity.html:17
+msgid "Change Password"
+msgstr "Skift adgangskode"
+
+#: www/views/changePassword.html:43
+msgid "Confirm New Password"
+msgstr "Bekræft ny adgangskode"
+
+#: www/views/feedback/rateCard.html:3
+msgid "How do you like Canoe?"
+msgstr "Hvad synes du om Canoe?"
+
+#: www/views/onboarding/tour.html:50
+msgid "Let's Start"
+msgstr "Lad os begynde"
+
+#: www/views/changePassword.html:28
+msgid "New Password"
+msgstr "Ny adgangskode"
+
+#: www/views/changePassword.html:13
+msgid "Old Password"
+msgstr "Gammel adgangskode"
+
+#: www/views/changePassword.html:46
+msgid "One more time."
+msgstr "En gang til."
+
+#: www/views/changePassword.html:64
+msgid "Password too short"
+msgstr "Adgangskode for kort"
+
+#: www/views/changePassword.html:70
+msgid "Passwords don't match"
+msgstr "Adgangskoder matcher ikke"
+
+#: www/views/changePassword.html:60 www/views/onboarding/tour.html:106
+msgid "Passwords match"
+msgstr "Adgangskoder matcher"
+
+#: www/views/preferencesNotifications.html:17
+msgid "Push notifications for Canoe are currently disabled. Enable them in the Settings app."
+msgstr "Push-meddelelser for Canoe er i øjeblikket ikke slået til. Slå dem til i appen Indstillinger."
+
+#: src/js/controllers/feedback/complete.js:5 www/views/tab-settings.html:53
+msgid "Share Canoe"
+msgstr "Del Canoe"
+
+#: src/js/controllers/tab-home.js:52
+msgid "There is a new version of Canoe available"
+msgstr "Der er en ny opdatering til Canoe"
+
+#: src/js/controllers/feedback/send.js:76
+msgid "We're always looking for ways to improve Canoe."
+msgstr "Vi er altid på udkig efter måder at forbedre Canoe."
+
+#: src/js/controllers/feedback/send.js:82
+msgid "We're always looking for ways to improve Canoe. How could we improve your experience?"
+msgstr "Vi er altid på udkig efter måder at forbedre Canoe. Hvordan kunne vi forbedre din oplevelse?"
+
+#: www/views/feedback/rateApp.html:10
+msgid "Would you be willing to rate Canoe in the app store?"
+msgstr "Vil du være villig til at bedømme Canoe i App Store?"
+
+#: www/views/preferencesAlias.html:4
+msgid "Account Alias"
+msgstr "Kontoalias"
+
+#: www/views/preferencesColor.html:4
+msgid "Account Color"
+msgstr "Kontofarve"
+
+#: www/views/addressbook.add.html:56 www/views/addressbook.edit.html:56
+#: www/views/addressbook.view.html:30 www/views/onboarding/alias.html:10
+#: www/views/preferences.html:22 www/views/preferencesAlias.html:19
+msgid "Alias"
+msgstr "Alias"
+
+#: www/views/backup.html:3 www/views/tab-settings.html:23
+msgid "Backup seed"
+msgstr "Backup-seed"
+
+#: www/views/onboarding/tour.html:116
+msgid "Create Wallet"
+msgstr "Opret tegnebog"
+
+#: www/views/preferencesLanguage.html:21
+msgid "Don't see your language? Sign up on POEditor! We'd love to support your language."
+msgstr "Kan du ikke se dit sprog? Tilmeld dig POEditor! Vi vil gerne understøtte dit sprog."
+
+#: www/views/addressbook.edit.html:4
+msgid "Edit Contact"
+msgstr "Rediger kontakt"
+
+#: www/views/tab-export-file.html:10
+msgid "Enter password"
+msgstr "Indtast adgangskode"
+
+#: www/views/modals/password.html:23
+msgid "Incorrect password, try again."
+msgstr "Forkert adgangskode, prøv igen."
+
+#: www/views/addressbook.add.html:24 www/views/addressbook.edit.html:24
+msgid "Joe Doe"
+msgstr "Joe Doe"
+
+#: www/views/onboarding/welcome.html:5
+msgid "Join the future of money,<br>get started with BCB."
+msgstr "Deltag i fremtiden for penge,<br>kom i gang med BCB."
+
+#: www/views/tab-settings.html:45
+msgid "Lock wallet"
+msgstr "Lås Canoe"
+
+#: www/views/onboarding/disclaimer.html:15
+msgid "BCB is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "BCB er anderledes &ndash; det kan ikke gemmes i en bank eller hos en webservice."
+
+#: src/js/controllers/confirm.js:85
+msgid "No accounts available"
+msgstr "Ingen konti tilgængelige"
+
+#: www/views/onboarding/backupRequest.html:5
+msgid "No backup, no BCB."
+msgstr "Ingen backup, ingen BCB."
+
+#: src/js/controllers/preferencesLanguage.js:12
+msgid "Open POEditor"
+msgstr "Åbn POEditor"
+
+#: src/js/controllers/preferencesLanguage.js:10
+msgid "Open Translation Site"
+msgstr "Åbn oversættelses-site"
+
+#: www/views/tab-import-file.html:18
+msgid "Password to decrypt"
+msgstr "Adgangskode til at dekryptere"
+
+#: www/views/tab-import-phrase.html:28
+msgid "Password to encrypt"
+msgstr "Adgangskode til at kryptere"
+
+#: src/js/controllers/import.js:122
+msgid "Please enter a password to use for the wallet"
+msgstr "Indtast venligst en adgangskode der skal bruges til tegnebogen"
+
+#: www/views/advancedSettings.html:40
+msgid "Repair"
+msgstr "Reparer"
+
+#: www/views/addressbook.view.html:35
+msgid "Send BCB"
+msgstr "Send BCB"
+
+#: www/views/tab-send.html:33
+msgid "Start sending BCB"
+msgstr "Begynd at sende BCB"
+
+#: www/views/tab-send.html:37
+msgid "To get started, you need BCB. Share your account to receive BCB."
+msgstr "For at komme i gang har du brug for BCB. Del din konto for at modtage BCB."
+
+#: www/views/tab-send.html:38
+msgid "To get started, you need an Account in your wallet to receive BCB."
+msgstr "For at komme i gang har du brug for en konto i din tegnebog til at modtage BCB."
+
+#: www/views/preferencesAlias.html:12
+msgid "Type below to see if an alias is free to use."
+msgstr "Skriv nedenfor for at se om et alias er tilgængeligt."
+
+#: www/views/advancedSettings.html:12
+msgid "Use Server Side PoW"
+msgstr "Brug Server Side PoW"
+
+#: www/views/preferencesLanguage.html:16
+msgid "We’re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on POEditor."
+msgstr "Vi leder altid efter bidrag til oversættelser! Du kan foretage korrektioner eller hjælpe med at gøre denne app tilgængelig på dit modersmål ved at tilmelde dig vores fællesskab på POEditor."
+
+#: src/js/controllers/preferencesLanguage.js:11
+msgid "You can make contributions by signing up on our POEditor community translation project. We’re looking forward to hearing from you!"
+msgstr "Du kan yde bidrag ved at tilmelde dig vores oversættelsesprojekt på POEditor. Vi ser frem til at høre fra dig!"
+
+#: www/views/tab-scan.html:16
+msgid "You can scan BCB addresses, payment requests and more."
+msgstr "Du kan scanne BCB-adresser, betalingsanmodninger og mere."
+
+#: www/views/tab-home.html:50
+msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgstr "Din BCB tegnebog er klar!"
+
+#: www/views/includes/confirmBackupPopup.html:6
+msgid "Your BCB wallet seed is backed up!"
+msgstr "Dit BCB tegnebogs-seed er sikkerhedskopieret!"
+
+#: src/js/services/nanoService.js:712 www/views/addressbook.add.html:39
+#: www/views/addressbook.edit.html:39 www/views/addressbook.view.html:26
+msgid "Account"
+msgstr "Konto"
+
+#: src/js/controllers/create.js:19 src/js/controllers/preferencesName.js:13
+msgid "An account already exists with that name"
+msgstr "En konto med det navn eksisterer allerede"
+
+#: www/views/modals/pin.html:10
+msgid "Confirm your PIN"
+msgstr "Bekræft din PIN"
+
+#: www/views/preferencesName.html:18
+msgid "Enter a descriptive name"
+msgstr "Indtast et beskrivende navn"
+
+#: src/js/controllers/export.js:35
+msgid "Failed to generate seed QR code"
+msgstr "Kunne ikke generere seed QR-kode"
+
+#: www/views/modals/pin.html:12
+msgid "Incorrect PIN, try again."
+msgstr "Forkert PIN, prøv igen."
+
+#: src/js/controllers/import.js:35
+msgid "Incorrect code format for a seed:"
+msgstr "Forkert kodeformat for et seed:"
+
+#: src/js/controllers/changeLocksController.js:24
+#: src/js/controllers/changePasswordController.js:13
+#: src/js/controllers/changePasswordController.js:16
+#: src/js/services/incomingData.js:118 src/js/services/incomingData.js:120
+#: src/js/services/nanoService.js:87
+msgid "Information"
+msgstr "Information"
+
+#: src/js/controllers/import.js:45
+msgid "Not a seed QR code:"
+msgstr "Ikke en seed QR-kode:"
+
+#: www/views/modals/pin.html:9
+msgid "Please enter your PIN"
+msgstr "Indtast venlist din PIN"
+
+#: www/views/tab-export-qrCode.html:7
+msgid "Scan this QR code to import seed into another application"
+msgstr "Scan denne QR-kode for at importere dette seed i en anden applikation"
+
+#: www/views/preferencesSecurity.html:3 www/views/tab-settings.html:92
+msgid "Security Preferences"
+msgstr "Sikkerhedspræferencer"
+
+#: www/views/changePassword.html:16
+msgid "Your current password"
+msgstr "Din nuværende adgangskode"
+
+#: src/js/controllers/changePasswordController.js:16
+msgid "Your password has been changed"
+msgstr "Din adgangskode er blevet ændret"
+
+#: www/views/onboarding/tour.html:46
+msgid "Canoe stores your BCB using cutting-edge security."
+msgstr "Canoe gemmer din BCB ved brug af banebrydende sikkerhed."
+
+#: www/views/import.html:10
+msgid "Caution"
+msgstr "Forsigtig"
+
+#: src/js/services/onGoingProcess.js:34
+msgid "Decrypting wallet..."
+msgstr "Dekrypterer tegnebog…"
+
+#: src/js/controllers/modals/password.js:101
+msgid "Error after loading wallet:"
+msgstr "Fejl efter indlæsning af tegnebog:"
+
+#: www/views/onboarding/disclaimer.html:21
+msgid "I understand that if this app is deleted, my wallet can only be recovered with the seed or a wallet file backup."
+msgstr "Jeg forstår at hvis denne app slettes, kan min tegnebog kun gendannes med seedet eller en tegnebogs backup."
+
+#: www/views/import.html:11
+msgid "Importing a wallet removes your current wallet and all its accounts. You may wish to first backup your current seed or make a file backup of the wallet."
+msgstr "Import af en tegnebog fjerner din nuværende tegnebog og alle dens konti. Du vil muligvis først sikkerhedskopiere dit nuværende seed eller lave en sikkerhedskopi af tegnebogen."
+
+#: src/js/controllers/addressbookAdd.js:20
+#: src/js/controllers/addressbookEdit.js:21
+#: src/js/controllers/preferencesRepresentative.js:17
+msgid "Incorrect code format for an account:"
+msgstr "Forkert kodeformat for en konto:"
+
+#: www/views/onboarding/tour.html:22
+msgid "Just scan and pay."
+msgstr "Bare scan og betal."
+
+#: www/views/tab-settings.html:9
+#, fuzzy
+msgid "Manage"
+msgstr "Manage"
+
+#: www/views/onboarding/tour.html:31
+msgid "BCB is Feeless"
+msgstr "BCB er gebyrfri"
+
+#: www/views/onboarding/tour.html:18
+msgid "BCB is Instant"
+msgstr "BCB er øjeblikkelig"
+
+#: www/views/onboarding/tour.html:45
+msgid "BCB is Secure"
+msgstr "BCB er sikker"
+
+#: www/views/onboarding/tour.html:36
+msgid "Never pay transfer fees again!"
+msgstr "Betal aldrig overførselsgebyrer igen!"
+
+#: www/views/tab-settings.html:110
+msgid "Support"
+msgstr "Support"
+
+#: www/views/onboarding/tour.html:32
+msgid "Trade BCB for other currencies like USD or Euros."
+msgstr "Køb BCB for andre valutaer som USD eller Euro."
+
+#: www/views/onboarding/tour.html:19
+msgid "Transfer BCB instantly to anyone, anywhere."
+msgstr "Overfør BCB øjeblikkeligt til hvem som helst, hvor som helst."
+
+#: www/views/preferencesRepresentative.html:4
+msgid "Account Representative"
+msgstr "Kontorepræsentant"
+
+#: src/js/controllers/confirm.js:343
+msgid "Add to address book?"
+msgstr "Tilføj til adressebog?"
+
+#: www/views/addressbook.add.html:72 www/views/addressbook.edit.html:72
+msgid "Alias Found!"
+msgstr "Alias fundet!"
+
+#: www/views/onboarding/alias.html:12
+msgid "At least 3 Characters."
+msgstr "Mindst 3 karakterer."
+
+#: www/views/onboarding/alias.html:22 www/views/preferencesAlias.html:24
+msgid "Checking availablity"
+msgstr "Kontrollerer tilgængelighed"
+
+#: www/views/onboarding/alias.html:62
+msgid "Create Alias"
+msgstr "Opret alias"
+
+#: src/js/services/onGoingProcess.js:15
+msgid "Creating Alias..."
+msgstr "Opretter alias…"
+
+#: src/js/controllers/confirm.js:344
+msgid "Do you want to add this new address to your address book?"
+msgstr "Vil du gemme denne nye adresse i din adressebog?"
+
+#: www/views/preferencesAlias.html:13
+msgid "Edit your alias."
+msgstr "Rediger dit alias."
+
+#: src/js/services/onGoingProcess.js:16
+msgid "Editing Alias..."
+msgstr "Redigerer alias…"
+
+#: www/views/onboarding/alias.html:37
+msgid "Email for recovering your alias"
+msgstr "Email til at gendanne dit alias"
+
+#: www/views/preferencesRepresentative.html:11
+msgid "Enter a representative account."
+msgstr "Indtast en repræsentantkonto."
+
+#: src/js/controllers/import.js:64
+msgid "Error importing wallet:"
+msgstr "Fejl ved import af tegnebog:"
+
+#: www/views/tab-settings.html:134
+msgid "How to buy BCB"
+msgstr "Sådan køber du BCB"
+
+#: src/js/controllers/tab-settings.js:60
+msgid "How to buy and sell BCB is described at the website."
+msgstr "Hvordan du køber og sælger BCB er beskrevet på hjemmesiden."
+
+#: www/views/addressbook.add.html:76 www/views/addressbook.edit.html:76
+#: www/views/onboarding/alias.html:30 www/views/preferencesAlias.html:32
+msgid "Invalid Alias!"
+msgstr "Ugyldigt alias!"
+
+#: www/views/onboarding/alias.html:45 www/views/preferencesAlias.html:40
+msgid "Invalid Email!"
+msgstr "Ugyldig email!"
+
+#: www/views/onboarding/alias.html:5
+msgid "Let People Easily Find you With Aliases"
+msgstr "Lad folk finde dig nemt med aliaser."
+
+#: www/views/onboarding/alias.html:57
+msgid "Link my wallet to my phone number."
+msgstr "Forbind min tegnebog med mit telefonnummer."
+
+#: www/views/addressbook.add.html:68 www/views/addressbook.edit.html:68
+msgid "Looking up @{{addressbookEntry.alias}}"
+msgstr "Slår @{{addressbookEntry.alias}} op"
+
+#: www/views/onboarding/alias.html:54 www/views/preferencesAlias.html:47
+msgid "Make my alias private."
+msgstr "Lav mit alias privat."
+
+#: www/views/tx-details.html:115
+msgid "Refund"
+msgstr "Tilbagebetaling"
+
+#: src/js/controllers/advancedSettings.js:39
+msgid "Repairing your wallet could take some time. This will reload all blockchains associated with your wallet. Are you sure you want to repair?"
+msgstr "Det kan tage lidt tid at reparere din tegnebog. Dette vil genindlæse alle blokke, der er knyttet til din tegnebog. Er du sikker på, at du vil fortsætte?"
+
+#: www/views/preferences.html:30 www/views/preferencesRepresentative.html:17
+msgid "Representative"
+msgstr "Repræsentant"
+
+#: www/views/includes/accountHistory.html:40 www/views/tx-details.html:19
+msgid "Representative changed"
+msgstr "Repræsentant ændret"
+
+#: www/views/onboarding/alias.html:26 www/views/preferencesAlias.html:28
+msgid "That alias is taken!"
+msgstr "Det alias er allerede taget!"
+
+#: src/js/controllers/onboarding/terms.js:21
+msgid "The official English Terms of Service are available on the Canoe website."
+msgstr "De officielle engelske servicevilkår er tilgængelige på Canoes hjemmeside."
+
+#: www/views/onboarding/alias.html:49 www/views/preferencesAlias.html:44
+msgid "Valid Alias & Email"
+msgstr "Gyldigt alias & email"
+
+#: src/js/controllers/tx-details.js:71
+msgid "View Block on BCB Block Explorer"
+msgstr "Se blok på BCB Block Explorer"
+
+#: www/views/tx-details.html:111
+msgid "View on BCB Block Explorer"
+msgstr "Se på BCB Block Explorer"
+
+#: www/views/preferencesAlias.html:11
+msgid "What alias would you like to reserve?"
+msgstr "Hvilket alias vil du gerne reservere?"
+
+#: www/views/preferencesAlias.html:14
+msgid "You can change your alias, email, or privacy settings."
+msgstr "Du kan ændre dit alias, email eller privatlivsindstillinger."
+
+#: src/js/controllers/changePasswordController.js:13
+msgid "Your old password was not entered correctly"
+msgstr "Din gamle adgangskode var ikke indtastet korrekt"
+
+#: www/views/addressbook.add.html:33 www/views/addressbook.edit.html:33
+msgid "joe.doe@example.com"
+msgstr "joe.doe@example.com"
+
+#: www/views/addressbook.add.html:59 www/views/addressbook.edit.html:59
+msgid "joedoe"
+msgstr "joedoe"
+
+#: www/views/modals/password.html:6
+msgid "Wallet is Locked"
+msgstr "Canoe er låst"
+
+#: www/views/modals/password.html:39
+msgid "Forgot Password?"
+msgstr "Glemt adgangskode?"
+
+#: www/views/changeLocks.html:30 www/views/changeLocks.html:61
+msgid "4-digit PIN"
+msgstr "4-cifret PIN"
+
+#: www/views/backupWarning.html:14
+msgid "Anyone with your seed can access or spend your BCB."
+msgstr "Alle med dit seed kan få adgang til og bruge din BCB."
+
+#: www/views/changeLocks.html:54
+msgid "Background Behaviour"
+msgstr "Baggrundsadfærd"
+
+#: www/views/preferencesSecurity.html:22
+msgid "Change 4-digit PIN"
+msgstr "Skift 4-cifret PIN"
+
+#: www/views/changeLocks.html:3 www/views/preferencesSecurity.html:12
+msgid "Change Lock Settings"
+msgstr "Skift låseindstillinger"
+
+#: www/views/changeLocks.html:31 www/views/changeLocks.html:62
+msgid "Fingerprint"
+msgstr "Fingeraftryk"
+
+#: www/views/modals/password.html:40
+msgid "Go back to onboarding."
+msgstr "Gå tilbage til introforløb."
+
+#: www/views/changeLocks.html:38
+#, fuzzy
+msgid "Hard Lock"
+msgstr "Hard Lock"
+
+#: www/views/changeLocks.html:42
+#, fuzzy
+msgid "Hard Timeout"
+msgstr "Hard Timeout"
+
+#: www/views/advancedSettings.html:14
+msgid "If enabled, Proof Of Work is delegated to the Canoe server side. This option is disabled and always true on mobile Canoe for now."
+msgstr "Hvis aktiveret, er Proof of Work delegeret til Canoe serveren. Denne mulighed er deaktiveret og altid slået til på mobil Canoe for nu."
+
+#: www/views/advancedSettings.html:32
+#, fuzzy
+msgid "If enabled, a list of recent transactions across all wallets will appear in the Home tab. Currently false, not fully implemented."
+msgstr "Hvis aktiveret, vises en liste over de seneste transaktioner på tværs af alle tegnebøger på fanen Home. I øjeblikket ikke slået til, ikke fuldt implementeret."
+
+#: www/views/changeLocks.html:58
+msgid "Lock when going to background"
+msgstr "Lås når Canoe sendes til baggrunden"
+
+#: www/views/changeLocks.html:29 www/views/changeLocks.html:60
+msgid "None"
+msgstr "Ingen"
+
+#: www/views/changeLocks.html:63 www/views/modals/password.html:12
+#: www/views/onboarding/tour.html:70
+msgid "Password"
+msgstr "Adgangskode"
+
+#: src/js/controllers/changeLocksController.js:24
+msgid "Saved"
+msgstr "Gemt"
+
+#: www/views/changeLocks.html:14
+#, fuzzy
+msgid "Soft Lock"
+msgstr "Soft Lock"
+
+#: www/views/changeLocks.html:27
+#, fuzzy
+msgid "Soft Lock Type"
+msgstr "Soft Lock type"
+
+#: www/views/changeLocks.html:18
+#, fuzzy
+msgid "Soft Timeout"
+msgstr "Soft Timeout"
+
+#: www/views/changeLocks.html:20 www/views/changeLocks.html:44
+msgid "Timeout in seconds"
+msgstr "Timeout i sekunder"
+
+#: src/js/controllers/tab-scan.js:107 src/js/controllers/tabsController.js:7
+msgid "Unrecognized data"
+msgstr "Ukendt data"
+
+#: www/views/changeLocks.html:37
+msgid "<h5 class=\"toggle-label\" translate=\"\">Hard Lock</h5>\n"
+"          With Hard Lock, Canoe encrypts your wallet and completely remove it from memory. You can not disable Hard Lock, but you can set a very high timeout."
+msgstr "<h5 class=\"toggle-label\" translate=\"\">Hard Lock</h5>\n"
+"          Med Hard Lock krypterer Canoe din tegnebog og fjerner den helt fra hukommelsen. Du kan ikke slå Hard Lock fra, men du kan sætte en høj timeout-værdi."
+
+#: src/js/controllers/tab-home.js:174
+msgid "A new version of this app is available. Please update to the latest version."
+msgstr "En ny version af denne app er tilgængelig. Opdater venligst til den seneste version."
+
+#: www/views/changeBackend.html:13
+msgid "Backend URL"
+msgstr "Backend URL"
+
+#: www/views/advancedSettings.html:46 www/views/changeBackend.html:23
+msgid "Change Backend"
+msgstr "Skift backend"
+
+#: www/views/changeBackend.html:3
+msgid "Change Backend Server"
+msgstr "Skift backend server"
+
+#: src/js/controllers/import.js:153
+msgid "Importing a wallet will remove your existing wallet and accounts! If you have funds in your current wallet, make sure you have a backup to restore from. Type \"delete\" to confirm you wish to delete your current wallet."
+msgstr "Hvis du importerer en tegnebog, fjernes din eksisterende tegnebog og konti! Hvis du har midler i din nuværende tegnebog, skal du sørge for, at du har en sikkerhedskopi at gendanne fra. Skriv \"slet\" for at bekræfte, at du ønsker at slette din nuværende tegnebog."
+
+#: www/views/amount.html:53
+msgid "Max"
+msgstr "Max"
+
+#: src/js/controllers/import.js:155 src/js/controllers/modals/password.js:76
+msgid "delete"
+msgstr "slet"
+
+#: www/views/changeBackend.html:15
+msgid "bitcoin.black"
+msgstr "bitcoin.black"
+
+#: www/views/onboarding/tour.html:100
+msgid "Confirm Password"
+msgstr "Bekræft adgangskode"
+
+#: src/js/controllers/modals/password.js:74
+msgid "Going back to onboarding will remove your existing wallet and accounts! If you have funds in your current wallet, make sure you have a backup to restore from. Type \"delete\" to confirm you wish to delete your current wallet."
+msgstr "Hvis du går tilbage til introforløbet fjernes din eksisterende tegnebog og konti! Hvis du har midler i din nuværende tegnebog, skal du sørge for, at du har en sikkerhedskopi at gendanne fra. Skriv \"slet\" for at bekræfte, at du ønsker at slette din nuværende tegnebog."
+
+#: src/js/controllers/import.js:125
+msgid "Please enter a password of at least 8 characters"
+msgstr "Indtast venligst en adgangskode på mindst 8 karakterer"
+
+#: www/views/tab-home.html:53
+msgid "On this screen you can see all your accounts. Check our <a ng-click=\"openExternalLinkHelp()\">FAQs</a> before you start!"
+msgstr ""
+
+#: www/views/advancedSettings.html:21
+msgid "Play Sounds"
+msgstr ""
+
+#: www/views/changeLocks.html:53
+msgid "<h5 class=\"toggle-label\" translate=\"\">Background Behaviour</h5>\n"
+"            <p translate=\"\">Choose the lock type to use when Canoe goes to the background. To disable background locking select None.</p>"
+msgstr ""
+
+#: www/views/changeLocks.html:13
+msgid "<h5 class=\"toggle-label\" translate=\"\">Soft Lock</h5>\n"
+"          <p translate=\"\">With Soft Lock, Canoe is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints.</p>"
+msgstr ""
+
+#: www/views/changeLocks.html:55
+msgid "Choose the lock type to use when Canoe goes to the background. To disable background locking select None."
+msgstr ""
+
+#: www/views/onboarding/tour.html:58
+msgid "Encryption Time!"
+msgstr ""
+
+#: www/views/onboarding/tour.html:84
+msgid "Enter at least 8 characters to encrypt your wallet."
+msgstr ""
+
+#: www/views/onboarding/tour.html:87
+msgid "Password length ok"
+msgstr ""
+
+#: www/views/onboarding/tour.html:110
+msgid "Passwords do not match"
+msgstr ""
+
+#: www/views/modals/password.html:36
+msgid "Unlock"
+msgstr ""
+
+#: www/views/changeLocks.html:15
+msgid "With Soft Lock, Canoe is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints."
+msgstr ""
+
+#: www/views/attributions.html:3 www/views/preferencesAbout.html:35
+msgid "Attributions"
+msgstr ""
+
+#: src/js/services/incomingData.js:118
+msgid "Block was scanned and sent successfully"
+msgstr ""
+
+#: src/js/services/incomingData.js:120
+msgid "Block was scanned but failed to process:"
+msgstr ""
+
+#: src/js/services/nanoService.js:243 src/js/services/nanoService.js:253
+msgid "Failed connecting to backend"
+msgstr ""
+
+#: src/js/services/nanoService.js:42
+msgid "Failed connecting to backend, no network?"
+msgstr ""
+
+#: src/js/services/nanoService.js:87
+msgid "Successfully connected to backend"
+msgstr ""
+
+#: www/views/includes/incomingDataMenu.html:29
+msgid "BCB Account"
+msgstr ""
+
+#: www/views/includes/incomingDataMenu.html:46
+msgid "Send BCB to this address"
+msgstr ""
+
+#: www/views/tab-settings.html:143
+msgid "Please load BCB to donate"
+msgstr ""
+
+#: www/views/advancedSettings.html:23
+msgid "If enabled, sounds will be played whenever you send, receive, change representative, or unlock your wallet."
+msgstr ""
+

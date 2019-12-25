@@ -1,0 +1,14 @@
+./*.js
+./sounds/*
+./roboto-font/*
+./raiwallet/*
+./index.html
+./cordova.js
+./css/*.css
+./fonts/*
+./img/*
+./img/**/*
+./js/*.js
+./lib/*.js
+./views/*.html
+./views/**/*.html

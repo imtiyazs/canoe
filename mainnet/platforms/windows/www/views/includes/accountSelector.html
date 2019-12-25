@@ -1,0 +1,40 @@
+﻿<action-sheet action-sheet-show="show" class="account-selector">
+  <img class="back-arrow" src="img/icon-back-arrow.svg" ng-click="hide()">
+  <div class="header">{{title}}</div>
+  <a ng-repeat="account in accounts track by $index"
+    class="item item-icon-left item-big-icon-left item-icon-right account" ng-click="selectAccount(account)">
+    <i class="icon big-icon-svg circle" ng-include="'views/includes/walletIcon.html'"></i>
+    <div class="account-inner">
+      <div class="account-details">
+        <div ng-if="account.meta && account.meta.alias && account.meta.alias.alias" class="account-name">
+          @{{account.meta.alias.alias}}
+        </div>
+        <div ng-if="!account.meta || !account.meta.alias || !account.meta.alias.alias" class="account-name">
+          {{account.name}}
+        </div>
+        <p>
+          <span ng-if="!account.meta.balanceHidden && account.alternativeBalanceStr"> {{account.balanceStr}} <span ng-hide="account.alternativeBalanceStr == 'hide'">&asymp; {{account.alternativeBalanceStr}}</span></span>
+
+          <span ng-if="account.meta.balanceHidden" translate>[Balance Hidden]</span>
+          <i ng-if="!account.meta.balanceHidden && (account.cachedPendingBalance > 0)" class="tab-home__wallet__pending-icon ion-android-arrow-back"></i>
+          <span ng-if="!account.meta.balanceHidden && (account.cachedPendingBalance > 0)"> {{account.pendingBalanceStr}} </span>
+          <span class="assertive" ng-if="account.error">{{account.error}}</span>
+          &nbsp;
+        </p>
+      </div>
+    </div>
+  </a>
+ <!-- <a class="item item-icon-left item-big-icon-left item-icon-right account" ng-click="selectAccount()">
+    <i class="icon big-icon-svg">
+      <img src="img/icon-wallet-add.svg" class="bg icon-add">
+    </i>
+    <div class="account-inner">
+      <div class="account-details">
+        <div class="account-add" translate>
+          Add account
+        </div>
+      </div>
+    </div>
+  </a>
+-->
+</action-sheet>

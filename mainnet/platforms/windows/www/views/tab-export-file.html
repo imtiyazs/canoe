@@ -1,0 +1,65 @@
+﻿<div ng-show="!backupWalletPlainText">
+  <div class="size-14" ng-show="error">
+    <i class="ion-alert-circled"></i>
+    <span translate>Failed to export</span>
+  </div>
+
+  <form name="exportForm" novalidate>
+    <div class="list">
+      <div class="item item-input item-stacked-label">
+        <span class="input-label" translate>Enter password</span>
+		  <span class="password-container" ng-class="{'correct': result == 'correct', 'incorrect': result == 'incorrect'}">
+			<input type="{{ typePassword ? 'text' : 'password' }}" placeholder="{{'Your password'|translate}}" ng-model="formData.password" ng-change="checkPassword(formData.password)">
+			<span class="item item-input item-stacked-label showPassword" ng-click="togglePassword('typePassword')">
+				<i class="fa" ng-class="{ 'fa-eye-slash': typePassword, 'fa-eye': !typePassword}" aria-hidden="true"></i>
+			</span>
+		  </span>
+		</span>
+      </div>
+	</div>
+
+    <button
+      ng-click="downloadWalletBackup()"
+      class="button button-standard button-primary"
+      ng-disabled="!passwordCorrect"
+      ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color':wallet.color}"
+      ng-show="!isSafari && !isCordova">
+      <i class="fi-download"></i>
+      <span translate>Download</span>
+    </button>
+
+    <button
+      ng-click="viewWalletBackup()"
+      class="button button-standard button-primary"
+      ng-disabled="!passwordCorrect"
+      ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color':wallet.color}"
+      ng-show="isSafari && !isCordova">
+      <i class="fi-eye"></i>
+      <span translate>View</span>
+    </button>
+
+    <div ng-show="isCordova">
+      <button class="button button-standard button-primary"
+        ng-disabled="!passwordCorrect"
+        ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color':wallet.color}"
+        ng-click="copyWalletBackup()">
+        <i class="fi-clipboard-pencil"></i>
+        <span translate>Copy to clipboard</span></button>
+      <button class="button button-standard button-primary" ng-disabled="!passwordCorrect"
+        ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color':wallet.color}"
+        ng-click="sendWalletBackup()"><i class="fi-mail"></i>
+        <span translate>Send by email</span></button>
+    </div>
+  </form>
+</div>
+
+<div ng-show="backupWalletPlainText" class="text-center list">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label" translate>Backup wallet</span>
+    <textarea rows="12">{{backupWalletPlainText}}</textarea>
+  </label>
+  <div class="item text-gray item-icon-left">
+    <i class="icon ion-compose"></i>
+    <p translate>Copy this text as it is to a safe place (notepad or email)</p>
+  </div>
+</div>

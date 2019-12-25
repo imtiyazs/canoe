@@ -1,0 +1,73 @@
+{
+  "_from": "cordova-plugin-transport-security@^0.1.2",
+  "_id": "cordova-plugin-transport-security@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-j12atW+6UukHLQQsr5/nLdEAzsY=",
+  "_location": "/cordova-plugin-transport-security",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-transport-security@^0.1.2",
+    "name": "cordova-plugin-transport-security",
+    "escapedName": "cordova-plugin-transport-security",
+    "rawSpec": "^0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-transport-security/-/cordova-plugin-transport-security-0.1.2.tgz",
+  "_shasum": "8f5d9ab56fba52e9072d042caf9fe72dd100cec6",
+  "_spec": "cordova-plugin-transport-security@^0.1.2",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-transport-security/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-transport-security",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/leecrossley/cordova-plugin-transport-security#readme",
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "transport",
+    "http",
+    "https",
+    "ats",
+    "ssl",
+    "tls",
+    "nsapptransportsecurity",
+    "nsallowsarbitraryloads",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-transport-security",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-transport-security.git"
+  },
+  "version": "0.1.2"
+}

@@ -1,0 +1,90 @@
+﻿<ion-view id="tab-home" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title><img class="tab-home__logo" style="height:40px" src="img/bcb_logo.png"></ion-nav-title>
+  </ion-nav-bar>
+
+  <ion-content>
+    <ion-refresher
+     ng-if="isAndroid"
+     pulling-icon="ion-ios-refresh"
+     spinner="ios-small"
+     on-refresh="onRefresh()">
+   </ion-refresher>
+
+   <div class="list card important-message ng-hide" ng-show="serverMessage">
+     <div class="close-button" ng-click="serverMessage = null"><i class="icon ion-ios-close-empty"></i></div>
+     <i class="item big-icon-svg">
+       <img src="img/alert.svg" width="50" />
+     </i>
+
+     <div class="item alert">{{serverMessage.title}}</div>
+     <div class="item message">{{serverMessage.body}}</div>
+
+     <div class="button" ng-click="openServerMessageLink()">
+       <span translate>Learn more</span>
+     </div>
+   </div>
+
+    <div class="list card important-message ng-hide" ng-show="newRelease">
+      <i class="item icon big-icon-svg">
+        <img src="img/icon-update.svg" class="bg"/>
+      </i>
+
+      <div class="item title">{{updateText}}</div>
+
+      <div class="button" ng-click="goToDownload()">
+        <span translate>Download</span>
+      </div>
+    </div>
+
+    <div class="ng-hide" ng-show="showRateCard.value" ng-include="'views/feedback/rateCard.html'"></div>
+    <div class="list card homeTip" ng-if="homeTip">
+      <div class="item item-icon-right item-heading">
+        <a ng-click="hideHomeTip()"><i class="icon ion-ios-close-empty close-home-tip"></i></a>
+      </div>
+      <div>
+        <i class="icon big-icon-svg">
+          <img src="img/check-white.svg" class="bg green"/>
+        </i>
+      </div>
+      <div class="title" translate>
+        Your Wallet is ready!
+      </div>
+      <div class="subtitle" translate>
+        On this screen you can see all your accounts. Check our <a ng-click="openExternalLinkHelp()">FAQs</a> before you start!
+      </div>
+    </div>
+
+    <div class="list card" ng-if="!accounts[0]">
+      <div class="item item-icon-right item-heading">
+        <span translate>Accounts</span>
+      </div>
+      <a ui-sref="tabs.create-account" class="item item-icon-left item-big-icon-left item-icon-right next-step">
+        <i class="icon big-icon-svg">
+          <img src="img/icon-wallet.svg" class="bg wallet icon-create-wallet"/>
+        </i>
+        <span translate>Create Account</span>
+        <i class="icon bp-arrow-right"></i>
+      </a>
+    </div>
+
+    <div class="list card" ng-if="accounts[0]">
+      <div class="item item-icon-right item-heading">
+        <img class="wallet-coin-logo" src="img/app/icon.png" width="35">
+        <span translate>Accounts</span>
+        <a ui-sref="tabs.create-account"><i class="icon ion-ios-plus-empty list-add-button"></i></a>
+      </div>
+      <div>
+        <a ng-repeat="account in accounts track by $index"
+           class="item item-sub item-icon-left item-big-icon-left item-icon-right wallet"
+           ng-click="openAccount(account)">
+          <span ng-include="'views/includes/accountList.html'"></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="ng-hide list card" ng-show="accounts[0] && buyAndSellItems.length>0" ng-include="'views/includes/buyAndSellCard.html'"></div>
+    <div class="ng-hide list card" ng-show="homeIntegrations.length>0" ng-include="'views/includes/homeIntegrations.html'"></div>
+
+  </ion-content>
+</ion-view>

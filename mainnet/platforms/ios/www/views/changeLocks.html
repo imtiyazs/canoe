@@ -1,0 +1,82 @@
+<ion-view cache-view="false" class="settings" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>{{'Change Lock Settings' | translate}}</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content>
+
+		<form class="change-locks" name='changeLocks' novalidate>
+			<div class="list settings-list settings-input-group">
+
+				<div class="comment" translate>
+          <h5 class="toggle-label" translate>Soft Lock</h5>
+          <p translate>With Soft Lock, BCB wallet is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints.</p>
+				</div>
+				<label class="item item-input item-stacked-label">
+					<span class="input-label" translate>Soft Timeout</span>
+					<input type="number"
+						placeholder="{{'Timeout in seconds'|translate}}"
+						ng-model="timeoutSoft"
+						name="timeoutSoft"
+						required>
+				</label>
+
+				<label class="item item-input item-stacked-label">
+					<span class="input-label" translate>Soft Lock Type</span>
+					<div class="list">
+						<ion-radio name="lockTypeSoft" ng-value="'none'" ng-model="lockTypeSoft" ng-click="saveLockTypeA('none')">{{'None'|translate}}</ion-radio>
+						<ion-radio name="lockTypeSoft" ng-value="'pin'" ng-model="lockTypeSoft" ng-click="saveLockTypeA('pin')">{{'4-digit PIN'|translate}}</ion-radio>
+						<ion-radio ng-if="enabledFingerprint" name="lockTypeSoft" ng-value="'fingerprint'" ng-model="lockTypeSoft" ng-click="saveLockTypeA('fingerprint')">{{'Fingerprint'|translate}}</ion-radio>
+					</div>
+				</label>
+
+      <div class="item item-divider"></div>
+
+				<div class="comment" translate>
+          <h5 class="toggle-label" translate>Hard Lock</h5>
+          With Hard Lock, BCB wallet encrypts your wallet and completely remove it from memory. You can not disable Hard Lock, but you can set a very high timeout.
+				</div>
+				<label class="item item-input item-stacked-label">
+					<span class="input-label" translate>Hard Timeout</span>
+					<input type="number"
+						placeholder="{{'Timeout in seconds'|translate}}"
+						ng-model="timeoutHard"
+						name="timeoutHard"
+						required>
+				</label>
+
+        <div class="item item-divider"></div>
+
+				<div ng-if="enabledBackground">
+					<div class="comment" translate>
+            <h5 class="toggle-label" translate>Background Behaviour</h5>
+            <p translate>Choose the lock type to use when BCB wallet goes to the background. To disable background locking select None.</p>
+					</div>
+					<label class="item item-input item-stacked-label">
+						<span class="input-label" translate>Lock when going to background</span>
+						<div class="list">
+							<ion-radio name="lockTypeBackground" ng-value="'none'" ng-model="lockTypeBackground" ng-click="saveLockTypeBackground('none')">{{'None'|translate}}</ion-radio>
+							<ion-radio name="lockTypeBackground" ng-value="'pin'" ng-model="lockTypeBackground" ng-click="saveLockTypeBackground('pin')">{{'4-digit PIN'|translate}}</ion-radio>
+							<ion-radio ng-if="enabledFingerprint" name="lockTypeBackground" ng-value="'fingerprint'" ng-model="lockTypeBackground" ng-click="saveLockTypeBackground('fingerprint')">{{'Fingerprint'|translate}}</ion-radio>
+							<ion-radio name="lockTypeBackground" ng-value="'password'" ng-model="lockTypeBackground" ng-click="saveLockTypeBackground('password')">{{'Password'|translate}}</ion-radio>
+						</div>
+					</label>
+				</div>
+			</div>
+
+			<div class="cta-buttons">
+				<button
+					class="button button-standard button-primary"
+					ng-disabled="false"
+					type="submit"
+					ng-click="save(timeoutSoft, timeoutHard)"
+					translate>
+					Save
+				</button>
+			</div>
+		</form>
+
+	</ion-content>
+</ion-view>

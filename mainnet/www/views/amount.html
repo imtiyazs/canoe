@@ -1,0 +1,135 @@
+<ion-view id="view-amount" hide-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>
+      {{'Enter amount' | translate}}
+    </ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content scroll="false" ng-class="{'has-selector': accounts[0]}">
+
+    <div ng-if="!nextStep">
+      <div class="item item-no-bottom-border recipient-label" translate>Recipient</div>
+
+      <div class="item item-text-wrap item-icon-left bitcoin-address">
+        <span ng-if="recipientType == 'account'">
+          <i class="icon big-icon-svg" ng-if="toAvatar">
+            <img ng-cloak ng-if="toAlias && toAvatar" ng-src="data:image/png;base64, {{toAvatar}}" class="bg" alt="{{toAlias}} avatar"/>
+          </i>
+          <i class="icon big-icon-svg" ng-if="!toAvatar">
+            <img src="img/icon-wallet.svg" ng-class="{'wallet-background-color-default': !toColor}" ng-style="{'background-color': toColor}" class="bg"/>
+          </i>
+        </span>
+        <span ng-if="recipientType == 'contact'">
+          <i class="icon big-icon-svg" ng-if="toAvatar">
+            <img ng-cloak ng-if="toAlias && toAvatar" ng-src="data:image/png;base64, {{toAvatar}}" class="bg" alt="{{toAlias}} avatar"/>
+          </i>
+          <i class="icon big-icon-svg" ng-if="isChromeApp && !toAvatar">
+            <img src="img/contact-placeholder.svg" class="bg">
+          </i>
+          <gravatar ng-if="!isChromeApp && !toAvatar" class="send-gravatar" name="{{toName}}" height="30" width="30" email="{{toEmail}}"></gravatar>
+        </span>
+        <span ng-if="!recipientType">
+          <i class="icon big-icon-svg" ng-if="toAvatar">
+            <img ng-cloak ng-if="toAlias && toAvatar" ng-src="data:image/png;base64, {{toAvatar}}" class="bg" alt="{{toAlias}} avatar"/>
+          </i>
+          <i ng-if="!toAvatar" class="icon big-icon-svg">
+            <img src="img/contact-placeholder.svg" class="bg"/>
+          </i>
+        </span>
+        <span ng-if="toName" class="m10l">{{toName}}</span>
+      </div>
+    </div>
+
+    <div ng-class="{'amount-pane-recipient': !nextStep,
+      'amount-pane-no-recipient': nextStep}">
+
+      <div class="amount-bar oh">
+        <div class="title">
+          <span translate>Amount</span>
+        </div>
+        <div class="max">
+          <a class="amount__currency-toggle" ng-click="sendMax()" translate>
+            Max
+          </a>
+        </div>
+      </div>
+
+      <div class="amount">
+        <div class="amount__editable" ng-class="{'amount__editable--minimize': smallFont, 'amount__editable--standard': !smallFont, 'amount__editable--placeholder': !amount}">
+          <span class="amount__number">{{ amount || "0" }}<span style="font-size: 20px;"> x 100</span></span>
+          <a class="amount__currency-toggle" ng-click="changeUnit()">
+            {{unit}}
+            <span class="icon ion-loop"></span>
+          </a>
+        </div>
+        <!-- <div ng-class="{'amount__results--minimize': smallFont, 'amount__results--standard': !smallFont, 'amount__results--placeholder': amountResult}" ng-click="changeAlternativeUnit()">
+          <div class="amount__result" ng-show="globalResult">{{globalResult}} {{unit}}</div>
+          <div class="amount__result-equiv" ng-show="alternativeAmount">&asymp; {{alternativeAmount || '0.00'}} {{alternativeUnit}} </div>
+          <div class="amount__result-equiv" ng-show="!alternativeAmount">&nbsp;</div>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="keypad">
+      <div class="row">
+        <div class="col col-25 col-offset-75 operator-send"
+             ng-show="allowSend" ng-click="finish()">
+          <i class="icon ion-ios-arrow-thin-right"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col digit" ng-click="pushDigit('7')">7</div>
+        <div class="col digit" ng-click="pushDigit('8')">8</div>
+        <div class="col digit" ng-click="pushDigit('9')">9</div>
+        <div class="col operator" ng-click="pushOperator('/')">&divide;</div>
+      </div>
+
+      <div class="row">
+        <div class="col digit" ng-click="pushDigit('4')">4</div>
+        <div class="col digit" ng-click="pushDigit('5')">5</div>
+        <div class="col digit" ng-click="pushDigit('6')">6</div>
+        <div class="col operator" ng-click="pushOperator('x')">&times;</div>
+      </div>
+
+      <div class="row">
+        <div class="col digit" ng-click="pushDigit('1')">1</div>
+        <div class="col digit" ng-click="pushDigit('2')">2</div>
+        <div class="col digit" ng-click="pushDigit('3')">3</div>
+        <div class="col operator" ng-click="pushOperator('+')">&plus;</div>
+      </div>
+
+      <div class="row">
+        <div class="col digit" ng-click="pushDigit('.')">.</div>
+        <div class="col digit" ng-click="pushDigit('0')">0</div>
+        <div class="col digit icon ion-backspace-outline" ng-click="removeDigit()"></div>
+        <div class="col operator" ng-click="pushOperator('-')">&minus;</div>
+      </div>
+    </div>
+  </ion-content>
+  <div class="account-selector" ng-click="showAccountSelector()" ng-if="accounts[0]">
+    <a ng-if="acc" class="item item-sub item-icon-left item-big-icon-left item-icon-right">
+      <i class="icon big-icon-svg" ng-include="'views/includes/walletIcon.html'"></i>
+      <span ng-if="acc.meta && acc.meta.alias && acc.meta.alias.alias">
+        @{{acc.meta.alias.alias}}
+      </span>
+      <span ng-if="!acc.meta || !acc.meta.alias || !acc.meta.alias.alias">
+        {{acc.name || acc.id}}
+      </span>
+      <p>
+        <span ng-if="!acc.meta.balanceHidden && acc.alternativeBalanceStr"> {{acc.balanceStr}} <span ng-hide="acc.alternativeBalanceStr == 'hide'">&asymp; {{acc.alternativeBalanceStr}}</span></span>
+        <span ng-if="acc.meta.balanceHidden" translate>[Balance Hidden]</span>
+        <span class="assertive" ng-if="acc.error">{{acc.error}}</span>
+        &nbsp;
+      </p>
+    </a>
+  </div>
+  <account-selector
+    account-selector-title="accountSelectorTitle"
+    account-selector-accounts="accounts"
+    account-selector-selected-account="acc"
+    account-selector-show="showAccounts"
+    account-selector-on-select="onAccountSelect">
+  </account-selector>
+</ion-view>

@@ -1,0 +1,46 @@
+<div ng-show="importErr" class="padding assertive" ng-click="importErr = null">
+  <div translate>Could not access the wallet at the server. Please check:</div>
+  <ul>
+    <li translate>The seed</li>
+    <li translate>The wallet server URL</li>
+  </ul>
+</div>
+
+<form name="importForm12" ng-submit="importSeed(importForm12)" novalidate>
+  <div class="list settings-list settings-input-group">
+    <div>
+      <label class="item item-input item-stacked-label no-border">
+        <span class="input-label" translate>Enter wallet seed</span>
+          <textarea ng-model="formData.seed"
+                    placeholder="{{'Numbers and letters like 904A2CE76...'|translate}}"
+                    rows="3"
+                    autocapitalize="off"
+                    autocomplete="off"
+                    autocorrect="off"
+                    spellcheck="false"></textarea>
+      </label>
+      <div class="qr-scan-icon">
+        <qr-scanner class="qr-icon size-24" on-scan="processQRSeed(data)"></qr-scanner>
+      </div>
+    </div>
+
+    <div class="item item-input item-stacked-label">
+      <span class="input-label" translate>Password to encrypt</span>
+      <span class="password-container" ng-class="{'correct': result == 'correct', 'incorrect': result == 'incorrect'}">
+        <input type="{{ typePassword ? 'text' : 'password' }}" placeholder="{{'Your password'|translate}}" ng-model="formData.password">
+        <span class="item item-input item-stacked-label showPassword" ng-click="togglePassword('typePassword')">
+          <i class="fa" ng-class="{ 'fa-eye-slash': typePassword, 'fa-eye': !typePassword}" aria-hidden="true"></i>
+        </span>
+      </span>
+    </div>
+
+    <div class="item item-divider"></div>
+
+    </div>
+  </div>
+
+  <button type="submit"
+    class="button button-standard button-primary"
+    ng-disabled="importForm12.$invalid" translate>Import seed
+  </button>
+</form>

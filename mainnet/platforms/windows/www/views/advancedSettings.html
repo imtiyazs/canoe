@@ -1,0 +1,41 @@
+﻿<ion-view id="advanced-settings" class="settings" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>{{'Advanced Settings' | translate}}</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content>
+    <div class="settings-list list">
+
+      <ion-toggle class="has-comment" disabled="serverSidePoWDisabled" ng-disabled="serverSidePoWDisabled" ng-model="serverSidePoW.value" toggle-class="toggle-balanced" ng-change="serverSidePoWChange()">
+        <span class="toggle-label" translate>Use Server Side PoW</span>
+      </ion-toggle>
+      <div class="comment" translate>
+        If enabled, Proof Of Work is delegated to the BCB wallet server side. This option is disabled and always true on mobile BCB wallet for now.
+      </div>
+
+      <div class="item item-divider"></div>
+
+      <ion-toggle class="has-comment" ng-model="playSounds.value" toggle-class="toggle-balanced" ng-change="playSoundsChange()">
+        <span class="toggle-label" translate>Play Sounds</span>
+      </ion-toggle>
+      <div class="comment" translate>
+        If enabled, sounds will be played whenever you send, receive, change representative, or unlock your wallet.
+      </div>
+
+      <div class="item item-divider"></div>
+
+      <a class="item item-icon-left item-icon-right" ng-click="repair()">
+        <i class="icon ion-hammer"></i>
+        <span>{{'Repair' | translate}}</span>
+        <i class="icon bp-arrow-right"></i>
+      </a>
+
+      <div class="item item-divider"></div>
+      <div class="item has-click" ng-click="changeBackend()">
+        <span class="positive" translate>Change Backend</span>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

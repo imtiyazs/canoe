@@ -1,0 +1,1898 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Canoe\n"
+"Language: zh-CN\n"
+
+#: src/js/controllers/feedback/send.js:25 www/views/feedback/complete.html:21
+msgid "A member of the team will review your feedback as soon as possible."
+msgstr "团队的成员将尽快查阅您的反馈意见。"
+
+#: src/js/controllers/preferencesAbout.js:5 www/views/tab-settings.html:151
+msgid "About"
+msgstr "关于"
+
+#: www/views/preferencesAdvanced.html:13
+msgid "Account Information"
+msgstr "账户信息"
+
+#: www/views/preferencesName.html:4
+msgid "Account Name"
+msgstr "账户名"
+
+#: www/views/preferences.html:4
+msgid "Account Settings"
+msgstr "账户设置"
+
+#: www/views/tab-create-account.html:12
+msgid "Account name"
+msgstr "账户名"
+
+#: www/views/tab-home.html:71 www/views/tab-home.html:85
+msgid "Accounts"
+msgstr "帐户"
+
+#: www/views/addressbook.add.html:4 www/views/addressbook.html:22
+msgid "Add Contact"
+msgstr "添加联系人"
+
+#: www/views/add.html:3
+msgid "Add account"
+msgstr "添加帐户"
+
+#: www/views/includes/incomingDataMenu.html:41
+msgid "Add as a contact"
+msgstr "添加到联系人"
+
+#: src/js/controllers/confirm.js:234
+msgid "Add description"
+msgstr "添加描述"
+
+#: www/views/addressbook.html:6 www/views/tab-settings.html:15
+msgid "Address Book"
+msgstr "地址簿"
+
+#: www/views/tab-settings.html:100
+msgid "Advanced"
+msgstr "進階"
+
+#: www/views/advancedSettings.html:3
+msgid "Advanced Settings"
+msgstr "进阶设置"
+
+#: www/views/tab-scan.html:21
+msgid "Allow Camera Access"
+msgstr "允许访问相机"
+
+#: www/views/onboarding/notifications.html:7
+msgid "Allow notifications"
+msgstr "允许通知"
+
+#: www/views/onboarding/disclaimer.html:14
+msgid "Almost done! Let's review."
+msgstr "就要完成了 ！让我们复查一遍。"
+
+#: www/views/preferencesAltCurrency.html:4 www/views/tab-settings.html:82
+msgid "Alternative Currency"
+msgstr "替代货币"
+
+#: www/views/amount.html:50 www/views/includes/output.html:7
+msgid "Amount"
+msgstr "数额"
+
+#: www/views/backupWarning.html:10
+msgid "Are you being watched?"
+msgstr "你正在被监视吗？"
+
+#: src/js/controllers/addressbookView.js:44
+msgid "Are you sure you want to delete this contact?"
+msgstr "你确定你要删除此联系人？"
+
+#: src/js/controllers/preferencesDelete.js:24
+msgid "Are you sure you want to delete this wallet?"
+msgstr "确定要删除这钱包？"
+
+#: src/js/controllers/onboarding/backupRequest.js:21
+msgid "Are you sure you want to skip it?"
+msgstr "你确定你想跳过它？"
+
+#: www/views/includes/backupNeededPopup.html:7
+msgid "Backup Needed"
+msgstr "需要备份"
+
+#: www/views/includes/backupNeededPopup.html:9
+msgid "Backup now"
+msgstr "现在备份"
+
+#: www/views/onboarding/backupRequest.html:11 www/views/tab-export-file.html:58
+msgid "Backup wallet"
+msgstr "备份钱包"
+
+#: www/views/includes/confirmBackupPopup.html:7
+msgid "Be sure to store your seed in a secure place. If this app is deleted, or your device stolen, the seed is the only way to recreate the wallet."
+msgstr "请务必确保您的种子放在安全位置。如果app被删，或是设备丢失，该种子是唯一可以让你重建钱包的方法。"
+
+#: www/views/unsupported.html:6
+msgid "Browser unsupported"
+msgstr "不受支持的浏览器"
+
+#: www/views/onboarding/tour.html:49
+msgid "But do not lose your seed!"
+msgstr "不要丢失你的种子！"
+
+#: www/views/includes/buyAndSellCard.html:3
+msgid "Buy &amp; Sell Bitcoin"
+msgstr "购买或出售比特币"
+
+#: src/js/controllers/confirm.js:298 src/js/services/popupService.js:61
+#: src/js/services/popupService.js:72 www/views/addressbook.add.html:10
+#: www/views/addressbook.edit.html:10 www/views/feedback/send.html:5
+#: www/views/includes/incomingDataMenu.html:22
+#: www/views/includes/incomingDataMenu.html:54
+#: www/views/includes/incomingDataMenu.html:73
+#: www/views/includes/incomingDataMenu.html:97 www/views/includes/note.html:6
+#: www/views/modals/confirmation.html:13
+msgid "Cancel"
+msgstr "取消"
+
+#: src/js/controllers/onboarding/tour.js:80
+msgid "Cannot Create Wallet"
+msgstr "不能创建钱包"
+
+#: www/views/tab-import-file.html:4
+msgid "Choose a backup file from your computer"
+msgstr "从你的计算机选择一个备份文件"
+
+#: src/js/controllers/confirm.js:221
+msgid "Click to send"
+msgstr "点击这里发送"
+
+#: www/views/modals/pin.html:3 www/views/modals/search.html:3
+msgid "Close"
+msgstr "关闭"
+
+#: www/views/includes/cash.html:2
+msgid "Coin"
+msgstr "币种"
+
+#: www/views/preferences.html:38
+msgid "Color"
+msgstr "颜色"
+
+#: www/views/preferencesAbout.html:21
+msgid "Commit hash"
+msgstr "提交哈希"
+
+#: src/js/controllers/confirm.js:297 www/views/backup.html:46
+#: www/views/confirm.html:4
+msgid "Confirm"
+msgstr "确定"
+
+#: www/views/modals/terms.html:26 www/views/onboarding/disclaimer.html:44
+msgid "Confirm &amp; Finish"
+msgstr "确认并完成"
+
+#: www/views/tab-send.html:50
+msgid "Contacts"
+msgstr "联系人"
+
+#: www/views/onboarding/notifications.html:9
+msgid "Continue"
+msgstr "继续"
+
+#: www/views/preferencesLanguage.html:26
+msgid "Contribute Translations"
+msgstr "参与翻译"
+
+#: src/js/controllers/export.js:124 www/views/includes/copyToClipboard.html:4
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
+
+#: www/views/tab-export-file.html:63
+msgid "Copy this text as it is to a safe place (notepad or email)"
+msgstr "将此文本复制到一个安全的地方（记事本或电子邮件）"
+
+#: www/views/includes/incomingDataMenu.html:51
+#: www/views/includes/incomingDataMenu.html:70
+#: www/views/includes/incomingDataMenu.html:94
+#: www/views/includes/logOptions.html:9 www/views/tab-export-file.html:47
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: www/views/tab-import-phrase.html:2
+msgid "Could not access the wallet at the server. Please check:"
+msgstr "无法访问服务器上的钱包。请确认︰"
+
+#: www/views/tab-create-account.html:3 www/views/tab-home.html:77
+#: www/views/tab-send.html:41
+msgid "Create Account"
+msgstr "创建账户"
+
+#: www/views/tab-create-account.html:25
+msgid "Create new account"
+msgstr "创建新账户"
+
+#: src/js/services/onGoingProcess.js:14
+msgid "Creating Wallet..."
+msgstr "正在创建钱包..."
+
+#: src/js/services/onGoingProcess.js:13
+msgid "Creating account..."
+msgstr "账户创建中"
+
+#: src/js/services/onGoingProcess.js:12
+msgid "Creating transaction"
+msgstr "正在创建交易"
+
+#: www/views/tx-details.html:68
+msgid "Date"
+msgstr "日期"
+
+#: src/js/services/profileService.js:277
+msgid "Default Account"
+msgstr "账户纠错"
+
+#: www/views/preferencesDeleteWallet.html:21
+msgid "Delete"
+msgstr "删除"
+
+#: www/views/preferencesAdvanced.html:34
+msgid "Delete Account"
+msgstr "删除账户"
+
+#: www/views/preferencesDeleteWallet.html:3
+msgid "Delete Wallet"
+msgstr "删除钱包"
+
+#: src/js/services/onGoingProcess.js:17
+msgid "Deleting Wallet..."
+msgstr "正在删除钱包..."
+
+#: www/views/includes/backupNeededPopup.html:10
+#: www/views/onboarding/alias.html:70
+#: www/views/onboarding/backupRequest.html:12
+msgid "Do it later"
+msgstr "以后再做"
+
+#: www/views/tab-settings.html:142
+msgid "Donate to Bitcoin Black"
+msgstr "为Canoe捐款"
+
+#: www/views/tab-export-file.html:28 www/views/tab-home.html:36
+msgid "Download"
+msgstr "下载"
+
+#: www/views/addressbook.view.html:40
+msgid "Edit"
+msgstr "编辑"
+
+#: www/views/addressbook.add.html:30 www/views/addressbook.edit.html:30
+#: www/views/addressbook.view.html:22 www/views/onboarding/alias.html:35
+#: www/views/preferencesAlias.html:35
+msgid "Email"
+msgstr "电子邮件"
+
+#: www/views/preferencesNotifications.html:42
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: www/views/tab-scan.html:19
+msgid "Enable camera access in your device settings to get started."
+msgstr "相机中启用访问您的设备设置入门。"
+
+#: www/views/preferencesNotifications.html:29
+msgid "Enable email notifications"
+msgstr "启用电子邮件通知"
+
+#: www/views/preferencesNotifications.html:12
+msgid "Enable push notifications"
+msgstr "启用推式通知"
+
+#. Need help
+#: www/views/tab-scan.html:18
+msgid "Enable the camera to get started."
+msgstr "开启摄像头访问权限以使用扫描功能。"
+
+#: www/views/amount.html:4
+msgid "Enter amount"
+msgstr "输入金额"
+
+#: www/views/tab-import-phrase.html:13
+msgid "Enter wallet seed"
+msgstr "输入钱包种子"
+
+#: www/views/backup.html:36
+msgid "Enter your password"
+msgstr "请输入您的密码"
+
+#. Trying to import a malformed wallet export QR code
+#: src/js/controllers/addressbookAdd.js:20
+#: src/js/controllers/addressbookAdd.js:81
+#: src/js/controllers/addressbookEdit.js:21
+#: src/js/controllers/addressbookEdit.js:73
+#: src/js/controllers/addressbookView.js:49 src/js/controllers/create.js:19
+#: src/js/controllers/create.js:28 src/js/controllers/export.js:103
+#: src/js/controllers/export.js:35 src/js/controllers/export.js:57
+#: src/js/controllers/export.js:67 src/js/controllers/export.js:94
+#: src/js/controllers/feedback/send.js:21 src/js/controllers/import.js:108
+#: src/js/controllers/import.js:113 src/js/controllers/import.js:117
+#: src/js/controllers/import.js:122 src/js/controllers/import.js:125
+#: src/js/controllers/import.js:136 src/js/controllers/import.js:35
+#: src/js/controllers/import.js:45 src/js/controllers/import.js:58
+#: src/js/controllers/import.js:65 src/js/controllers/import.js:87
+#: src/js/controllers/import.js:95 src/js/controllers/modals/password.js:101
+#: src/js/controllers/paperWallet.js:21
+#: src/js/controllers/preferencesDelete.js:35
+#: src/js/controllers/preferencesName.js:13
+#: src/js/controllers/preferencesRepresentative.js:17
+#: src/js/controllers/tab-scan.js:106 src/js/controllers/tab-send.js:78
+#: src/js/controllers/tabsController.js:36
+#: src/js/controllers/tabsController.js:7
+msgid "Error"
+msgstr "错误"
+
+#: src/js/controllers/confirm.js:273
+msgid "Error at confirm"
+msgstr "在确认错误"
+
+#: src/js/controllers/paperWallet.js:15
+msgid "Error scanning funds:"
+msgstr "错误扫描资金︰"
+
+#: src/js/controllers/paperWallet.js:44
+msgid "Error sweeping wallet:"
+msgstr "错误清扫钱包︰"
+
+#: www/views/export.html:3 www/views/tab-settings.html:39
+msgid "Export wallet"
+msgstr "导出钱包"
+
+#: src/js/services/onGoingProcess.js:18
+msgid "Extracting Wallet information..."
+msgstr "正在提取的钱包信息..."
+
+#: src/js/controllers/export.js:103 src/js/controllers/export.js:57
+#: src/js/controllers/export.js:67 src/js/controllers/export.js:94
+#: www/views/tab-export-file.html:4
+msgid "Failed to export"
+msgstr "导出失败"
+
+#: www/views/tab-create-account.html:14
+msgid "Family vacation funds"
+msgstr "家庭度假资金"
+
+#: src/js/controllers/feedback/send.js:21
+msgid "Feedback could not be submitted. Please try again later."
+msgstr "无法提交反馈。请稍后再试。"
+
+#: www/views/export.html:12
+msgid "File/Text"
+msgstr "文件/文本"
+
+#: www/views/preferencesLogs.html:17
+msgid "Filter setting"
+msgstr "筛选器设置"
+
+#: src/js/services/fingerprintService.js:39
+#: src/js/services/fingerprintService.js:44
+msgid "Finger Scan Failed"
+msgstr "指纹扫描失败"
+
+#: src/js/controllers/feedback/send.js:32 www/views/feedback/complete.html:7
+msgid "Finish"
+msgstr "完成"
+
+#: www/views/confirm.html:67 www/views/tx-details.html:50
+#: www/views/tx-details.html:58
+msgid "From"
+msgstr "来自"
+
+#: www/views/paperWallet.html:16
+msgid "Funds found:"
+msgstr "找到资金"
+
+#: www/views/paperWallet.html:51
+msgid "Funds transferred"
+msgstr "资金转移"
+
+#: www/views/paperWallet.html:22
+msgid "Funds will be transferred to"
+msgstr "资金将会转移到"
+
+#: www/views/onboarding/welcome.html:8
+msgctxt "button"
+msgid "Get started"
+msgstr "开始使用"
+
+#: www/views/addressbook.html:20
+msgid "Get started by adding your first one."
+msgstr "通过添加您的第一个开始。"
+
+#: src/js/controllers/onboarding/terms.js:23
+#: src/js/controllers/preferencesAbout.js:15
+#: src/js/controllers/preferencesLanguage.js:13
+#: src/js/controllers/tab-home.js:176 src/js/controllers/tab-home.js:28
+#: src/js/controllers/tab-settings.js:51 src/js/controllers/tab-settings.js:62
+#: src/js/controllers/tx-details.js:73
+msgid "Go Back"
+msgstr "返回\t#"
+
+#: src/js/controllers/onboarding/backupRequest.js:18
+#: src/js/controllers/onboarding/backupRequest.js:24
+msgid "Go back"
+msgstr "上一页"
+
+#: www/views/backupWarning.html:15 www/views/includes/confirmBackupPopup.html:8
+#: www/views/onboarding/tour.html:23
+msgid "Got it"
+msgstr "收到！"
+
+#: www/views/tab-settings.html:116
+msgid "Help & Support"
+msgstr "帮助与支持"
+
+#: src/js/controllers/tab-home.js:26 src/js/controllers/tab-settings.js:49
+msgid "Help and support information is available at the website."
+msgstr "已在网站上提供帮助和支持"
+
+#: www/views/preferences.html:43
+msgid "Hide Balance"
+msgstr "隐藏的平衡"
+
+#: www/views/tabs.html:3
+msgid "Home"
+msgstr "主屏幕"
+
+#: src/js/controllers/feedback/send.js:60
+#: src/js/controllers/feedback/send.js:64
+#: src/js/controllers/feedback/send.js:68
+msgid "How could we improve your experience?"
+msgstr "我们如何可以改善您的体验？"
+
+#: src/js/controllers/feedback/rateCard.js:29
+msgid "I don't like it"
+msgstr "我不喜欢"
+
+#: www/views/modals/terms.html:22
+msgid "I have read, understood, and agree with the Terms of use."
+msgstr "我已经阅读、 理解并同意本使用条款。"
+
+#: src/js/controllers/feedback/rateCard.js:35
+msgid "I like the app"
+msgstr "我喜欢这个应用程序"
+
+#: src/js/controllers/feedback/rateCard.js:26
+msgid "I think this app is terrible."
+msgstr "这个应用程序是可怕。"
+
+#: src/js/controllers/onboarding/backupRequest.js:17
+#: www/views/includes/screenshotWarningModal.html:9
+msgid "I understand"
+msgstr "我知道了"
+
+#: www/views/onboarding/disclaimer.html:18
+msgid "I understand that my funds are held securely on this device, not by a company."
+msgstr "我确认了解，我的资金是被安全的储存在我的本地设备上，而不是一个公司。"
+
+#: www/views/backup.html:28
+msgid "I've written it down"
+msgstr "我已经把它写下来"
+
+#: src/js/controllers/onboarding/backupRequest.js:16
+msgid "If this device is replaced or this app is deleted, your funds can not be recovered without a backup."
+msgstr "如果更换设备或是app被删，在没有备份的情况下无法恢复"
+
+#: www/views/feedback/complete.html:23
+msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
+msgstr "如果你有额外的反馈，请让我们知道通过点击设置选项卡中的\"发送反馈\"选项。"
+
+#: www/views/includes/screenshotWarningModal.html:8
+msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
+msgstr "如果您截一张屏幕截图，您的备份可能会被其他应用程序浏览。您可以用实体纸和笔来安全地备份。"
+
+#: www/views/import.html:3
+msgid "Import Wallet"
+msgstr "导入钱包"
+
+#: www/views/tab-import-phrase.html:42
+msgid "Import seed"
+msgstr "导入种子"
+
+#: www/views/add.html:21 www/views/tab-import-file.html:30
+#: www/views/tab-settings.html:31
+msgid "Import wallet"
+msgstr "导入钱包"
+
+#: src/js/services/onGoingProcess.js:20
+msgid "Importing Wallet..."
+msgstr "正在导入钱包..."
+
+#: www/views/backup.html:39
+msgid "In order to verify your wallet backup, please type your password."
+msgstr "为了验证您的钱包的备份，请键入您的密码。"
+
+#: www/views/includes/walletListSettings.html:9
+msgid "Incomplete"
+msgstr "不完整"
+
+#: src/js/controllers/confirm.js:98
+msgid "Insufficient funds"
+msgstr "资金不足"
+
+#: www/views/includes/accountHistory.html:43
+msgid "Invalid"
+msgstr "无效"
+
+#: src/js/controllers/feedback/send.js:78
+msgid "Is there anything we could do better?"
+msgstr "有什么我们可以做得更好吗？"
+
+#: src/js/controllers/backup.js:34
+msgid "It's important that you write your wallet seed down correctly. If something happens to your wallet, you'll need this seed to reconstruct it. Please review your seed and try again."
+msgstr "记录下钱包种子非常重要。如果您的钱包里发生故障，您需要种子重建钱包。请重新检查您的种子再试一次。"
+
+#: www/views/preferencesLanguage.html:4 www/views/tab-settings.html:71
+msgid "Language"
+msgstr "语言"
+
+#: www/views/tab-home.html:24
+msgid "Learn more"
+msgstr "了解更多"
+
+#: src/js/services/onGoingProcess.js:30
+msgid "Loading transaction info..."
+msgstr "正在加载交易信息..."
+
+#: www/views/includes/logOptions.html:3
+msgid "Log options"
+msgstr "日志选项"
+
+#: www/views/onboarding/tour.html:37
+msgid "Makes sense"
+msgstr "有道理"
+
+#: src/js/controllers/modals/search.js:60
+msgid "Matches:"
+msgstr "匹配："
+
+#: src/js/controllers/feedback/rateCard.js:32
+msgid "Meh - it's alright"
+msgstr "咩-没关系"
+
+#: www/views/tx-details.html:76
+msgid "Memo"
+msgstr "便签"
+
+#: www/views/preferencesAdvanced.html:3
+msgid "More Options"
+msgstr "更多的选择"
+
+#: www/views/addressbook.add.html:21 www/views/addressbook.edit.html:21
+#: www/views/addressbook.view.html:18 www/views/preferences.html:15
+#: www/views/preferencesName.html:17
+msgid "Name"
+msgstr "名称"
+
+#: www/views/add.html:14
+msgid "New account"
+msgstr "新账户"
+
+#: www/views/tab-receive.html:16
+msgid "No Account available"
+msgstr "没有可用账户"
+
+#: www/views/addressbook.html:19
+msgid "No contacts yet"
+msgstr "然而没有联系人"
+
+#: www/views/preferencesLogs.html:16
+msgid "No entries for this log level"
+msgstr "没有为此日志级别的的条目"
+
+#: www/views/activity.html:25
+msgid "No recent transactions"
+msgstr "没有最近的交易"
+
+#: www/views/accountDetails.html:103
+msgid "No transactions yet"
+msgstr "没有交易记录"
+
+#: src/js/controllers/preferencesDelete.js:14
+msgid "No wallet found"
+msgstr "发现没有钱包"
+
+#: src/js/controllers/preferencesDelete.js:7
+msgid "No wallet selected"
+msgstr "没有选定的钱包"
+
+#: www/views/paperWallet.html:45
+msgid "No wallets available to receive funds"
+msgstr "没有可用于接收资金的钱包"
+
+#: src/js/controllers/paperWallet.js:21
+msgid "Not funds found"
+msgstr "没有资金发现"
+
+#: www/views/feedback/rateApp.html:3 www/views/onboarding/notifications.html:8
+msgid "Not now"
+msgstr "不是现在"
+
+#: www/views/includes/output.html:15
+msgid "Note"
+msgstr "备注"
+
+#: www/views/preferencesNotifications.html:3 www/views/tab-settings.html:63
+msgid "Notifications"
+msgstr "通知"
+
+#: www/views/preferencesNotifications.html:24
+msgid "Notify me when transactions are confirmed"
+msgstr "交易确认完毕时通知我"
+
+#: www/views/includes/backupNeededPopup.html:8
+msgid "Now is a good time to backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
+msgstr "现在是很好的时间进行备份你的钱包。如果此设备丢失，它是无法访问您没有备份的资金。"
+
+#: www/views/backupWarning.html:11
+msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
+msgstr "现在是一个完美的时间来评估你的周围。附近的窗户吗？隐藏的摄像机？肩-间谍吗？"
+
+#: www/views/tab-import-phrase.html:15
+msgid "Numbers and letters like 904A2CE76..."
+msgstr "信息编号比如904A2CE76"
+
+#: src/js/services/popupService.js:15 src/js/services/popupService.js:51
+#: src/js/services/popupService.js:60 src/js/services/popupService.js:71
+msgid "OK"
+msgstr "好的"
+
+#: www/views/modals/tx-status.html:12 www/views/modals/tx-status.html:24
+#: www/views/modals/tx-status.html:36 www/views/modals/tx-status.html:46
+msgid "OKAY"
+msgstr "OKAY"
+
+#: www/views/modals/terms.html:15
+msgid "Official English Disclaimer"
+msgstr "官方英文免责声明"
+
+#: src/js/controllers/feedback/send.js:63
+msgid "Oh no!"
+msgstr "出错。"
+
+#: src/js/controllers/tab-home.js:27 src/js/controllers/tab-settings.js:50
+#: src/js/controllers/tab-settings.js:61 src/js/controllers/tx-details.js:72
+msgid "Open"
+msgstr "打开"
+
+#: src/js/controllers/preferencesAbout.js:14
+msgid "Open GitHub"
+msgstr "打开 GitHub"
+
+#: src/js/controllers/preferencesAbout.js:12
+msgid "Open GitHub Project"
+msgstr "打开 GitHub 项目"
+
+#: www/views/tab-scan.html:22
+msgid "Open Settings"
+msgstr "打开设置"
+
+#: src/js/controllers/onboarding/terms.js:22
+msgid "Open Website"
+msgstr "打开网站"
+
+#: www/views/includes/incomingDataMenu.html:19
+msgid "Open website"
+msgstr "打开网站"
+
+#: www/views/tab-import-file.html:13
+msgid "Paste the backup plain text"
+msgstr "请复制备份文档"
+
+#: www/views/modals/tx-status.html:33
+msgid "Payment Accepted"
+msgstr "已接受支付"
+
+#: www/views/modals/tx-status.html:21
+msgid "Payment Proposal Created"
+msgstr "支付提议已创建"
+
+#: www/views/includes/walletActivity.html:11
+msgid "Payment Received"
+msgstr "收到付款"
+
+#: www/views/modals/tx-status.html:43
+msgid "Payment Rejected"
+msgstr "支付被拒绝"
+
+#: www/views/confirm.html:116 www/views/includes/walletActivity.html:4
+msgid "Payment Sent"
+msgstr "支付已发送"
+
+#: www/views/preferencesDeleteWallet.html:13
+msgid "Permanently delete this wallet."
+msgstr "永久删除这个钱包。"
+
+#: www/views/backup.html:21
+msgid "Please carefully write down this 64 character seed. Click to copy to clipboard."
+msgstr "请仔细写下64位的种子。并复制到剪贴板。"
+
+#: www/views/tab-scan.html:20
+msgid "Please connect a camera to get started."
+msgstr "请连接相机入门。"
+
+#: src/js/controllers/import.js:113
+msgid "Please enter the seed"
+msgstr "请输入种子"
+
+#: src/js/controllers/import.js:95
+msgid "Please, select your backup file"
+msgstr "请选择你的备份文件"
+
+#: www/views/tab-settings.html:57
+msgid "Preferences"
+msgstr "偏好"
+
+#: src/js/services/onGoingProcess.js:32
+msgid "Preparing addresses..."
+msgstr "正在准备地址..."
+
+#: src/js/controllers/export.js:129
+msgid "Preparing backup..."
+msgstr "正在准备备份..."
+
+#: src/js/routes.js:896
+msgid "Press again to exit"
+msgstr "再按一次退出"
+
+#: www/views/includes/incomingDataMenu.html:80
+msgid "Private Key"
+msgstr "私钥"
+
+#: src/js/controllers/paperWallet.js:86
+msgid "Private key encrypted. Enter password"
+msgstr "私钥加密。输入密码"
+
+#: www/views/onboarding/notifications.html:3
+msgid "Push Notifications"
+msgstr "推式通知"
+
+#: www/views/export.html:15
+msgid "QR Code"
+msgstr "QR 码"
+
+#: www/views/onboarding/disclaimer.html:13
+msgid "Quick review!"
+msgstr "快速审查 ！"
+
+#: www/views/feedback/rateApp.html:14
+msgid "Rate on the app store"
+msgstr "率的应用程序商店"
+
+#: www/views/tab-receive.html:3 www/views/tabs.html:7
+msgid "Receive"
+msgstr "接收"
+
+#: www/views/tx-details.html:20
+msgid "Received"
+msgstr "已接收"
+
+#: www/views/includes/accountHistory.html:3
+msgid "Recent"
+msgstr "最近"
+
+#: www/views/advancedSettings.html:30
+msgid "Recent Transaction Card"
+msgstr "最近交易卡"
+
+#: www/views/activity.html:4
+msgid "Recent Transactions"
+msgstr "最近的交易"
+
+#: www/views/amount.html:13 www/views/tab-send.html:14
+msgid "Recipient"
+msgstr "收件人"
+
+#: www/views/preferencesAbout.html:9
+msgid "Release information"
+msgstr "发布信息"
+
+#: www/views/addressbook.view.html:44
+msgid "Remove"
+msgstr "移除"
+
+#: www/views/onboarding/welcome.html:9
+msgid "Restore from backup"
+msgstr "从备份中还原"
+
+#: src/js/controllers/onboarding/tour.js:86
+msgid "Retry"
+msgstr "重试"
+
+#: www/views/tab-scan.html:23
+msgid "Retry Camera"
+msgstr "重试摄像头"
+
+#: www/views/addressbook.add.html:81 www/views/addressbook.edit.html:81
+#: www/views/changeLocks.html:70 www/views/includes/note.html:9
+#: www/views/preferencesAlias.html:50 www/views/preferencesName.html:21
+#: www/views/preferencesNotifications.html:46
+#: www/views/preferencesRepresentative.html:33
+msgid "Save"
+msgstr "保存"
+
+#: www/views/tab-scan.html:3 www/views/tabs.html:11
+msgid "Scan"
+msgstr "扫描"
+
+#: www/views/tab-scan.html:15
+msgid "Scan QR Codes"
+msgstr "扫描二维码"
+
+#: www/views/modals/fingerprintCheck.html:11
+msgid "Scan again"
+msgstr "重新扫描"
+
+#: src/js/services/fingerprintService.js:51
+msgid "Scan your fingerprint please"
+msgstr "请扫描您的指纹"
+
+#: src/js/services/onGoingProcess.js:25
+msgid "Scanning Wallet funds..."
+msgstr "正在扫描钱包资金..."
+
+#: www/views/includes/screenshotWarningModal.html:7
+msgid "Screenshots are not secure"
+msgstr "截图是不安全的"
+
+#: www/views/modals/search.html:6
+msgid "Search Transactions"
+msgstr "搜索交易"
+
+#: www/views/tab-send.html:18
+msgid "Search or enter account number"
+msgstr "搜索或输入账户号"
+
+#: www/views/modals/search.html:16
+msgid "Search transactions"
+msgstr "搜索交易"
+
+#: www/views/preferencesAltCurrency.html:14
+msgid "Search your currency"
+msgstr "搜索您的货币"
+
+#: www/views/tab-import-file.html:7
+msgid "Select a backup file"
+msgstr "选择备份文件"
+
+#: src/js/controllers/amount.js:40 src/js/controllers/amount.js:76
+#: src/js/controllers/tab-receive.js:79 src/js/controllers/tab-send.js:189
+#: src/js/controllers/tab-send.js:208
+msgid "Select an account"
+msgstr "选择一个账号"
+
+#: www/views/feedback/send.html:13 www/views/feedback/send.html:43
+#: www/views/tab-send.html:3 www/views/tabs.html:15
+msgid "Send"
+msgstr "发送"
+
+#: www/views/feedback/send.html:3 www/views/tab-settings.html:126
+msgid "Send Feedback"
+msgstr "发送反馈"
+
+#: www/views/includes/logOptions.html:17 www/views/tab-export-file.html:51
+msgid "Send by email"
+msgstr "通过电邮发送"
+
+#: src/js/controllers/confirm.js:148
+msgid "Send from"
+msgstr "从发送"
+
+#: www/views/includes/itemSelector.html:8
+msgid "Send max amount"
+msgstr "发送最大数量"
+
+#: www/views/feedback/rateApp.html:17
+msgid "Send us feedback instead"
+msgstr "而是向我们发送反馈"
+
+#: www/views/confirm.html:15
+msgid "Sending"
+msgstr "正在发送"
+
+#: src/js/services/onGoingProcess.js:31
+msgid "Sending feedback..."
+msgstr "发送反馈信息..."
+
+#: www/views/confirm.html:16
+msgid "Sending maximum amount"
+msgstr "发送的最大金额"
+
+#: src/js/services/onGoingProcess.js:26
+msgid "Sending transaction"
+msgstr "正在发送交易"
+
+#: src/js/controllers/confirm.js:293
+msgid "Sending {{amountStr}} from your {{name}} account"
+msgstr "从 {{name}} 账号发送{{amountStr}}"
+
+#: www/views/modals/tx-status.html:9 www/views/tx-details.html:18
+msgid "Sent"
+msgstr "已发送"
+
+#: www/views/includes/homeIntegrations.html:3
+msgid "Services"
+msgstr "服务"
+
+#: www/views/preferencesLogs.html:3
+msgid "Session Log"
+msgstr "会话日志"
+
+#: www/views/preferencesAbout.html:40
+msgid "Session log"
+msgstr "会话日志"
+
+#: www/views/tab-settings.html:3 www/views/tabs.html:19
+msgid "Settings"
+msgstr "设置"
+
+#: www/views/feedback/complete.html:17 www/views/feedback/complete.html:26
+msgid "Share the love by inviting your friends."
+msgstr "邀请您的朋友分享爱。"
+
+#: www/views/tab-send.html:42
+msgid "Show Account"
+msgstr "显示账号"
+
+#: www/views/tab-send.html:65
+msgid "Show more"
+msgstr "显示更多"
+
+#: src/js/services/onGoingProcess.js:27
+msgid "Signing transaction"
+msgstr "签名交易"
+
+#: www/views/onboarding/backupRequest.html:6
+msgid "Since only you control your money, you’ll need to save your wallet seed in case this app is deleted."
+msgstr "因为您是唯一能控制您资金的人，所以请务必保管好您的钱包种子以防丢失。"
+
+#: www/views/onboarding/tour.html:11
+msgid "Skip"
+msgstr "跳过"
+
+#. sounds weird in Chinese still . Learnt from IPhone “slide to open”
+#: src/js/controllers/confirm.js:219
+msgid "Slide to send"
+msgstr "滑动滑块以发送"
+
+#: www/views/paperWallet.html:7
+msgid "Sweep"
+msgstr "扫描"
+
+#: www/views/includes/incomingDataMenu.html:89 www/views/paperWallet.html:3
+msgid "Sweep paper wallet"
+msgstr "扫描纸钱包"
+
+#: src/js/services/onGoingProcess.js:28
+msgid "Sweeping Wallet..."
+msgstr "正在扫描钱包"
+
+#: www/views/preferencesDeleteWallet.html:16
+msgid "THIS ACTION CANNOT BE REVERSED"
+msgstr "此操作无法撤消"
+
+#: www/views/accountDetails.html:43
+msgid "Tap and hold to show"
+msgstr "点击并按住以显示"
+
+#: www/views/termsOfUse.html:3
+msgid "Terms Of Use"
+msgstr "使用条件"
+
+#: www/views/modals/terms.html:3 www/views/onboarding/disclaimer.html:29
+#: www/views/onboarding/disclaimer.html:43 www/views/preferencesAbout.html:30
+msgid "Terms of Use"
+msgstr "使用条款"
+
+#: www/views/includes/incomingDataMenu.html:61
+msgid "Text"
+msgstr "文本"
+
+#: src/js/controllers/feedback/send.js:25
+#: src/js/controllers/feedback/send.js:75 www/views/feedback/complete.html:20
+#: www/views/feedback/rateApp.html:4
+msgid "Thank you!"
+msgstr "谢谢您！"
+
+#: src/js/controllers/feedback/send.js:71
+msgid "Thanks!"
+msgstr "谢谢！"
+
+#: src/js/controllers/feedback/send.js:72
+msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
+msgstr "这是令人兴奋的听到。我们愿意赚五明星从你 — — 我们如何可以改善您的体验吗？"
+
+#: www/views/tab-import-phrase.html:4
+msgid "The seed"
+msgstr "该种子"
+
+#: src/js/controllers/import.js:117
+msgid "The seed is invalid, it should be 64 characters of: 0-9, A-F"
+msgstr "该种子无效，种子的长度应为64位字符：由数字0-9，字母A-F组成"
+
+#: www/views/tab-import-phrase.html:5
+msgid "The wallet server URL"
+msgstr "钱包的服务器地址"
+
+#: src/js/controllers/import.js:108 src/js/controllers/import.js:87
+msgid "There is an error in the form"
+msgstr "表格中有错误"
+
+#: src/js/controllers/feedback/send.js:60
+#: src/js/controllers/feedback/send.js:64
+msgid "There's obviously something we're doing wrong."
+msgstr "显然是我们正在做的事情错了。"
+
+#: src/js/controllers/feedback/rateCard.js:38
+msgid "This app is fantastic!"
+msgstr "这个应用程序太棒了 ！"
+
+#: www/views/tx-details.html:86
+msgid "Timeline"
+msgstr "时间轴"
+
+#: www/views/confirm.html:26 www/views/includes/output.html:2
+#: www/views/tx-details.html:42 www/views/tx-details.html:59
+msgid "To"
+msgstr "发送到"
+
+#: src/js/services/fingerprintService.js:58
+#: src/js/services/fingerprintService.js:63
+msgid "Touch ID Failed"
+msgstr "指纹ID 识别失败"
+
+#: src/js/controllers/tx-details.js:10
+msgid "Transaction"
+msgstr "转账"
+
+#: src/js/controllers/paperWallet.js:63
+msgid "Transfer to"
+msgstr "转账给"
+
+#: www/views/tab-send.html:73
+msgid "Transfer to Account"
+msgstr "转账给账户"
+
+#: www/views/modals/password.html:24 www/views/modals/pin.html:13
+msgid "Try again in {{expires}}"
+msgstr "在 {{expires}} 中再试一次"
+
+#: src/js/controllers/backup.js:33
+msgid "Uh oh..."
+msgstr "哦哦......"
+
+#: src/js/controllers/tab-home.js:173
+msgid "Update Available"
+msgstr "可用的更新"
+
+#: www/views/activity.html:14
+msgid "Updating... Please stand by"
+msgstr "更新中… 请等待"
+
+#: www/views/modals/fingerprintCheck.html:4
+msgid "Verify your identity"
+msgstr "验证您的身份"
+
+#: www/views/preferencesAbout.html:14
+msgid "Version"
+msgstr "版本"
+
+#: www/views/tab-export-file.html:38
+msgid "View"
+msgstr "查看"
+
+#: src/js/controllers/onboarding/terms.js:20
+msgid "View Terms of Service"
+msgstr "查看服务条款"
+
+#: src/js/controllers/tab-home.js:175
+msgid "View Update"
+msgstr "查看更新"
+
+#: www/views/tab-settings.html:104
+msgid "Wallet Accounts"
+msgstr "钱包账户"
+
+#: www/views/import.html:20
+msgid "Wallet File"
+msgstr "钱包文件"
+
+#: www/views/import.html:16
+msgid "Wallet Seed"
+msgstr "钱包种子"
+
+#: www/views/backup.html:10
+msgid "Wallet seed not available"
+msgstr "钱包种子不可用"
+
+#: src/js/controllers/addressbookView.js:43
+#: src/js/controllers/advancedSettings.js:38 src/js/controllers/import.js:152
+#: src/js/controllers/modals/password.js:73
+#: src/js/controllers/preferencesDelete.js:23
+#: www/views/preferencesDeleteWallet.html:11
+msgid "Warning!"
+msgstr "警告！​​​​​"
+
+#: src/js/controllers/onboarding/backupRequest.js:15
+msgid "Watch out!"
+msgstr "小心 ！"
+
+#: src/js/controllers/feedback/send.js:68
+msgid "We'd love to do better."
+msgstr "我们很乐意做得更好。"
+
+#: www/views/includes/incomingDataMenu.html:6
+msgid "Website"
+msgstr "网站"
+
+#: www/views/preferencesName.html:11
+msgid "What do you call this account?"
+msgstr "您想管这个账户叫什么？"
+
+#: www/views/onboarding/notifications.html:4
+msgid "Would you like to receive push notifications about payments?"
+msgstr "你想收到推式通知有关付款吗？"
+
+#: www/views/modals/confirmation.html:7
+msgid "Yes"
+msgstr "是"
+
+#: src/js/controllers/onboarding/backupRequest.js:23
+msgid "Yes, skip"
+msgstr "是的，跳过"
+
+#: www/views/preferencesName.html:12
+msgid "You can change the name displayed on this device below."
+msgstr "您可以在下面修改在该设备显示的名称。"
+
+#: src/js/controllers/onboarding/backupRequest.js:22
+msgid "You can create a backup later from your wallet settings."
+msgstr "你可以从你的钱包设置以后创建备份。"
+
+#: src/js/controllers/preferencesAbout.js:13
+msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
+msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程序通过在 GitHub 上访问我们的项目。"
+
+#: www/views/backup.html:13
+msgid "You can still export it from Advanced &gt; Export."
+msgstr "你仍然可以将其导出从高级 &gt; 出口。"
+
+#: www/views/preferencesNotifications.html:34
+msgid "You'll receive email notifications about payments sent and received from your wallets."
+msgstr "在您的钱包进行付款操作时发送通知。"
+
+#: www/views/feedback/send.html:42
+msgid "Your ideas, feedback, or comments"
+msgstr "你的想法、 反馈或评论"
+
+#: www/views/tab-export-file.html:12 www/views/tab-import-file.html:20
+#: www/views/tab-import-phrase.html:30
+msgid "Your password"
+msgstr "你的密码"
+
+#: www/views/onboarding/backupRequest.html:10
+msgid "Your wallet is never saved to cloud storage or standard device backups."
+msgstr "你的钱包是永远不会保存到云存储或标准设备备份。"
+
+#: www/views/accountDetails.html:42 www/views/amount.html:122
+#: www/views/includes/accountList.html:19
+#: www/views/includes/accountSelector.html:18 www/views/paperWallet.html:33
+#: www/views/tab-receive.html:41 www/views/tab-send.html:101
+msgid "[Balance Hidden]"
+msgstr "[隐藏余额]"
+
+#: www/views/onboarding/disclaimer.html:43
+msgid "I have read, understood, and agree to the <a ng-click=\"openTerms()\" href=\"javascript:void(0)\" translate=\"\">Terms of Use</a>."
+msgstr "我已经阅读、 理解并同意本使用条款。"
+
+#: www/views/feedback/rateApp.html:7
+msgid "5-star ratings help us get Canoe into more hands, and more users means more resources can be committed to the app!"
+msgstr "给我们5星好评可以帮助Canoe获得更多用户的了解，有了更多的了解可以帮助我们获得更多的资源并丰富我们的功能。"
+
+#: www/views/changePassword.html:31
+msgid "At least 8 Characters. Make it good!"
+msgstr "请输入至少八位字符。谢谢！"
+
+#: www/views/changePassword.html:3 www/views/changePassword.html:77
+#: www/views/preferencesSecurity.html:17
+msgid "Change Password"
+msgstr "修改密码"
+
+#: www/views/changePassword.html:43
+msgid "Confirm New Password"
+msgstr "确认新密码"
+
+#: www/views/feedback/rateCard.html:3
+msgid "How do you like Canoe?"
+msgstr "您觉得Canoe怎么样？"
+
+#: www/views/onboarding/tour.html:50
+msgid "Let's Start"
+msgstr "我们开始吧"
+
+#: www/views/changePassword.html:28
+msgid "New Password"
+msgstr "新密码"
+
+#: www/views/changePassword.html:13
+msgid "Old Password"
+msgstr "旧密码"
+
+#: www/views/changePassword.html:46
+msgid "One more time."
+msgstr "再次输入。"
+
+#: www/views/changePassword.html:64
+msgid "Password too short"
+msgstr "密码长度不够"
+
+#: www/views/changePassword.html:70
+msgid "Passwords don't match"
+msgstr "两次密码不匹配"
+
+#: www/views/changePassword.html:60 www/views/onboarding/tour.html:106
+msgid "Passwords match"
+msgstr "两次密码确认匹配"
+
+#: www/views/preferencesNotifications.html:17
+msgid "Push notifications for Canoe are currently disabled. Enable them in the Settings app."
+msgstr "Canoe的推送通知被系统禁用。请前往设置以开启。"
+
+#: src/js/controllers/feedback/complete.js:5 www/views/tab-settings.html:53
+msgid "Share Canoe"
+msgstr "分享Canoe"
+
+#: src/js/controllers/tab-home.js:52
+msgid "There is a new version of Canoe available"
+msgstr "有新的Canoe版本可以下载。"
+
+#: src/js/controllers/feedback/send.js:76
+msgid "We're always looking for ways to improve Canoe."
+msgstr "我们一直在努力改进Canoe。"
+
+#: src/js/controllers/feedback/send.js:82
+msgid "We're always looking for ways to improve Canoe. How could we improve your experience?"
+msgstr "我们一直在努力改进Canoe。能否请您提出宝贵的改进意见？"
+
+#: www/views/feedback/rateApp.html:10
+msgid "Would you be willing to rate Canoe in the app store?"
+msgstr "您能否帮忙在app store中为Canoe打分？"
+
+#: www/views/preferencesAlias.html:4
+msgid "Account Alias"
+msgstr "账号别名"
+
+#: www/views/preferencesColor.html:4
+msgid "Account Color"
+msgstr "账号颜色"
+
+#: www/views/addressbook.add.html:56 www/views/addressbook.edit.html:56
+#: www/views/addressbook.view.html:30 www/views/onboarding/alias.html:10
+#: www/views/preferences.html:22 www/views/preferencesAlias.html:19
+msgid "Alias"
+msgstr "别名"
+
+#: www/views/backup.html:3 www/views/tab-settings.html:23
+msgid "Backup seed"
+msgstr "备份钱包种子"
+
+#: www/views/onboarding/tour.html:116
+msgid "Create Wallet"
+msgstr "创建钱包"
+
+#. I think it’s better not to translate this.
+#: www/views/preferencesLanguage.html:21
+msgid "Don't see your language? Sign up on POEditor! We'd love to support your language."
+msgstr "没有看到你所用的语言？请注册poeditor!我们很乐意加入你所用的语言支持。"
+
+#: www/views/addressbook.edit.html:4
+msgid "Edit Contact"
+msgstr "编辑联系人"
+
+#: www/views/tab-export-file.html:10
+msgid "Enter password"
+msgstr "输入密码"
+
+#: www/views/modals/password.html:23
+msgid "Incorrect password, try again."
+msgstr "密码不正确，请重试。"
+
+#: www/views/addressbook.add.html:24 www/views/addressbook.edit.html:24
+msgid "Joe Doe"
+msgstr "乔欧"
+
+#: www/views/onboarding/welcome.html:5
+msgid "Join the future of money,<br>get started with BCB."
+msgstr "货币的未来，<br>从Nano开始。"
+
+#: www/views/tab-settings.html:45
+msgid "Lock wallet"
+msgstr "锁定Canoe"
+
+#: www/views/onboarding/disclaimer.html:15
+msgid "BCB is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "Nano是不同的 &ndash; 它不可以被银行或者网站保存。"
+
+#: src/js/controllers/confirm.js:85
+msgid "No accounts available"
+msgstr "没有可用的账号"
+
+#: www/views/onboarding/backupRequest.html:5
+msgid "No backup, no BCB."
+msgstr "无备份不Nano。"
+
+#: src/js/controllers/preferencesLanguage.js:12
+msgid "Open POEditor"
+msgstr "打开POEditor"
+
+#: src/js/controllers/preferencesLanguage.js:10
+msgid "Open Translation Site"
+msgstr "打开翻译网站"
+
+#: www/views/tab-import-file.html:18
+msgid "Password to decrypt"
+msgstr "请输入解密钱包的密码。"
+
+#: www/views/tab-import-phrase.html:28
+msgid "Password to encrypt"
+msgstr "请输入加密钱包的密码。"
+
+#: src/js/controllers/import.js:122
+msgid "Please enter a password to use for the wallet"
+msgstr "请输入一个密码钱包所使用的密码"
+
+#: www/views/advancedSettings.html:40
+msgid "Repair"
+msgstr "修复"
+
+#: www/views/addressbook.view.html:35
+msgid "Send BCB"
+msgstr "发送Nano"
+
+#: www/views/tab-send.html:33
+msgid "Start sending BCB"
+msgstr "开始发送Nano"
+
+#: www/views/tab-send.html:37
+msgid "To get started, you need BCB. Share your account to receive BCB."
+msgstr "首先，你首先需要Nano。出示你的账号来接受Nano。"
+
+#: www/views/tab-send.html:38
+msgid "To get started, you need an Account in your wallet to receive BCB."
+msgstr "你需要先用一个钱包的账号来接受Nano。"
+
+#: www/views/preferencesAlias.html:12
+msgid "Type below to see if an alias is free to use."
+msgstr "输入到下面空白以确定该别名是否可用。"
+
+#: www/views/advancedSettings.html:12
+msgid "Use Server Side PoW"
+msgstr "使用服务器端工作量证明（PoW）"
+
+#: www/views/preferencesLanguage.html:16
+msgid "We’re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on POEditor."
+msgstr "我们希望有人能够帮忙翻译我们的钱包。你可以通过加入到我们poeditor的社区，帮忙校正或者将本钱包翻译到你的母语。"
+
+#: src/js/controllers/preferencesLanguage.js:11
+msgid "You can make contributions by signing up on our POEditor community translation project. We’re looking forward to hearing from you!"
+msgstr "你可以通过注册poeditor来参与翻译本项目。我们希望听到你们支持的声音！"
+
+#: www/views/tab-scan.html:16
+msgid "You can scan BCB addresses, payment requests and more."
+msgstr "您可以扫描Nano地址、申请支付还有其他。"
+
+#: www/views/tab-home.html:50
+msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgstr "您的Nano钱包已经就绪！"
+
+#: www/views/includes/confirmBackupPopup.html:6
+msgid "Your BCB wallet seed is backed up!"
+msgstr "您的Nano钱包种子已经备份！"
+
+#: src/js/services/nanoService.js:712 www/views/addressbook.add.html:39
+#: www/views/addressbook.edit.html:39 www/views/addressbook.view.html:26
+msgid "Account"
+msgstr "账号"
+
+#: src/js/controllers/create.js:19 src/js/controllers/preferencesName.js:13
+msgid "An account already exists with that name"
+msgstr "已经存在一个相同名字的账号"
+
+#: www/views/modals/pin.html:10
+msgid "Confirm your PIN"
+msgstr "确认您的4位密码"
+
+#: www/views/preferencesName.html:18
+msgid "Enter a descriptive name"
+msgstr "请输入一个描述性名字"
+
+#: src/js/controllers/export.js:35
+msgid "Failed to generate seed QR code"
+msgstr "二维码生成失败"
+
+#: www/views/modals/pin.html:12
+msgid "Incorrect PIN, try again."
+msgstr "4位密码错误，请重试。"
+
+#: src/js/controllers/import.js:35
+msgid "Incorrect code format for a seed:"
+msgstr "不正确的钱包种子格式："
+
+#: src/js/controllers/changeLocksController.js:24
+#: src/js/controllers/changePasswordController.js:13
+#: src/js/controllers/changePasswordController.js:16
+#: src/js/services/incomingData.js:118 src/js/services/incomingData.js:120
+#: src/js/services/nanoService.js:87
+msgid "Information"
+msgstr "信息"
+
+#: src/js/controllers/import.js:45
+msgid "Not a seed QR code:"
+msgstr "不是一个包含钱包种子的二维码："
+
+#: www/views/modals/pin.html:9
+msgid "Please enter your PIN"
+msgstr "请输入您的4位密码"
+
+#: www/views/tab-export-qrCode.html:7
+msgid "Scan this QR code to import seed into another application"
+msgstr "扫描QR码来将种子密码导入其他程序。"
+
+#: www/views/preferencesSecurity.html:3 www/views/tab-settings.html:92
+msgid "Security Preferences"
+msgstr "安全设置"
+
+#: www/views/changePassword.html:16
+msgid "Your current password"
+msgstr "您当前的密码"
+
+#: src/js/controllers/changePasswordController.js:16
+msgid "Your password has been changed"
+msgstr "您的密码已经修改成功"
+
+#: www/views/onboarding/tour.html:46
+msgid "Canoe stores your BCB using cutting-edge security."
+msgstr "Canoe钱包通过前沿的安全技术保存你的Nano。"
+
+#: www/views/import.html:10
+msgid "Caution"
+msgstr "注意"
+
+#: src/js/services/onGoingProcess.js:34
+msgid "Decrypting wallet..."
+msgstr "钱包正在解码..."
+
+#: src/js/controllers/modals/password.js:101
+msgid "Error after loading wallet:"
+msgstr "载入钱包后发生错误："
+
+#: www/views/onboarding/disclaimer.html:21
+msgid "I understand that if this app is deleted, my wallet can only be recovered with the seed or a wallet file backup."
+msgstr "我确认了解，如果本软件被删除，我的钱包只能够通过钱包种子（Seed）或钱包的备份文件来恢复。"
+
+#: www/views/import.html:11
+msgid "Importing a wallet removes your current wallet and all its accounts. You may wish to first backup your current seed or make a file backup of the wallet."
+msgstr "导入一个钱包，会删除您设备中现有的钱包以及钱包中的全部账户。您可能想要先备份您当前钱包的种子或制作一个该钱包的备份文件,再继续您的导入。"
+
+#: src/js/controllers/addressbookAdd.js:20
+#: src/js/controllers/addressbookEdit.js:21
+#: src/js/controllers/preferencesRepresentative.js:17
+msgid "Incorrect code format for an account:"
+msgstr "不正确的账号地址格式："
+
+#: www/views/onboarding/tour.html:22
+msgid "Just scan and pay."
+msgstr "只需扫描并支付。"
+
+#: www/views/tab-settings.html:9
+msgid "Manage"
+msgstr "管理"
+
+#: www/views/onboarding/tour.html:31
+msgid "BCB is Feeless"
+msgstr "Nano是无手续费的"
+
+#: www/views/onboarding/tour.html:18
+msgid "BCB is Instant"
+msgstr "Nano是即时到账的"
+
+#: www/views/onboarding/tour.html:45
+msgid "BCB is Secure"
+msgstr "Nano是安全的"
+
+#: www/views/onboarding/tour.html:36
+msgid "Never pay transfer fees again!"
+msgstr "再也不需要支付手续费！"
+
+#: www/views/tab-settings.html:110
+msgid "Support"
+msgstr "技术支持"
+
+#: www/views/onboarding/tour.html:32
+msgid "Trade BCB for other currencies like USD or Euros."
+msgstr "通过Nano和其他货币如美元或者欧元兑换。"
+
+#: www/views/onboarding/tour.html:19
+msgid "Transfer BCB instantly to anyone, anywhere."
+msgstr "将Nano转账给任何人，任何地方。"
+
+#: www/views/preferencesRepresentative.html:4
+msgid "Account Representative"
+msgstr "投票代表账号"
+
+#: src/js/controllers/confirm.js:343
+msgid "Add to address book?"
+msgstr "加入到地址通讯录？"
+
+#: www/views/addressbook.add.html:72 www/views/addressbook.edit.html:72
+msgid "Alias Found!"
+msgstr "找到该别名！"
+
+#: www/views/onboarding/alias.html:12
+msgid "At least 3 Characters."
+msgstr "至少需要3个字符。"
+
+#: www/views/onboarding/alias.html:22 www/views/preferencesAlias.html:24
+msgid "Checking availablity"
+msgstr "查询可用性"
+
+#: www/views/onboarding/alias.html:62
+msgid "Create Alias"
+msgstr "创建别名"
+
+#: src/js/services/onGoingProcess.js:15
+msgid "Creating Alias..."
+msgstr "正在创建别名..."
+
+#: src/js/controllers/confirm.js:344
+msgid "Do you want to add this new address to your address book?"
+msgstr "你是否希望添加这个新地址到您的地址通讯录中？"
+
+#: www/views/preferencesAlias.html:13
+msgid "Edit your alias."
+msgstr "编辑您的账号别名。"
+
+#: src/js/services/onGoingProcess.js:16
+msgid "Editing Alias..."
+msgstr "正在编辑您的账号别名..."
+
+#: www/views/onboarding/alias.html:37
+msgid "Email for recovering your alias"
+msgstr "用来恢复您别名的Email地址"
+
+#: www/views/preferencesRepresentative.html:11
+msgid "Enter a representative account."
+msgstr "输入一个投票代理账号。"
+
+#: src/js/controllers/import.js:64
+msgid "Error importing wallet:"
+msgstr "倒入钱包出错："
+
+#: www/views/tab-settings.html:134
+msgid "How to buy BCB"
+msgstr "如何购买Nano"
+
+#: src/js/controllers/tab-settings.js:60
+msgid "How to buy and sell BCB is described at the website."
+msgstr "网站中会注明如何购买和卖出Nano。"
+
+#: www/views/addressbook.add.html:76 www/views/addressbook.edit.html:76
+#: www/views/onboarding/alias.html:30 www/views/preferencesAlias.html:32
+msgid "Invalid Alias!"
+msgstr "无效的别名！"
+
+#: www/views/onboarding/alias.html:45 www/views/preferencesAlias.html:40
+msgid "Invalid Email!"
+msgstr "无效的Email账号！"
+
+#: www/views/onboarding/alias.html:5
+msgid "Let People Easily Find you With Aliases"
+msgstr "让其他用户可以很容易地通过别名来找到您"
+
+#: www/views/onboarding/alias.html:57
+msgid "Link my wallet to my phone number."
+msgstr "绑定我的手机号到我的钱包上。"
+
+#: www/views/addressbook.add.html:68 www/views/addressbook.edit.html:68
+msgid "Looking up @{{addressbookEntry.alias}}"
+msgstr "正在查询@{{addressbookEntry.alias}}"
+
+#: www/views/onboarding/alias.html:54 www/views/preferencesAlias.html:47
+msgid "Make my alias private."
+msgstr "不公开我的别名。"
+
+#: www/views/tx-details.html:115
+msgid "Refund"
+msgstr "退款"
+
+#: src/js/controllers/advancedSettings.js:39
+msgid "Repairing your wallet could take some time. This will reload all blockchains associated with your wallet. Are you sure you want to repair?"
+msgstr "修复钱包需要一些时间。这会重新加载和你钱包相关的区块。你确定修复钱包吗？"
+
+#: www/views/preferences.html:30 www/views/preferencesRepresentative.html:17
+msgid "Representative"
+msgstr "投票代表"
+
+#: www/views/includes/accountHistory.html:40 www/views/tx-details.html:19
+msgid "Representative changed"
+msgstr "投票代表已变更"
+
+#: www/views/onboarding/alias.html:26 www/views/preferencesAlias.html:28
+msgid "That alias is taken!"
+msgstr "这个别名已被使用！"
+
+#: src/js/controllers/onboarding/terms.js:21
+msgid "The official English Terms of Service are available on the Canoe website."
+msgstr "正式的英文服务条款可以在Canoe的官方网页找到。"
+
+#: www/views/onboarding/alias.html:49 www/views/preferencesAlias.html:44
+msgid "Valid Alias & Email"
+msgstr "验证别名和邮件地址"
+
+#: src/js/controllers/tx-details.js:71
+msgid "View Block on BCB Block Explorer"
+msgstr "在Nanode上查看该区块"
+
+#: www/views/tx-details.html:111
+msgid "View on BCB Block Explorer"
+msgstr "在Nanode上查看"
+
+#: www/views/preferencesAlias.html:11
+msgid "What alias would you like to reserve?"
+msgstr "你希望保留什么别名？"
+
+#: www/views/preferencesAlias.html:14
+msgid "You can change your alias, email, or privacy settings."
+msgstr "你可以变更你的别名，邮件地址和隐私设置."
+
+#: src/js/controllers/changePasswordController.js:13
+msgid "Your old password was not entered correctly"
+msgstr "您输入的旧密码不正确"
+
+#: www/views/addressbook.add.html:33 www/views/addressbook.edit.html:33
+msgid "joe.doe@example.com"
+msgstr "joe.doe@example.com"
+
+#: www/views/addressbook.add.html:59 www/views/addressbook.edit.html:59
+msgid "joedoe"
+msgstr "joedoe"
+
+#: www/views/modals/password.html:6
+msgid "Wallet is Locked"
+msgstr "Canoe已被锁上"
+
+#: www/views/modals/password.html:39
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+#: www/views/changeLocks.html:30 www/views/changeLocks.html:61
+msgid "4-digit PIN"
+msgstr "4位密码"
+
+#: www/views/backupWarning.html:14
+msgid "Anyone with your seed can access or spend your BCB."
+msgstr "任何人都可以通过种子密码访问和花费你的nano."
+
+#: www/views/changeLocks.html:54
+msgid "Background Behaviour"
+msgstr "后台行为"
+
+#: www/views/preferencesSecurity.html:22
+msgid "Change 4-digit PIN"
+msgstr "修改4位密码"
+
+#: www/views/changeLocks.html:3 www/views/preferencesSecurity.html:12
+msgid "Change Lock Settings"
+msgstr "变更锁定设置"
+
+#: www/views/changeLocks.html:31 www/views/changeLocks.html:62
+msgid "Fingerprint"
+msgstr "指纹识别"
+
+#: www/views/modals/password.html:40
+msgid "Go back to onboarding."
+msgstr "重置到初始模式。"
+
+#: www/views/changeLocks.html:38
+msgid "Hard Lock"
+msgstr "硬锁定"
+
+#: www/views/changeLocks.html:42
+msgid "Hard Timeout"
+msgstr "硬锁定超时"
+
+#: www/views/advancedSettings.html:14
+msgid "If enabled, Proof Of Work is delegated to the Canoe server side. This option is disabled and always true on mobile Canoe for now."
+msgstr "如果启用，Canoe服务器负责转账需要计算工作（Proof Of Work）。当前这个选项不可选，计算工作暂时只能通过服务器端来执行。"
+
+#: www/views/advancedSettings.html:32
+msgid "If enabled, a list of recent transactions across all wallets will appear in the Home tab. Currently false, not fully implemented."
+msgstr "如果启用，所有钱包的转账记录都会显示在主页。当前未启用，功能还未完全实现。"
+
+#: www/views/changeLocks.html:58
+msgid "Lock when going to background"
+msgstr "在后台运行时锁定"
+
+#: www/views/changeLocks.html:29 www/views/changeLocks.html:60
+msgid "None"
+msgstr "无"
+
+#: www/views/changeLocks.html:63 www/views/modals/password.html:12
+#: www/views/onboarding/tour.html:70
+msgid "Password"
+msgstr "密码"
+
+#: src/js/controllers/changeLocksController.js:24
+msgid "Saved"
+msgstr "已保存"
+
+#: www/views/changeLocks.html:14
+msgid "Soft Lock"
+msgstr "软锁定"
+
+#: www/views/changeLocks.html:27
+msgid "Soft Lock Type"
+msgstr "软锁定类型"
+
+#: www/views/changeLocks.html:18
+msgid "Soft Timeout"
+msgstr "软锁定超时"
+
+#: www/views/changeLocks.html:20 www/views/changeLocks.html:44
+msgid "Timeout in seconds"
+msgstr "几秒后超时"
+
+#: src/js/controllers/tab-scan.js:107 src/js/controllers/tabsController.js:7
+msgid "Unrecognized data"
+msgstr "不可识别数据"
+
+#: www/views/changeLocks.html:37
+msgid "<h5 class=\"toggle-label\" translate=\"\">Hard Lock</h5>\n"
+"          With Hard Lock, Canoe encrypts your wallet and completely remove it from memory. You can not disable Hard Lock, but you can set a very high timeout."
+msgstr "<h5 class=\"toggle-label\" translate=\"\">硬锁定</h5>\n"
+"          硬锁定，Canoe会加密你的钱包并从内存里面删除。硬锁定不能被禁用，不过你可以设置一个比较长的等待锁定的时间。"
+
+#: src/js/controllers/tab-home.js:174
+msgid "A new version of this app is available. Please update to the latest version."
+msgstr "有新版本发布。请更新到最新版本。"
+
+#: www/views/changeBackend.html:13
+msgid "Backend URL"
+msgstr "后台地址链接"
+
+#: www/views/advancedSettings.html:46 www/views/changeBackend.html:23
+msgid "Change Backend"
+msgstr "改变后台"
+
+#: www/views/changeBackend.html:3
+msgid "Change Backend Server"
+msgstr "改变后台服务器"
+
+#: src/js/controllers/import.js:153
+msgid "Importing a wallet will remove your existing wallet and accounts! If you have funds in your current wallet, make sure you have a backup to restore from. Type \"delete\" to confirm you wish to delete your current wallet."
+msgstr "导入一个新的钱包会删除你现有的钱包和所用账号！如果你有资金在当前钱包里面，请确保你有备份当前钱包。输入delete以确认你希望删除当前钱包。"
+
+#: www/views/amount.html:53
+msgid "Max"
+msgstr "全部"
+
+#: src/js/controllers/import.js:155 src/js/controllers/modals/password.js:76
+msgid "delete"
+msgstr "删除"
+
+#: www/views/changeBackend.html:15
+msgid "bitcoin.black"
+msgstr "bitcoin.black"
+
+#: www/views/onboarding/tour.html:100
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: src/js/controllers/modals/password.js:74
+msgid "Going back to onboarding will remove your existing wallet and accounts! If you have funds in your current wallet, make sure you have a backup to restore from. Type \"delete\" to confirm you wish to delete your current wallet."
+msgstr "回到入口会删除你现有的钱包和所用账号！如果你有资金在当前钱包里面，请确保你有备份当前钱包。输入delete以确认你希望删除当前钱包。"
+
+#: src/js/controllers/import.js:125
+msgid "Please enter a password of at least 8 characters"
+msgstr "请输入8位或以上的密码"
+
+#: www/views/tab-home.html:53
+msgid "On this screen you can see all your accounts. Check our <a ng-click=\"openExternalLinkHelp()\">FAQs</a> before you start!"
+msgstr "在这个页面上面你可以看到你所有的账号。在使用之前请先阅读我们的<a ng-click=\"openExternalLinkHelp()\">FAQs</a> ！"
+
+#: www/views/advancedSettings.html:21
+msgid "Play Sounds"
+msgstr "打开提示音"
+
+#: www/views/changeLocks.html:53
+msgid "<h5 class=\"toggle-label\" translate=\"\">Background Behaviour</h5>\n"
+"            <p translate=\"\">Choose the lock type to use when Canoe goes to the background. To disable background locking select None.</p>"
+msgstr "<h5 class=\"toggle-label\" translate=\"\">后台行为</h5>\n"
+"            <p translate=\"\">选择当Canoe后台运行时的锁定类型，如果不想锁定请选择None。</p>"
+
+#: www/views/changeLocks.html:13
+msgid "<h5 class=\"toggle-label\" translate=\"\">Soft Lock</h5>\n"
+"          <p translate=\"\">With Soft Lock, Canoe is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints.</p>"
+msgstr "<h5 class=\"toggle-label\" translate=\"\">软锁定</h5>\n"
+"          <p translate=\"\">当软锁定的时候，Canoe钱包被锁定了，不过你的钱包在内存中未加密。软锁定的时候，你可以使用pin码或者指纹来解送。</p>"
+
+#: www/views/changeLocks.html:55
+msgid "Choose the lock type to use when Canoe goes to the background. To disable background locking select None."
+msgstr "选择当Canoe后台运行时的锁定类型，如果不想锁定请选择None。"
+
+#: www/views/onboarding/tour.html:58
+msgid "Encryption Time!"
+msgstr "正在加密！"
+
+#: www/views/onboarding/tour.html:84
+msgid "Enter at least 8 characters to encrypt your wallet."
+msgstr "请输入至少8位的密码以加密您的钱包。"
+
+#: www/views/onboarding/tour.html:87
+msgid "Password length ok"
+msgstr "合适的密码长度"
+
+#: www/views/onboarding/tour.html:110
+msgid "Passwords do not match"
+msgstr "输入的密码不一致"
+
+#: www/views/modals/password.html:36
+msgid "Unlock"
+msgstr "解锁"
+
+#: www/views/changeLocks.html:15
+msgid "With Soft Lock, Canoe is locked but your wallet is still live unencrypted in memory. Enabling Soft Locks, makes it possible to use simpler forms of credentials like PINs and fingerprints."
+msgstr "通过软锁定功能，Canoe软件将被锁定但是您的钱包数据将仍然被以非加密形式储存于设备内存中。开启软锁定功能，可以用更简便的方式解锁钱包（如4位密码或指纹解锁等）。"
+
+#: www/views/attributions.html:3 www/views/preferencesAbout.html:35
+msgid "Attributions"
+msgstr "属性"
+
+#: src/js/services/incomingData.js:118
+msgid "Block was scanned and sent successfully"
+msgstr "区块已被扫描且发送成功"
+
+#: src/js/services/incomingData.js:120
+msgid "Block was scanned but failed to process:"
+msgstr "区块已被扫描，但处理区块失败："
+
+#: src/js/services/nanoService.js:243 src/js/services/nanoService.js:253
+msgid "Failed connecting to backend"
+msgstr "连接到服务器失败"
+
+#: src/js/services/nanoService.js:42
+msgid "Failed connecting to backend, no network?"
+msgstr "连接到服务器失败，没有网络？"
+
+#: src/js/services/nanoService.js:87
+msgid "Successfully connected to backend"
+msgstr "成功联机到服务器"
+
+#: www/views/includes/incomingDataMenu.html:29
+msgid "BCB Account"
+msgstr "Nano账号"
+
+#: www/views/includes/incomingDataMenu.html:46
+msgid "Send BCB to this address"
+msgstr "发送Nano到这个地址"
+
+#: www/views/tab-settings.html:143
+msgid "Please load BCB to donate"
+msgstr ""
+
+#: www/views/advancedSettings.html:23
+msgid "If enabled, sounds will be played whenever you send, receive, change representative, or unlock your wallet."
+msgstr ""
+

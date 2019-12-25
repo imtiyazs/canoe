@@ -1,0 +1,118 @@
+<ion-view id="txp-details" hide-tabs cache-view="false">
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>
+      {{title}}
+    </ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content class="tx-details-content">
+
+    <div class="list">
+      <div class="item head">
+        <div class="sending-label">
+          <img src="img/icon-tx-rep.svg" ng-if="ntx.type === 'change'">
+          <img src="img/icon-tx-sent-outline.svg" ng-if="ntx.type === 'send'">
+          <img src="img/icon-tx-received-outline.svg" ng-if="ntx.type === 'receive' || ntx.type === 'open'">
+          <span ng-if="ntx.type === 'send'">{{'Sent' | translate}}</span>
+          <span ng-if="ntx.type === 'change'">{{'Representative changed' | translate}}</span>
+          <span ng-if="ntx.type === 'receive' || ntx.type === 'open'">{{'Received' | translate}}</span>
+        </div>
+
+        <div class="amount-label" ng-if="ntx.type === 'change'">
+          <div class="alternative">{{ntx.representative}}</span></div>
+        </div>
+        <div class="amount-label" ng-if="ntx.type !== 'change'">
+          <div class="amount">{{ntx.amountStr}} <span class="unit">{{ntx.unitStr}}</span></div>
+          <div class="alternative" ng-click="showRate = !showRate">
+            <span ng-if="!showRate">{{ntx.alternativeAmountStr}}</span>
+            <span ng-if="showRate">
+              <span ng-if="!rate">...</span>
+              <span ng-if="rate">
+                {{rate| currency:'':2}} {{alternativeIsoCode}} ({{rateDate | amDateFormat:'MM/DD/YYYY HH:mm a'}})
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div ng-if="ntx.type !== 'change'">
+          <div class="item" ng-if="ntx.type === 'send'">
+            <span class="label" translate>To</span>
+              <div copy-to-clipboard="ntx.destination" class="ellipsis">
+                <contact ng-if="!addressbook[ntx.destination]" address="{{ntx.destination}}" class="ellipsis" style="display: block;"></contact>
+                <span class="m15l size-14" ng-if="addressbook[ntx.destination]">{{addressbook[ntx.destination].name}}</span>
+              </div>
+            </span>
+          </div>
+          <div class="item" ng-if="ntx.type !== 'send'">
+            <span class="label" translate>From</span>
+              <div copy-to-clipboard="ntx.origin" class="ellipsis">
+                <contact ng-if="!addressbook[ntx.origin]" address="{{ntx.origin}}" class="ellipsis" style="display: block;"></contact>
+                <span class="m15l size-14" ng-if="addressbook[ntx.origin]">{{addressbook[ntx.origin].name}}</span>
+              </div>
+            </span>
+          </div>
+          <div class="item">
+            <span class="label" ng-if="ntx.type === 'send'" translate>From</span>
+            <span class="label" ng-if="ntx.type === 'receive' || ntx.type === 'open'" translate>To</span>
+            <div class="wallet">
+              <i class="icon big-icon-svg" ng-include="'views/includes/walletIcon.html'"></i>
+              <div>{{ntx.account.name}}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item single-line" ng-if="ntx.time">
+          <span class="label" translate>Date</span>
+          <span class="item-note">
+            <time class="wallet-details__tx-time">{{ntx.timeStr}}</time>
+          </span>
+        </div>
+
+        <div ng-if="ntx.note">
+          <a class="item item-icon-right" ng-class="{'single-line': !ntx.note}" ng-click="showCommentPopup()">
+            <span class="label" translate>Memo</span>
+            <div class="item-note" style="display: block; float: none; margin-bottom: .25rem;">
+              {{ntx.note}}
+            </div>
+            <i class="icon bp-arrow-right"></i>
+          </a>  
+        </div>
+
+<!-- not used yet, could be the three states of each block -->
+        <div ng-if="actionList[0]">
+          <div class="item item-divider" translate>Timeline</div>
+          <div class="item timeline-item" ng-class="{'action-created' : a.type == 'created' || a.type == 'accept', 'action-rejected' : a.type == 'reject'}" ng-repeat="a in actionList track by $index">
+            <div class="timeline-content">
+              <div class="timeline-content__icon">
+                <div class="rejected" ng-if="a.type === 'reject'">!</div>
+                <img src="img/icon-broadcasted.svg" ng-if="a.type === 'broadcasted'">
+                <div ng-if="a.type !== 'reject' && a.type !== 'broadcasted'">
+                  {{actionList.length - $index}}
+                </div>
+              </div>
+              <div class="timeline-content__label">
+                <div class="action">{{a.description}}</div>
+                <div class="name">{{a.by}}</div>
+              </div>
+              <div>
+                <span class="item-note">
+                  <time>{{ a.time * 1000 | amTimeAgo}}</time>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button ng-if="ntx" class="button button-standard button-primary" ng-click="viewOnNanode()" translate>
+      View on BCB Block Explorer
+    </button>
+
+    <button ng-if="ntx.origin && (ntx.type === 'receive' || ntx.type === 'open')" class="button button-standard button-primary" ng-click="refund()" ng-show="hasFunds" translate>Refund</button>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,126 @@
+<ion-view id="view-confirm" hide-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>
+      {{'Confirm'|translate}}
+    </ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content class="add-bottom-for-cta">
+    <div class="list">
+      <div class="item head" ng-hide="criticalError">
+        <div class="sending-label">
+          <img src="img/icon-tx-sent-outline.svg">
+          <span translate ng-if="!tx.sendMax">Sending</span>
+          <span translate ng-if="tx.sendMax">Sending maximum amount</span>
+        </div>
+        <div class="amount-label">
+          <div class="amount">{{tx.amountValueStr || '...'}} <span class="unit">{{tx.amountUnitStr}}</span></div>
+          <div class="alternative">{{tx.alternativeAmountStr || '...'}}</div>
+        </div>
+      </div>
+
+      <div class="info">
+      <div class="item" ng-hide="criticalError">
+        <span class="label" translate>To</span>
+
+        <div class="wallet" ng-if="!recipientType">
+          <i class="icon big-icon-svg" ng-if="toAvatar">
+            <img ng-cloak ng-if="toAlias && toAvatar" ng-src="data:image/png;base64, {{toAvatar}}" class="bg" alt="{{toAlias}} avatar"/>
+          </i>
+          <i class="icon big-icon-svg" ng-if="!toAvatar">
+            <img src="img/bcb_logo.png" class="bg"/>
+          </i>
+          <div copy-to-clipboard="tx.toAddress">
+            <contact ng-if="tx.toAddress && !tx.toName" address="{{tx.toAddress}}"></contact>
+            <span ng-if="toAlias" class="wallet-name">@{{toAlias}}</span>
+            <span ng-if="!toAlias && tx.toName" class="wallet-name">{{tx.toName}}</span>
+          </div>
+        </div>
+
+        <div class="wallet" ng-if="recipientType == 'account'">
+          <i class="icon big-icon-svg" ng-if="toAvatar">
+            <img ng-cloak ng-if="toAlias && toAvatar" ng-src="data:image/png;base64, {{toAvatar}}" class="bg" alt="{{toAlias}} avatar"/>
+          </i>
+          <i class="icon big-icon-svg" ng-if="!toAvatar">
+            <img src="img/icon-wallet.svg" ng-class="{'wallet-background-color-default': !toColor}" ng-style="{'background-color': toColor}" class="bg"/>
+          </i>
+          <div copy-to-clipboard="tx.toAddress">
+            <contact ng-if="tx.toAddress && !tx.toName" address="{{tx.toAddress}}"></contact>
+            <span ng-if="toAlias" class="wallet-name">@{{toAlias}}</span>
+            <span ng-if="!toAlias && tx.toName" class="wallet-name">{{tx.toName}}</span>
+          </div>
+        </div>
+
+        <div ng-if="recipientType == 'contact' && !isChromeApp" class="gravatar-contact toggle" ng-click="toggleAddress()">
+          <i class="icon big-icon-svg" ng-if="toAvatar">
+            <img ng-cloak ng-if="toAlias && toAvatar" ng-src="data:image/png;base64, {{toAvatar}}" class="bg" alt="{{toAlias}} avatar"/>
+          </i>
+          <gravatar ng-if="!toAvatar" class="send-gravatar" name="{{tx.toName}}" height="30" width="30" email="{{toEmail}}"></gravatar>
+          <span ng-if="tx.toName && !showAddress">{{tx.toName}}</span>
+          <span ng-if="tx.toName && showAddress">{{tx.toAddress}}</span>
+        </div>
+      </div>
+
+      <a class="item item-icon-right" ng-hide="!account" ng-click="showAccountSelector()">
+        <span class="label" translate>From</span>
+        <div class="wallet" ng-if="account">
+          <i class="icon big-icon-svg" ng-include="'views/includes/walletIcon.html'"></i>
+          <div>{{account.name}}</div>
+        </div>
+        <div class="wallet" ng-if="!account">
+          <i class="icon big-icon-svg">
+            <img src="img/icon-wallet.svg" ng-style="{'background-color': 'grey'}" class="bg"/>
+          </i>
+          <div>...</div>
+        </div>
+        <i class="icon bp-arrow-right"></i>
+      </a>
+<!--
+        <a class="item item-icon-right" ng-if="account" ng-click="showDescriptionPopup(tx)">
+          <span class="label" translate>Add Memo</span>
+          <span class="item-note m10l">
+            {{tx.description}}
+          </span>
+          <i class="icon bp-arrow-right"></i>
+        </a>
+-->
+        <div class="text-center" ng-show="noAccountMessage">
+          <span class="badge badge-energized">{{noAccountMessage}}</span>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+
+  <click-to-accept
+    ng-click="approve(tx, account, statusChangeHandler)"
+    ng-if="(!isCordova || isWindowsPhoneApp) && account"
+    click-send-status="sendStatus"
+    is-disabled="!account">
+    {{buttonText}}
+  </click-to-accept>
+
+  <slide-to-accept
+    ng-if="isCordova && !isWindowsPhoneApp && account"
+    slide-on-confirm="approve(tx, account, statusChangeHandler)"
+    slide-send-status="sendStatus"
+    is-disabled="!account">
+    {{buttonText}}
+  </slide-to-accept>
+
+  <slide-to-accept-success
+    slide-success-show="sendStatus === 'success'"
+    slide-success-on-confirm="onSuccessConfirm()"
+    slide-success-hide-on-confirm="true">
+    <span translate>Payment Sent</span>
+  </slide-to-accept-success>
+
+  <account-selector
+    account-selector-title="accountSelectorTitle"
+    account-selector-accounts="accounts"
+    account-selector-selected-account="account"
+    account-selector-show="accountSelector"
+    account-selector-on-select="onAccountSelect">
+  </account-selector>
+</ion-view>

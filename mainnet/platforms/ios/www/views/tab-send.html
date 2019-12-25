@@ -1,0 +1,114 @@
+<ion-view id="tab-send" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>{{'Send' | translate}}</ion-nav-title>
+  </ion-nav-bar>
+  <ion-content>
+
+    <div class="important-message" ng-if="serverMessage" ng-click="openServerMessageLink()">
+      <span>{{serverMessage.title}}</span>
+      <i class="icon ion-ios-arrow-thin-right"></i>
+    </div>
+
+    <div ng-if="hasFunds">
+      <div class="send-header-wrapper">
+        <div class="item item-heading send-heading"><span translate>Recipient</span></div>
+        <div class="item input search-wrapper" ng-class="{'focus': searchFocus}">
+          <i class="icon icon-svg left abs-v-center"><img class="png" id="Nano_Symbol" src="img/nano-logo-white.png"></i>
+          <div class="item-icon-right">
+            <input type="text" class="search-input" placeholder="{{'Search or enter account number' | translate}}" ng-model="formData.search" ng-change="findContact(formData.search)" ng-model-onblur ng-focus="searchInFocus()" ng-blur="searchBlurred()">
+            <i class="icon icon-svg qr abs-v-center separator-left" on-tap="openScanner()"><img src="img/scan-ico.svg"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div ng-if="!(hasFunds && hasAccounts)">
+      <div class="list card sendTip">
+        <div class="item item-icon-right item-heading"></div>
+        <div>
+          <i class="icon zero-state-icon">
+            <img src="img/tab-icons/ico-send-selected.svg"/>
+          </i>
+        </div>
+        <div class="title" translate>
+          Start sending Bitcoin Black Coins
+        </div>
+        <div class="subtitle">
+          <span ng-show="hasAccounts" translate>To get started, you need Bitcoin Black Coins. Share your account to receive Bitcoin Black Coins.</span>
+          <span ng-show="!hasAccounts" translate>To get started, you need an Account in your wallet to receive Bitcoin Black Coins.</span>
+          <div class="padding">
+<!--            <button class="button button-standard button-primary" ng-click="Bitcoin Black()" ng-show="hasAccounts" translate>Buy Bitcoin Black</button>-->
+            <button class="button button-standard button-primary" ng-click="createAccount()" ng-show="!hasAccounts" translate>Create Account</button>
+            <button class="button button-standard button-secondary" ui-sref="tabs.receive" ng-show="hasAccounts" translate>Show Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" ng-if="hasContacts && hasAccounts && hasFunds">
+      <div class="item item-icon-right item-heading">
+        <span translate>Contacts</span>
+        <a ng-if="hasContacts" ui-sref="tabs.send.addressbook">
+          <i class="icon ion-ios-plus-empty list-add-button"></i>
+        </a>
+      </div>
+      <div class="list">
+        <a class="item item-icon-left item-icon-right" ng-repeat="item in list" ng-if="item.recipientType != 'account'" ng-click="goToAmount(item)">
+          <i class="icon big-icon-svg">
+            <img ng-cloak ng-if="item.alias && item.avatar" ng-src="data:image/png;base64, {{item.avatar}}" class="bg" alt="{{item.alias}} avatar"/>
+            <img src="img/contact-placeholder.svg" class="bg" ng-if="isChromeApp && !item.avatar">
+            <gravatar class="send-gravatar" name="{{item.name}}" width="30" email="{{item.email}}" ng-if="!isChromeApp && !item.avatar"></gravatar>
+          </i>
+          {{item.name}}
+          <i class="icon bp-arrow-right"></i>
+        </a>
+        <div class="show-more" ng-if="contactsShowMore" ng-click="showMore()" translate>
+          Show more
+        </div>
+      </div>
+    </div>
+
+    <div class="card" ng-if="showTransferCard && hasFunds && hasMoreAccounts">
+      <div class="item item-heading">
+        <span translate>Transfer to Account</span>
+      </div>
+      <div class="list">
+        <a class="item item-icon-left item-icon-right" ng-repeat="account in list" ng-if="account.recipientType === 'account' && account.address !== acc.id" ng-click="goToAmount(account)">
+          <i class="icon big-icon-svg" ng-include="'views/includes/walletIcon.html'"></i>
+          <!--<i class="icon big-icon-svg" ng-if="account.recipientType == 'account'" ng-include="'views/includes/walletIcon.html'"></i>-->
+          <span ng-if="account.meta && account.meta.alias && account.meta.alias.alias">
+            @{{account.meta.alias.alias}}
+          </span>
+          <span ng-if="!account.meta || !account.meta.alias || !account.meta.alias.alias">
+            {{account.name || account.id}}
+          </span>
+          <i class="icon bp-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </ion-content>
+  <div class="account-selector" ng-click="showAccountSelector()" ng-if="accounts[0]">
+    <a ng-if="acc" class="item item-sub item-icon-left item-big-icon-left item-icon-right">
+      <i class="icon big-icon-svg" ng-include="'views/includes/walletIcon.html'"></i>
+      <span ng-if="acc.meta && acc.meta.alias && acc.meta.alias.alias">
+        @{{acc.meta.alias.alias}}
+      </span>
+      <span ng-if="!acc.meta || !acc.meta.alias || !acc.meta.alias.alias">
+        {{acc.name || acc.id}}
+      </span>
+      <p>
+        <span ng-if="!acc.meta.balanceHidden && acc.alternativeBalanceStr"> {{acc.balanceStr}} <span ng-hide="acc.alternativeBalanceStr == 'hide'">&asymp; {{acc.alternativeBalanceStr}}</span></span>
+        <span ng-if="acc.meta.balanceHidden" translate>[Balance Hidden]</span>
+        <span class="assertive" ng-if="acc.error">{{acc.error}}</span>
+        &nbsp;
+      </p>
+    </a>
+  </div>
+  <account-selector
+    account-selector-title="accountSelectorTitle"
+    account-selector-accounts="accounts"
+    account-selector-selected-account="acc"
+    account-selector-show="showAccounts"
+    account-selector-on-select="onAccountSelect">
+  </account-selector>
+</ion-view>

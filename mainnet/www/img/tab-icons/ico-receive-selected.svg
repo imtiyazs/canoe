@@ -1,0 +1,21 @@
+<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#f2ca80" id="svg_1" height="7.3" width="7.3" class="st0" y="1.2" x="13.5"/>
+  <rect fill="#f2d7a4" id="svg_2" height="7.3" width="7.3" class="st0" y="13.5" x="1.2"/>
+  <rect fill="#f2d7a4" id="svg_3" height="7.3" width="7.3" class="st0" y="1.2" x="1.2"/>
+  <path fill="#e1990f" id="svg_4" d="m9.7,9.7l-9.7,0l0,-9.7l9.7,0l0,9.7zm-8.5,-1.2l7.3,0l0,-7.3l-7.3,0l0,7.3z" class="st1"/>
+  <path fill="#e1990f" id="svg_5" d="m22,9.7l-9.7,0l0,-9.7l9.7,0l0,9.7zm-8.5,-1.2l7.3,0l0,-7.3l-7.3,0l0,7.3z" class="st1"/>
+  <path fill="#e1990f" id="svg_6" d="m9.7,22l-9.7,0l0,-9.7l9.7,0l0,9.7zm-8.5,-1.2l7.3,0l0,-7.3l-7.3,0l0,7.3z" class="st1"/>
+  <polygon fill="#e1990f" id="svg_7" points="22,17.6 20.8,17.6 20.8,13.5 18.2,13.5 18.2,16.3 13.2,16.3 13.2,12.9 14.4,12.9 14.4,15.1 17,15.1  17,12.3 22,12.3 " class="st1"/>
+  <polygon fill="#e1990f" id="svg_8" points="21.4,22 13.2,22 13.2,19.5 14.4,19.5 14.4,20.8 21.4,20.8 " class="st1"/>
+  <rect fill="#e1990f" id="svg_9" height="2.2" width="2.2" class="st1" y="3.8" x="3.8"/>
+  <rect fill="#e1990f" id="svg_10" height="2.2" width="2.2" class="st1" y="3.8" x="16"/>
+  <rect fill="#e1990f" id="svg_11" height="2.2" width="2.2" class="st1" y="16" x="3.8"/>
+ </g>
+</svg>

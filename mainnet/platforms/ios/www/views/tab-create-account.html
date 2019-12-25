@@ -1,0 +1,29 @@
+<ion-view class="settings" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>{{'Create Account' | translate}}</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content>
+    <form name="setupForm" ng-submit="create()" novalidate>
+      <div class="list settings-list settings-input-group">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label" translate>Account name</span>
+          <input type="text"
+          placeholder="{{'Family vacation funds'|translate}}"
+          ng-model="formData.accountName"
+          ng-required="true"
+          ng-focus="formFocus('wallet-name')"
+          ng-blur="formFocus(false)"
+          required>
+        </label>
+      </div> <!-- list -->
+
+      <button type="submit" class="button button-standard button-primary"
+        ng-disabled="setupForm.$invalid">
+        <span translate>Create new account</span>
+      </button>
+    </form>
+  </ion-content>
+</ion-view>

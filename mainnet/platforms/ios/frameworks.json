@@ -1,0 +1,10 @@
+{
+    "QuartzCore.framework": 1,
+    "AudioToolbox.framework": 1,
+    "SystemConfiguration.framework": 1,
+    "CoreTelephony.framework": 1,
+    "Security.framework": 2,
+    "LocalAuthentication.framework": 1,
+    "WebKit.framework": 1,
+    "CoreNFC.framework": 1
+}

@@ -1,0 +1,49 @@
+#onboard-welcome {
+  background-image: linear-gradient(320deg, $v-onboarding-gradient-top-color 50%, $v-onboarding-gradient-bottom-color 100%);
+  & > ion-content {
+    /*background: $v-onboarding-welcome-bg;*/
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #qrcode {
+    content: url('../img/onboarding-welcome-qrcode.png');
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 20px;
+    height: auto;
+  }
+  #logo-tagline {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #logo {
+    width: 70%;
+    max-width: 300px;
+    margin: 5rem auto 0;
+  }
+  #lead {
+    line-height: 1.6;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: 'Roboto-Thin';
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  #cta-buttons {
+    @extend %cta-buttons;
+    padding-bottom: 4vw;
+  }
+
+  #restore span{
+    border-bottom: .5px dotted white;
+    padding: 1.5px;
+    width: 80%;
+    font-family:"Roboto-Thin"
+  }
+}
+

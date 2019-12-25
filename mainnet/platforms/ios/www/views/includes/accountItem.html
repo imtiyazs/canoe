@@ -1,0 +1,14 @@
+<div class="wallet-item">
+  <i class="icon big-icon-svg circle" ng-include="'views/includes/walletIcon.html'"></i>
+  <div class="name">
+    <span ng-if="account.meta && account.meta.alias && account.meta.alias.alias">
+      @{{account.meta.alias.alias}}
+    </span>
+    <span ng-if="!account.meta || !account.meta.alias || !account.meta.alias.alias">
+      {{account.name}}
+    </span>
+  </div>
+  <div class="address-label">
+    <span class="ellipsis">{{account.id}}</span>
+  </div>
+</div>

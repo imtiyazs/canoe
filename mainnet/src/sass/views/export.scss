@@ -1,0 +1,35 @@
+#export {
+  .list {
+    background-color: #fff;
+	  div.item {
+       margin: 6px 6px 5px 16px;
+       border: none;
+    }
+  }
+  .top-tabs.row {
+    padding: 0;
+  }
+  .top-tabs .col {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-bottom-width: 2px;
+    border-bottom-color: $v-top-tabs-color;
+  }
+  //input[type="password"]
+  .password-container {
+    border: none;
+    margin-left: -5px;
+    padding-left: 4px;
+    &.incorrect {
+      padding-left: 3px;
+      border: 1px solid;
+      color: #C90505;
+    }
+    &.correct {
+      padding-left: 3px;
+      border: 1px solid;
+      color: #00901B;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<ion-view id="import" class="settings" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>{{'Import Wallet' | translate}}</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content ng-init="phrase = true">
+    <div class="settings-explanation" ng-if="!fromOnboarding">
+      <div class="settings-heading" translate>Caution</div>
+      <div class="settings-description" translate>Importing a wallet removes your current wallet and all its accounts. You may wish to first backup your current seed or make a file backup of the wallet.</div>
+    </div>
+    <div class="row text-center top-tabs">
+      <div class="col" ng-click="phrase = true; file = hardware = false" ng-style="phrase &&
+        {'border-bottom-style': 'solid'}">
+        <span translate>Import using Wallet Seed</span>
+      </div>
+      <!-- <div class="col" ng-click="file = true; phrase = hardware = false" ng-style="file &&
+        {'border-bottom-style': 'solid'}">
+        <span translate>Wallet File</span>
+      </div> -->
+    </div>
+
+    <div ng-include="'views/tab-import-phrase.html'" ng-if="phrase"></div>
+    <div ng-include="'views/tab-import-file.html'" ng-if="file"></div>
+  </ion-content>
+</ion-view>

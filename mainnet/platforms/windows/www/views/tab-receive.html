@@ -1,0 +1,54 @@
+﻿<ion-view id="tab-receive" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>{{'Receive' | translate}}</ion-nav-title>
+    <ion-nav-buttons side="secondary">
+      <button class="button-share ng-hide" ng-show="accounts[0] && showShareButton" ng-click="shareAccount()">
+        <i class="icon"
+          ng-class="{
+          'ion-ios-upload-outline': showShareButton == 'iOS',
+          'ion-android-share-alt': showShareButton != 'iOS'
+          }"></i>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+  <ion-content scroll="false">
+    <article class="list card padding text-center" ng-if="!accounts[0]">
+      <span translate>No Account available</span>
+    </article>
+    <article class="address" ng-if="accounts[0]">
+      <div class="address-info" ng-if="account">
+        <div copy-to-clipboard="addr">
+          <qrcode ng-if="addrUrl" size="220" data="{{addrUrl}}" color="#334"></qrcode>
+          <div class="address-label">
+            <span class="ellipsis">{{addr}}</span>
+            <ion-spinner ng-show="!addr" class="spinner-dark" icon="crescent"></ion-spinner>
+          </div>
+        </div>
+      </div>
+    </article>
+  </ion-content>
+  <div class="account-selector" ng-click="showAccountSelector()" ng-if="accounts[0] && !singleAccount">
+    <a ng-if="account" class="item item-sub item-icon-left item-big-icon-left item-icon-right">
+      <i class="icon big-icon-svg" ng-include="'views/includes/walletIcon.html'"></i>
+      <span ng-if="account.meta && account.meta.alias && account.meta.alias.alias">
+        @{{account.meta.alias.alias}}
+      </span>
+      <span ng-if="!account.meta || !account.meta.alias || !account.meta.alias.alias">
+        {{account.name || account.id}}
+      </span>
+      <p>
+        <span ng-if="!account.meta.balanceHidden && account.alternativeBalanceStr"> {{account.balanceStr}} <span ng-hide="account.alternativeBalanceStr == 'hide'">&asymp; {{account.alternativeBalanceStr}}</span></span>
+        <span ng-if="account.meta.balanceHidden" translate>[Balance Hidden]</span>
+        <span class="assertive" ng-if="account.error">{{account.error}}</span>
+        &nbsp;
+      </p>
+    </a>
+  </div>
+  <account-selector
+    account-selector-title="accountSelectorTitle"
+    account-selector-accounts="accounts"
+    account-selector-selected-account="account"
+    account-selector-show="showAccounts"
+    account-selector-on-select="onAccountSelect">
+  </account-selector>
+</ion-view>
