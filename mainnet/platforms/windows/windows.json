@@ -109,77 +109,77 @@
   },
   "installed_plugins": {
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-globalization": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-x-toast": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-clipboard": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-spinner-dialog": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-uniquedeviceid": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-touch-id": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-transport-security": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-ios-requires-fullscreen": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-android-fingerprint-auth": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-screen-orientation": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-qrscanner": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-customurlscheme": {
       "URL_SCHEME": "bcb",
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "cordova-plugin-media": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     },
     "phonegap-nfc": {
-      "PACKAGE_NAME": "Bitcoin Black Betanet Wallet"
+      "PACKAGE_NAME": "Bitcoin Black Wallet"
     }
   },
   "dependent_plugins": {},

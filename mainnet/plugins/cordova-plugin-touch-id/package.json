@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-touch-id/-/cordova-plugin-touch-id-3.4.0.tgz",
   "_shasum": "83927dcaf9c2ba61bc184e4a9c0675afa940946d",
   "_spec": "cordova-plugin-touch-id@^3.4.0",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com",

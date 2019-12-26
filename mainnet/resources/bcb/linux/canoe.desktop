@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=BCBWallet
-Comment=Bitcoin Black Betanet Wallet
+Comment=Bitcoin Black Wallet
 Exec=canoe
 Icon=canoe
 Terminal=false

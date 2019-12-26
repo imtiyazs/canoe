@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/cordova-plugin-inappbrowser-3.1.0.tgz",
   "_shasum": "61520b8de3eb75b37842d2340f5d90a84a073747",
   "_spec": "cordova-plugin-inappbrowser@^3.0.0",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Apache Software Foundation"
   },

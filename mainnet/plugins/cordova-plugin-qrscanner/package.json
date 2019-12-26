@@ -19,7 +19,7 @@
   ],
   "_resolved": "git+https://github.com/imtiyazs/cordova-plugin-qrscanner.git#464f09567335ae24ca69946c4aea0b0d87b18018",
   "_spec": "git+https://github.com/imtiyazs/cordova-plugin-qrscanner.git",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Jason Dreyzehner"
   },

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "bitcoin-black-wallet",
-  "description": "A Secure Bitcoin Black Betanet Wallet",
+  "description": "A Secure Bitcoin Black Wallet",
   "version": "0.9.12",
   "permissions": [
     "storage",

@@ -1394,7 +1394,7 @@ msgid "You can scan BCB addresses, payment requests and more."
 msgstr "您可以扫描Nano地址、申请支付还有其他。"
 
 #: www/views/tab-home.html:50
-msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgid "Your Bitcoin Black Wallet is ready!"
 msgstr "您的Nano钱包已经就绪！"
 
 #: www/views/includes/confirmBackupPopup.html:6

@@ -1391,7 +1391,7 @@ msgid "You can scan BCB addresses, payment requests and more."
 msgstr "Вы можете сканировать BCB адрес, платежные запросы и многое другое."
 
 #: www/views/tab-home.html:50
-msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgid "Your Bitcoin Black Wallet is ready!"
 msgstr "Ваш BCB кошелек готов!"
 
 #: www/views/includes/confirmBackupPopup.html:6

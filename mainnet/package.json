@@ -1,6 +1,6 @@
 {
   "name": "canoe",
-  "description": "A Secure Cross Platform Bitcoin Black Betanet Wallet",
+  "description": "A Secure Cross Platform Bitcoin Black Wallet",
   "author": "Bitcoin Black",
   "version": "1.0.2",
   "keywords": [
@@ -11,7 +11,7 @@
   "main": "www/index.html",
   "title": "Canoe",
   "window": {
-    "title": "Canoe - Bitcoin Black Betanet Wallet",
+    "title": "Canoe - Bitcoin Black Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,

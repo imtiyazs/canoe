@@ -1394,12 +1394,12 @@ msgid "You can scan BCB addresses, payment requests and more."
 msgstr "Scan BCB adressen, betalingsverzoeken en meer."
 
 #: www/views/tab-home.html:50
-msgid "Your Bitcoin Black Betanet Wallet is ready!"
-msgstr "Jouw Bitcoin Black Betanet Wallet is gereed!"
+msgid "Your Bitcoin Black Wallet is ready!"
+msgstr "Jouw Bitcoin Black Wallet is gereed!"
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your BCB wallet seed is backed up!"
-msgstr "Jouw Bitcoin Black Betanet Wallet seed is geback-upt!"
+msgstr "Jouw Bitcoin Black Wallet seed is geback-upt!"
 
 #: src/js/services/nanoService.js:712 www/views/addressbook.add.html:39
 #: www/views/addressbook.edit.html:39 www/views/addressbook.view.html:26

@@ -1947,7 +1947,7 @@ msgid "You'll receive email notifications about payments sent and received from 
 msgstr ""
 
 #: www/views/tab-home.html:50
-msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgid "Your Bitcoin Black Wallet is ready!"
 msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6

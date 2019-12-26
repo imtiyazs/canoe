@@ -18268,7 +18268,7 @@ module.exports={
   "_args": [
     [
       "elliptic@6.4.1",
-      "D:\\Workspace\\src\\bcb-canoe\\betanet"
+      "D:\\Workspace\\src\\bcb-canoe\\mainnet"
     ]
   ],
   "_from": "elliptic@6.4.1",
@@ -18293,7 +18293,7 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz",
   "_spec": "6.4.1",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"

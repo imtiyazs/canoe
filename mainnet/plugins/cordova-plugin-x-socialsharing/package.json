@@ -2,7 +2,7 @@
   "_args": [
     [
       "cordova-plugin-x-socialsharing@5.6.0",
-      "D:\\Workspace\\src\\bcb-canoe\\betanet"
+      "D:\\Workspace\\src\\bcb-canoe\\mainnet"
     ]
   ],
   "_from": "cordova-plugin-x-socialsharing@5.6.0",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-x-socialsharing/-/cordova-plugin-x-socialsharing-5.6.0.tgz",
   "_spec": "5.6.0",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Eddy Verbruggen - @EddyVerbruggen"
   },

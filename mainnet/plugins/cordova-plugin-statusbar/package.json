@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.4.3.tgz",
   "_shasum": "cc557aef66c27484e0f7f045004040d03321f82d",
   "_spec": "cordova-plugin-statusbar@^2.4.2",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Apache Software Foundation"
   },

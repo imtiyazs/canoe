@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-uniquedeviceid/-/cordova-plugin-uniquedeviceid-1.3.2.tgz",
   "_shasum": "be05947af2fd1815cb8e3407d72df68c8522fa96",
   "_spec": "cordova-plugin-uniquedeviceid@^1.3.2",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Domonkos Pal",
     "email": "public@dpal.hu",
