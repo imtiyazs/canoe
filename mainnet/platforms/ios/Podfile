@@ -2,7 +2,7 @@
 
 platform :ios, '9.0'
 
-target 'D:\Workspace\src\bcb-canoe\betanet\platforms\ios\Bitcoin Black Betanet Wallet' do
-	project 'D:\Workspace\src\bcb-canoe\betanet\platforms\ios\Bitcoin Black Betanet Wallet.xcodeproj'
+target 'D:\Workspace\src\bcb-canoe\mainnet\platforms\ios\Bitcoin Black Wallet' do
+	project 'D:\Workspace\src\bcb-canoe\mainnet\platforms\ios\Bitcoin Black Wallet.xcodeproj'
 
 end

@@ -1403,7 +1403,7 @@ msgid "You can scan BCB addresses, payment requests and more."
 msgstr "Puoi eseguire la scansione di   indirizzi BCB, richieste di pagamento e altro ancora."
 
 #: www/views/tab-home.html:50
-msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgid "Your Bitcoin Black Wallet is ready!"
 msgstr "Il portafoglio BCB è pronto!"
 
 #: www/views/includes/confirmBackupPopup.html:6

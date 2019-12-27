@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-network-information/-/cordova-plugin-network-information-2.0.2.tgz",
   "_shasum": "f48a92cbd7cccb63cb0a5e5a00030001b8ac4fea",
   "_spec": "cordova-plugin-network-information@^2.0.1",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Apache Software Foundation"
   },

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget android-versionCode="391015" id="com.bcbcanoe.bitcoinblack" ios-CFBundleVersion="1.0.2" version="1.0.3">
-    <name>Bitcoin Black Betanet Wallet</name>
+    <name>Bitcoin Black Wallet</name>
     <description>
-        Bitcoin Black Betanet Wallet
+        Bitcoin Black Wallet
     </description>
     <author email="hello@bitcoin.black" href="http://bitcoin.black">
         Bitcoin Black
@@ -14,7 +14,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <preference name="WindowsStoreIdentityName" value="------" />
-    <preference name="WindowsStoreDisplayName" value="Secure Bitcoin Black Betanet Wallet" />
+    <preference name="WindowsStoreDisplayName" value="Secure Bitcoin Black Wallet" />
     <preference name="StatusBarBackgroundColor" value="#261454" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="windows-target-version" value="10.0" />

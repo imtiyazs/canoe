@@ -1,6 +1,6 @@
 [![Build Status](https://secure.travis-ci.org/gokr/canoe.svg)](http://travis-ci.org/gokr/canoe)
 
-Canoe is a cross platform Bitcoin Black Betanet Wallet application. It's based upon the [Copay](https://copay.io) Bitcoin wallet source code released under the MIT license. For binary downloads, when available, see [bitcoin.black](http://bitcoin.black).
+Canoe is a cross platform Bitcoin Black Wallet application. It's based upon the [Copay](https://copay.io) Bitcoin wallet source code released under the MIT license. For binary downloads, when available, see [bitcoin.black](http://bitcoin.black).
 
 ## Main Features
 

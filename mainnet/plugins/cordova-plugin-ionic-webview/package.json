@@ -2,7 +2,7 @@
   "_args": [
     [
       "cordova-plugin-ionic-webview@4.1.1",
-      "D:\\Workspace\\src\\bcb-canoe\\betanet"
+      "D:\\Workspace\\src\\bcb-canoe\\mainnet"
     ]
   ],
   "_from": "cordova-plugin-ionic-webview@4.1.1",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.1.tgz",
   "_spec": "4.1.1",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Ionic Team"
   },

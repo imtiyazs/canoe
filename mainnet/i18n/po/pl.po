@@ -1393,7 +1393,7 @@ msgid "You can scan BCB addresses, payment requests and more."
 msgstr ""
 
 #: www/views/tab-home.html:50
-msgid "Your Bitcoin Black Betanet Wallet is ready!"
+msgid "Your Bitcoin Black Wallet is ready!"
 msgstr "Twój portfel do BCB jest gotowy!"
 
 #: www/views/includes/confirmBackupPopup.html:6

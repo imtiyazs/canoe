@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-add-swift-support/-/cordova-plugin-add-swift-support-1.7.2.tgz",
   "_shasum": "02ae655f3e123974f6b43da4340e7e8e1f316d48",
   "_spec": "cordova-plugin-add-swift-support@^1.7.2",
-  "_where": "D:\\Workspace\\src\\bcb-canoe\\betanet",
+  "_where": "D:\\Workspace\\src\\bcb-canoe\\mainnet",
   "author": {
     "name": "Alexis Kofman",
     "email": "alexis.kofman@gmail.com",
