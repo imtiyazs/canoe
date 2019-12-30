@@ -354,7 +354,7 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
           // We don't have an alternative currency set in the wallet, so let's try to guess it
           // Let's get country code first, then currency
           if (root.http) {
-            root.http.get('//freegeoip.net/json/').success(function (data, status) {
+            root.http.get('https://freegeoip.net/json/').success(function (data, status) {
               // Test here :
               // response.country_code = 'XX'; // Any wrong or unknown currency
               // response.country_code = 'MM'; // 'MM' Myanmar

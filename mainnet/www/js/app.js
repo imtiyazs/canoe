@@ -3156,7 +3156,7 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
           // We don't have an alternative currency set in the wallet, so let's try to guess it
           // Let's get country code first, then currency
           if (root.http) {
-            root.http.get('//freegeoip.net/json/').success(function (data, status) {
+            root.http.get('https://freegeoip.net/json/').success(function (data, status) {
               // Test here :
               // response.country_code = 'XX'; // Any wrong or unknown currency
               // response.country_code = 'MM'; // 'MM' Myanmar
@@ -3234,6 +3234,7 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
 
   return root
 })
+
 'use strict'
 /* global angular */
 angular.module('canoeApp.services').factory('emailService', function ($log, configService, lodash) {
@@ -12571,7 +12572,7 @@ angular.module('canoeApp').run(['gettextCatalog', function (gettextCatalog) {
 /* jshint +W100 */
 }]);
 window.version="1.0.2";
-window.commitHash="cccf832";
+window.commitHash="7b35bb2";
 window.appConfig={"packageName":"bcb-online-wallet","packageDescription":"Bitcoin Black Wallet","packageNameId":"com.bcb-online-wallet.bitcoinblack","statusBarColor":"#192c3a","userVisibleName":"Bitcoin Black Wallet","purposeLine":"Bitcoin Black Wallet","bundleName":"bcbonlinewallet","appUri":"bcb-online-wallet","name":"bcb-online-wallet","nameNoSpace":"bcb-online-wallet","nameCase":"Bitcoin Black Wallet","nameCaseNoSpace":"Bitcoin Black Wallet","gitHubRepoName":"bcb-online-wallet","gitHubRepoUrl":"","gitHubRepoBugs":"","disclaimerUrl":"http://bitcoin.black/disclaimer","url":"http://bitcoin.black","appDescription":"Bitcoin Black Wallet","winAppName":"Bitcoin Black Wallet","WindowsStoreIdentityName":"---","WindowsStoreDisplayName":"Secure Bitcoin Black Online Wallet","windowsAppId":"---","pushSenderId":"---","description":"A Secure Bitcoin Black Wallet","version":"0.0.1","androidVersion":"391000","_extraCSS":null,"_enabledExtensions":{}};
 'use strict'
 /* global angular cordova */
