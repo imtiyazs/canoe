@@ -353,8 +353,8 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
           configCache.wallet.settings.alternativeIsoCode = 'USD'
           // We don't have an alternative currency set in the wallet, so let's try to guess it
           // Let's get country code first, then currency
-          if (root.http) {
-            root.http.get('https://freegeoip.net/json/').success(function (data, status) {
+//          if (root.http) {
+ //           root.http.get('https://freegeoip.net/json/').success(function (data, status) {
               // Test here :
               // response.country_code = 'XX'; // Any wrong or unknown currency
               // response.country_code = 'MM'; // 'MM' Myanmar
@@ -365,17 +365,17 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
               // response.country_code = 'GB'; // UK is ok too
               // response.country_code = 'CA'; // Canada's fine, as always
               // response.country_code = 'BR'; // Brazil is ok too, so let's go to carnaval !
-              if (debug) $log.info('data', data)
-              if (debug) $log.info('data.country_code = ' + data.country_code)
-              configCache.wallet.settings.alternativeIsoCode = country_code_to_currency[data.country_code][0]
-              configCache.wallet.settings.alternativeName = country_code_to_currency[data.country_code][1]
-              if (debug) $log.info('guessed currency = ' + configCache.wallet.settings.alternativeIsoCode)
-              if (!configCache.wallet.settings.alternativeIsoCode) {
-                configCache.wallet.settings.alternativeIsoCode = 'USD'
-              }
-              if (debug) $log.info('So finally configCache.wallet.settings.alternativeIsoCode = ' + configCache.wallet.settings.alternativeIsoCode)
-            })
-          }
+ //             if (debug) $log.info('data', data)
+ //             if (debug) $log.info('data.country_code = ' + data.country_code)
+ //             configCache.wallet.settings.alternativeIsoCode = country_code_to_currency[data.country_code][0]
+ //             configCache.wallet.settings.alternativeName = country_code_to_currency[data.country_code][1]
+ //             if (debug) $log.info('guessed currency = ' + configCache.wallet.settings.alternativeIsoCode)
+            //  if (!configCache.wallet.settings.alternativeIsoCode) {
+            //    configCache.wallet.settings.alternativeIsoCode = 'USD'
+             // }
+//              if (debug) $log.info('So finally configCache.wallet.settings.alternativeIsoCode = ' + configCache.wallet.settings.alternativeIsoCode)
+  //          })
+          // }
         }
       }
 
