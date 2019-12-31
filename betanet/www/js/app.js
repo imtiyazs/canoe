@@ -1931,7 +1931,7 @@ angular.module('canoeApp.directives')
       }
     };
   });
-    
+
 'use strict'
 /* global angular */
 angular.module('canoeApp.filters', [])
@@ -2594,7 +2594,7 @@ angular.module('canoeApp.services')
       $log.debug('Locking hard: ' + new Date())
       root.lock('password', force)
     }
-    
+
     // When starting BCB wallet etc
     root.lockStartup = function () {
       root.lock('password', true, true)
@@ -2648,7 +2648,7 @@ angular.module('canoeApp.services')
           // TODO: popup?
           root.passwordModal('check')
         }
-      } 
+      }
       if (type === 'password') root.passwordModal('check')
       // TODO: Verify PIN has been configured?
       if (type === 'pin') root.pinModal('check')
@@ -3156,7 +3156,7 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
           // We don't have an alternative currency set in the wallet, so let's try to guess it
           // Let's get country code first, then currency
           if (root.http) {
-            root.http.get('//freegeoip.net/json/').success(function (data, status) {
+            root.http.get('https://freegeoip.net/json/').success(function (data, status) {
               // Test here :
               // response.country_code = 'XX'; // Any wrong or unknown currency
               // response.country_code = 'MM'; // 'MM' Myanmar
@@ -5504,7 +5504,7 @@ angular.module('canoeApp.services').factory('platformInfo', function ($window) {
     nwOS = os.platform()
     console.log('Detected OS: ' + nwOS)
   }
-  
+
 
   // Detect mobile devices and platforms
   var ret = {
@@ -10564,7 +10564,7 @@ angular.module('canoeApp.controllers').controller('createAliasController',
       $scope.wallet = profileService.getWallet();
       if ($scope.wallet === null) {
         $log.debug('Bad password or no wallet')
-        
+
       }
     })
   })
@@ -10802,7 +10802,7 @@ angular.module('canoeApp.controllers').controller('paperWalletController',
     }
 
     function _sweepWallet (cb) {
-       
+
     }
 
     $scope.sweepWallet = function () {
@@ -10848,7 +10848,7 @@ angular.module('canoeApp.controllers').controller('paperWalletController',
       $scope.singleAccount = $scope.accounts.length === 1
 
       if (!$scope.accounts || !$scope.accounts.length) {
-        $scope.noMatchingWallet = true       
+        $scope.noMatchingWallet = true
       }
     })
 
@@ -11599,7 +11599,7 @@ angular.module('canoeApp.controllers').controller('preferencesRepresentativeCont
 /* global angular */
 angular.module('canoeApp.controllers').controller('preferencesSecurityController', function ($state, $rootScope, $scope, $timeout, $log, configService, gettextCatalog, fingerprintService, profileService, lodash, applicationService) {
   function init () {
- 
+
   }
 
   $scope.$on('$ionicView.beforeEnter', function (event) {
