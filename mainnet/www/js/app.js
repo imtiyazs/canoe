@@ -2186,8 +2186,8 @@ angular.module('canoeApp.services')
   .factory('aliasService', function ($log, $rootScope, configService, platformInfo, storageService, gettextCatalog, lodash) {
     var root = {}
 
-    var host = 'https://alias.betawallet.bitcoinblack.info/api'
-    // var host = 'https://alias.betawallet.bitcoinblack.info/api-dev' // for dev
+    var host = 'https://alias.wallet.bitcoinblack.info/api'
+    // var host = 'https://alias.wallet.bitcoinblack.info/api-dev' // for dev
     // var host = 'http://localhost:3000' // for local dev
 
     var timer = null
@@ -2811,11 +2811,11 @@ angular.module('canoeApp.services').factory('configService', function ($http, st
   var defaultConfig = {
     download: {
       canoe: {
-        url: 'https://betawallet.bitcoinblack.info'
+        url: 'https://wallet.bitcoinblack.info'
       }
     },
 
-    backend: 'betawallet.bitcoinblack.info',
+    backend: 'wallet.bitcoinblack.info',
 
     rateApp: {
       canoe: {
@@ -4054,7 +4054,7 @@ angular.module('canoeApp.services')
     // This config is controlled over retained MQTT
     root.sharedconfig = {
       defaultRepresentative: null,
-      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://betawallet.bitcoinblack.info' }
+      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://wallet.bitcoinblack.info' }
       stateblocks: {
         enable: true
       }
@@ -4073,8 +4073,8 @@ angular.module('canoeApp.services')
     root.wallet = null
 
     // Default server
-    var host = 'https://betawallet.bitcoinblack.info/rpc'
-    var mqttHost = 'betawallet.bitcoinblack.info'
+    var host = 'https://wallet.bitcoinblack.info/rpc'
+    var mqttHost = 'wallet.bitcoinblack.info'
 
     var rai = null
 
@@ -12572,7 +12572,7 @@ angular.module('canoeApp').run(['gettextCatalog', function (gettextCatalog) {
 /* jshint +W100 */
 }]);
 window.version="1.0.2";
-window.commitHash="00fecb6";
+window.commitHash="a241fff";
 window.appConfig={"packageName":"bcb-online-wallet","packageDescription":"Bitcoin Black Wallet","packageNameId":"com.bcb-online-wallet.bitcoinblack","statusBarColor":"#192c3a","userVisibleName":"Bitcoin Black Wallet","purposeLine":"Bitcoin Black Wallet","bundleName":"bcbonlinewallet","appUri":"bcb-online-wallet","name":"bcb-online-wallet","nameNoSpace":"bcb-online-wallet","nameCase":"Bitcoin Black Wallet","nameCaseNoSpace":"Bitcoin Black Wallet","gitHubRepoName":"bcb-online-wallet","gitHubRepoUrl":"","gitHubRepoBugs":"","disclaimerUrl":"http://bitcoin.black/disclaimer","url":"http://bitcoin.black","appDescription":"Bitcoin Black Wallet","winAppName":"Bitcoin Black Wallet","WindowsStoreIdentityName":"---","WindowsStoreDisplayName":"Secure Bitcoin Black Online Wallet","windowsAppId":"---","pushSenderId":"---","description":"A Secure Bitcoin Black Wallet","version":"0.0.1","androidVersion":"391000","_extraCSS":null,"_enabledExtensions":{}};
 'use strict'
 /* global angular cordova */

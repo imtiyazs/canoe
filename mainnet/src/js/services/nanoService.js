@@ -7,7 +7,7 @@ angular.module('canoeApp.services')
     // This config is controlled over retained MQTT
     root.sharedconfig = {
       defaultRepresentative: null,
-      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://betawallet.bitcoinblack.info' }
+      servermessage: null, // { title: 'Hey', body: 'Rock on', link: 'http://wallet.bitcoinblack.info' }
       stateblocks: {
         enable: true
       }
@@ -26,8 +26,8 @@ angular.module('canoeApp.services')
     root.wallet = null
 
     // Default server
-    var host = 'https://betawallet.bitcoinblack.info/rpc'
-    var mqttHost = 'betawallet.bitcoinblack.info'
+    var host = 'https://wallet.bitcoinblack.info/rpc'
+    var mqttHost = 'wallet.bitcoinblack.info'
 
     var rai = null
 
