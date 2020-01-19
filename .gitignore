@@ -117,3 +117,5 @@ mainnetwww/raiwallet/braiwallet.js
 /mainnet/dist
 
 *.lock
+betanet/package-lock.json
+mainnet/package-lock.json

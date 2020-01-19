@@ -58,7 +58,7 @@
 
       <div class="amount">
         <div class="amount__editable" ng-class="{'amount__editable--minimize': smallFont, 'amount__editable--standard': !smallFont, 'amount__editable--placeholder': !amount}">
-          <span class="amount__number">{{ amount || "0" }}<span style="font-size: 20px;"> x 100</span></span>
+          <span class="amount__number">{{ amount || "0" }}</span>
           <a class="amount__currency-toggle" ng-click="changeUnit()">
             {{unit}}
             <span class="icon ion-loop"></span>

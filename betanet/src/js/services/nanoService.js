@@ -852,7 +852,10 @@ angular.module('canoeApp.services')
     root.saveWallet = function (wallet, cb) {
       $rootScope.$emit('blocks', null)
       storageService.storeWallet(wallet.pack(), function () {
-        if (doLog) $log.info('Wallet saved')
+        if (doLog) {
+          $log.info('Wallet saved') 
+          setTimeout(function () { root.fetchPendingBlocks() }, 100)
+        }
         cb(null, wallet)
       })
     }
