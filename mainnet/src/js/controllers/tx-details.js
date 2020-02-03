@@ -65,7 +65,7 @@ angular.module('canoeApp.controllers').controller('txDetailsController', functio
 
   $scope.viewOnNanode = function () {
     var ntx = $scope.ntx
-    var url = 'https://beta.explore.black/#/explorer/block/' + ntx.hash
+    var url = 'https://explore.black/#/explorer/block/' + ntx.hash
     var optIn = true
     var title = null
     var message = gettextCatalog.getString('View Block on BCB Block Explorer')
