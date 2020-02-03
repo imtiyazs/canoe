@@ -102,6 +102,7 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
   }
 
   $scope.findContact = function (search) {
+    console.log('originalList :',JSON.stringify(originalList))
     // If redir returns true it matched something and
     // will already have moved us to amount.
     incomingData.redir(search, $scope.acc.id, function (err, code) {
