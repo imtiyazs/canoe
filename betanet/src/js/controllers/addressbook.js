@@ -26,13 +26,13 @@ angular.module('canoeApp.controllers').controller('addressbookListController', f
       $timeout(function () {
         $scope.$apply()
       })
-      console.log('Sddress List: ',JSON.stringify(contacts))
-      console.log('length :',contacts.length)
+      $log.error('Sddress List: ',JSON.stringify(contacts))
+      $log.error('length :',contacts.length)
 
       if (contacts !== 'undefined' && contacts.length > 0) {
         for (var i = 0; i < contacts.length; i++) {
           if (!contacts[i].name.length || !contacts[i].address.length){
-            console.log('GGG address :',contacts[i])
+            $log.error('GGG address :',contacts[i])
           }
         }
       }

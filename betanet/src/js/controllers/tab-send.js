@@ -53,6 +53,7 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
       $scope.contactsShowMore = completeContacts.length > contacts.length
       $scope.contactsShowMoreSaved = $scope.contactsShowMore
       originalList = originalList.concat(contacts)
+      $log.error('updateContactsList :',JSON.stringify(originalList))
       return cb()
     })
   }
@@ -102,7 +103,7 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
   }
 
   $scope.findContact = function (search) {
-    console.log('originalList :',JSON.stringify(originalList))
+    $log.error('originalList :',JSON.stringify(originalList))
     // If redir returns true it matched something and
     // will already have moved us to amount.
     incomingData.redir(search, $scope.acc.id, function (err, code) {
