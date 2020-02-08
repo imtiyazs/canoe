@@ -6,7 +6,6 @@ angular.module('canoeApp.controllers').controller('addressbookListController', f
   var initAddressbook = function () {
     addressbookService.list(function (err, ab) {
       if (err) $log.error(err)
-
       $scope.isEmptyList = lodash.isEmpty(ab)
 
       if (!$scope.isEmptyList) $scope.showAddIcon = true
@@ -26,17 +25,6 @@ angular.module('canoeApp.controllers').controller('addressbookListController', f
       $timeout(function () {
         $scope.$apply()
       })
-      $log.error('Sddress List: ',JSON.stringify(contacts))
-      $log.error('length :',contacts.length)
-
-      if (contacts !== 'undefined' && contacts.length > 0) {
-        for (var i = 0; i < contacts.length; i++) {
-          if (!contacts[i].name.length || !contacts[i].address.length){
-            $log.error('GGG address :',contacts[i])
-          }
-        }
-      }
-
     })
   }
 
