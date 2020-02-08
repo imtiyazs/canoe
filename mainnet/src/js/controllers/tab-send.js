@@ -53,6 +53,7 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
       $scope.contactsShowMore = completeContacts.length > contacts.length
       $scope.contactsShowMoreSaved = $scope.contactsShowMore
       originalList = originalList.concat(contacts)
+      // $log.error('updateContactsList :', JSON.stringify(originalList))
       return cb()
     })
   }
@@ -102,6 +103,7 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
   }
 
   $scope.findContact = function (search) {
+    // $log.error('originalList :',JSON.stringify(originalList))
     // If redir returns true it matched something and
     // will already have moved us to amount.
     incomingData.redir(search, $scope.acc.id, function (err, code) {
@@ -130,6 +132,49 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
         $scope.contactsShowMore = false
       }
     })
+  }
+
+  $scope.sendDirectUsingAddress = function (address) {
+    // Convert address to lowercase
+    address = String(address).toLowerCase()
+    // Fetch address object from contact list if available
+    let result = originalList.find(item => (item.address === address))
+    // If result not found in the list
+    if (result === undefined) {
+
+      if (!address.startsWith('bcb_') || address.length !== 64) {
+        alert('Invalid BCB Address: ' + address)
+        return
+      }
+
+      $timeout(function () {
+        return $state.transitionTo('tabs.send.amount', {
+          recipientType: 'account',
+          toAddress: address,
+          toName: address,
+          toEmail: 'Not available',
+          toColor: 'Not available',
+          toAlias: '',
+          fromAddress: $scope.acc.id
+        })
+      })
+    } else {
+      $timeout(function () {
+        var toAlias = null
+        if (result.meta && result.meta.alias && result.meta.alias.alias) {
+          toAlias = result.meta.alias.alias
+        }
+        return $state.transitionTo('tabs.send.amount', {
+          recipientType: result.recipientType,
+          toAddress: result.address,
+          toName: result.name,
+          toEmail: result.email,
+          toColor: result.color,
+          toAlias: toAlias,
+          fromAddress: $scope.acc.id
+        })
+      })
+    }
   }
 
   $scope.goToAmount = function (item) {
