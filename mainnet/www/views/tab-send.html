@@ -12,13 +12,11 @@
     <div ng-if="hasFunds">
       <div class="send-header-wrapper">
         <div class="item item-heading send-heading"><span translate>Recipient Address</span></div>
-        <div class="item input search-wrapper" ng-class="{'focus': searchFocus}">
+        <div class="item input search-wrapper" ng-class="{'focus': searchFocus}" style="background: white;">
           <i class="icon icon-svg left abs-v-center"><img class="png" id="Nano_Symbol" src="img/bcb.ico"></i>
           <div class="item-icon-right">
             <input type="text" class="search-input" placeholder="{{'Enter Recipient\'s BCB Address' | translate}}"
-              ng-model="formData.search" ng-model-onblur ng-focus="searchInFocus()" ng-blur="searchBlurred()">
-            <i class="icon icon-svg qr abs-v-center separator-left" title="Send BCB" on-tap="sendDirectUsingAddress(formData.search)"
-              style="padding-left: 15px;right: 75px;"><img src="img/tab-icons/ico-send.svg"></i>
+              ng-model="formData.search" ng-model-onblur ng-focus="searchInFocus()" ng-blur="sendDirectUsingAddress(formData.search)" ng->
             <i class="icon icon-svg qr abs-v-center separator-left" title="Scan QR Code" on-tap="openScanner()"><img
                 src="img/scan-ico.svg"></i>
           </div>
