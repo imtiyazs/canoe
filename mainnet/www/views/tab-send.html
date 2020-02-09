@@ -16,7 +16,7 @@
           <i class="icon icon-svg left abs-v-center"><img class="png" src="img/bcb.ico"></i>
           <div class="item-icon-right">
             <input type="text" class="search-input" placeholder="{{'Enter Recipient\'s BCB Address' | translate}}"
-              ng-model="formData.search" ng-model-onblur ng-focus="searchInFocus()" ng-blur="sendDirectUsingAddress(formData.search)" ng-keydown="[13].includes($event.keyCode) && sendDirectUsingAddress(formData.search)">
+              ng-model="formData.search" ng-model-onblur ng-focus="searchInFocus()" ng-keydown="[13, 9].includes($event.keyCode) && sendDirectUsingAddress(formData.search)">
             <i class="icon icon-svg qr abs-v-center separator-left" title="Scan QR Code" on-tap="openScanner()"><img
                 src="img/scan-ico.svg"></i>
           </div>
