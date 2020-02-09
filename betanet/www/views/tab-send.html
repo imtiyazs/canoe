@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <!-- <div class="card" ng-if="hasContacts && hasAccounts && hasFunds">
+    <div class="card" ng-if="hasContacts && hasAccounts && hasFunds">
       <div class="item item-icon-right item-heading">
         <span translate>Contacts</span>
         <a ng-if="hasContacts" ui-sref="tabs.send.addressbook">
@@ -60,7 +60,7 @@
       </div>
       <div class="list">
         <a class="item item-icon-left item-icon-right" ng-repeat="item in list"
-          ng-if="item.recipientType != 'account' && item.name !== ''" ng-click="goToAmount(item)">
+          ng-if="item.recipientType != 'account' && item.name !== '' && item.address !== ''" ng-click="goToAmount(item)">
           <i class="icon big-icon-svg">
             <img ng-cloak ng-if="item.alias && item.avatar" ng-src="data:image/png;base64, {{item.avatar}}" class="bg"
               alt="{{item.alias}} avatar" />
@@ -75,7 +75,7 @@
           Show more
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div class="card" ng-if="showTransferCard && hasFunds && hasMoreAccounts">
       <div class="item item-heading">

@@ -13,14 +13,17 @@ angular.module('canoeApp.controllers').controller('addressbookListController', f
 
       contacts = []
       lodash.each(ab, function (v, k) {
-        contacts.push({
-          name: lodash.isObject(v) ? v.name : v,
-          address: k,
-          email: lodash.isObject(v) ? v.email : null,
-          alias: lodash.isObject(v) ? v.alias.alias : null,
-          avatar: lodash.isObject(v) ? v.avatar : null
-        })
+        if(k !== '') {
+          contacts.push({
+            name: lodash.isObject(v) ? v.name : v,
+            address: k,
+            email: lodash.isObject(v) ? v.email : null,
+            alias: lodash.isObject(v) ? v.alias : null,
+            avatar: lodash.isObject(v) ? v.avatar : null
+          })
+        }
       })
+
       $scope.addressbook = lodash.clone(contacts)
       $timeout(function () {
         $scope.$apply()
