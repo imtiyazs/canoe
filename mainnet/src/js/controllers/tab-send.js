@@ -136,14 +136,15 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
 
   $scope.sendDirectUsingAddress = function (address) {
     // Convert address to lowercase
-    address = String(address).toLowerCase().trim()
     if (address == null || address == 'null' || address == undefined || address == "") {
-      // alert('Please Enter BCB Address: ')
+      alert('Please Enter BCB Address: ')
       return
     }
+    address = String(address).toLowerCase().trim()
 
     // Fetch address object from contact list if available
     let result = originalList.find(item => (item.address === address))
+
     // If result not found in the list
     if (result === undefined) {
       if (!address.startsWith('bcb_') || address.length !== 64) {
