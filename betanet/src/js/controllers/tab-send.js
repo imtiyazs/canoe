@@ -136,49 +136,42 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
 
   $scope.sendDirectUsingAddress = function (address) {
     // Convert address to lowercase
-    address = String(address).toLowerCase().trim()
-    if (address == null || address == 'null' || address == undefined || address == "") {
-      // alert('Please Enter BCB Address: ')
-      return
-    }
-
-    // Fetch address object from contact list if available
-    let result = originalList.find(item => (item.address === address))
-
-    // If result not found in the list
-    if (result === undefined) {
-      if (!address.startsWith('bcb_') || address.length !== 64) {
-        alert('Invalid BCB Address: ' + address)
-        return
-      }
-
-      $timeout(function () {
-        return $state.transitionTo('tabs.send.amount', {
-          recipientType: 'account',
-          toAddress: address,
-          toName: address,
-          toEmail: 'Not available',
-          toColor: 'Not available',
-          toAlias: '',
-          fromAddress: $scope.acc.id
-        })
-      })
-    } else {
-      $timeout(function () {
-        var toAlias = null
-        if (result.meta && result.meta.alias && result.meta.alias.alias) {
-          toAlias = result.meta.alias.alias
+    if (address != null && address != 'null' && address != undefined && address != "") {
+      address = String(address).toLowerCase().trim()
+      // Fetch address object from contact list if available
+      if (address.startsWith('bcb_') && address.length == 64) {
+        let result = originalList.find(item => (item.address === address))
+        // If result not found in the list
+        if (result === undefined) {
+          $timeout(function () {
+            return $state.transitionTo('tabs.send.amount', {
+              recipientType: 'account',
+              toAddress: address,
+              toName: address,
+              toEmail: 'Not available',
+              toColor: 'Not available',
+              toAlias: '',
+              fromAddress: $scope.acc.id
+            })
+          })
+        } else {
+          $timeout(function () {
+            var toAlias = null
+            if (result.meta && result.meta.alias && result.meta.alias.alias) {
+              toAlias = result.meta.alias.alias
+            }
+            return $state.transitionTo('tabs.send.amount', {
+              recipientType: result.recipientType,
+              toAddress: result.address,
+              toName: result.name,
+              toEmail: result.email,
+              toColor: result.color,
+              toAlias: toAlias,
+              fromAddress: $scope.acc.id
+            })
+          })
         }
-        return $state.transitionTo('tabs.send.amount', {
-          recipientType: result.recipientType,
-          toAddress: result.address,
-          toName: result.name,
-          toEmail: result.email,
-          toColor: result.color,
-          toAlias: toAlias,
-          fromAddress: $scope.acc.id
-        })
-      })
+      }
     }
   }
 
