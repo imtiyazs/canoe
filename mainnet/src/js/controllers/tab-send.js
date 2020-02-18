@@ -175,6 +175,11 @@ angular.module('canoeApp.controllers').controller('tabSendController', function 
     }
   }
 
+  $scope.copyPasted = function () {
+    var address = window.event.clipboardData.getData('text');
+    $scope.sendDirectUsingAddress(address)
+  };
+  
   $scope.goToAmount = function (item) {
     $timeout(function () {
       var toAlias = null
